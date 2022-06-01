@@ -4,11 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Grab
-  - OpenButton
-  - CloseButton
-  - PGT
-  - JackButton
+  - Bullet
+  - NextTask
+  - PrevTask
+  - UIA
   layers:
   - Default
   - TransparentFX
@@ -18,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 
