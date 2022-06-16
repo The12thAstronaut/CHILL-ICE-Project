@@ -6,57 +6,53 @@ using UnityEngine.Events;
 using Microsoft.MixedReality.Toolkit.UI;
 
 
-namespace SpinningHologram
+public class spinning_hologram : MonoBehaviour
 {
-    public class spinning_hologram : MonoBehaviour
+    public GameObject Hologram;
+    public float rotateSpeed;
+
+    //position variables
+    Vector3 posOffset = new Vector3();
+    Vector3 tempPos = new Vector3();
+
+
+    // Start is called before the first frame update
+    void Start()
     {
-        public GameObject Hologram;
-        public float rotateSpeed;
+        Hologram.SetActive(true);
 
-        //position variables
-        Vector3 posOffset = new Vector3();
-        Vector3 tempPos = new Vector3();
+        //initial position
+        posOffset = Hologram.transform.position;
 
-
-        // Start is called before the first frame update
-        void Start()
-        {
-            Hologram.SetActive(true);
-
-            //initial position
-            posOffset = Hologram.transform.position;
-
-        }
+    }
 
 
-        public void Spin()
-        {
+    void Spin()
+    {
 
-            posOffset = Hologram.transform.position;
+        posOffset = Hologram.transform.position;
 
-            //rotate around z axis
+        //rotate around z axis
 
-            transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime, Space.World);
 
-            //sin wave
-            tempPos = posOffset;
-            tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * 0.25f) * 0.0002f;
+        //sin wave
+        tempPos = posOffset;
+        tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * 0.25f) * 0.0002f;
 
-            Hologram.transform.position = tempPos;
-        }
+        Hologram.transform.position = tempPos;
+    }
 
 
-        // Update is called once per frame
-        void Update()
+    // Update is called once per frame
+    void Update()
 
-        {
+    {
 
-            Spin();
+        Spin();
 
 
 
 
-        }
     }
 }
-

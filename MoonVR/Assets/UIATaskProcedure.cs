@@ -66,6 +66,7 @@ public class UIATaskProcedure : MonoBehaviour
             counter = taskList.Count -1;
         }
 
+     
     }
 
     public void ReverseTask()
@@ -113,6 +114,7 @@ public class UIATaskProcedure : MonoBehaviour
     void Update()
     {
 
+        
         for (int i = 0; i < switches.Length; i++)
         {
             if (counter == 0)
