@@ -608,11 +608,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template3D
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: 12thAstronaut
   metroCertificateIssuer: 12thAstronaut
-  metroCertificateNotAfter: 0098990bb04cd801
+  metroCertificateNotAfter: 80fdfeb0ebc4d901
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: New Unity Project
