@@ -14375,7 +14375,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 163c37494bc2d0540b3488a9d901ee07, type: 2}
+  - {fileID: 2100000, guid: ec72a3a105768f746b556a8dfdae61a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45641,11 +45641,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 298942628}
     m_Modifications:
-    - target: {fileID: 1487857745234018947, guid: 13a98fb31f16fe6459056db9f73a215d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 163c37494bc2d0540b3488a9d901ee07, type: 2}
     - target: {fileID: 2606339084630467199, guid: 13a98fb31f16fe6459056db9f73a215d,
         type: 3}
       propertyPath: Events.Array.size
@@ -97532,7 +97527,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6070785955580232788}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
