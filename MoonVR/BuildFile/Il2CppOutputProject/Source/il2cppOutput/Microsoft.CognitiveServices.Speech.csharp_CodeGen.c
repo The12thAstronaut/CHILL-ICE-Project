@@ -1,0 +1,983 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* Recognizer_FireEvent_SetSessionStarted_mCF41D541D7BE7A62317E86900F2AA2623A0F1E56_RuntimeMethod_var;
+extern const RuntimeMethod* Recognizer_FireEvent_SetSessionStopped_m1744D16CE80810C45299095BB9350EF74CD697F0_RuntimeMethod_var;
+extern const RuntimeMethod* Recognizer_FireEvent_SpeechEndDetected_m60B70E7C6524081E1C6E4E208EB989E6AF4FA984_RuntimeMethod_var;
+extern const RuntimeMethod* Recognizer_FireEvent_SpeechStartDetected_m5A0303B793DEE63CA3E1C5360C0B3CFB051454F1_RuntimeMethod_var;
+extern const RuntimeMethod* SpeechRecognizer_FireEvent_Canceled_m196DE0AF9B978BF526926931E8C64745D4461C0E_RuntimeMethod_var;
+extern const RuntimeMethod* SpeechRecognizer_FireEvent_Recognized_m7B66BF8F7176BA99BD0719398E3DBF5B227337AA_RuntimeMethod_var;
+extern const RuntimeMethod* SpeechRecognizer_FireEvent_Recognizing_m04B3941BCB305E6EEA61C01B25221B6AFCB64CF9_RuntimeMethod_var;
+extern const RuntimeMethod* TranslationRecognizer_FireEvent_Canceled_mF5ABD120E0772BA94E219F2AEBE3A4967A14CC7C_RuntimeMethod_var;
+extern const RuntimeMethod* TranslationRecognizer_FireEvent_Recognized_mF4796E7E5F690D4341C2BE50E1D2A8BD88354429_RuntimeMethod_var;
+extern const RuntimeMethod* TranslationRecognizer_FireEvent_Recognizing_mA8D429CB9E8FFEC7C10E1F070F665B0BA84B0030_RuntimeMethod_var;
+extern const RuntimeMethod* TranslationRecognizer_FireEvent_SynthesisResult_mEAE05BBDCF505C4C9517E0A3B145F0A75D84D7AA_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Microsoft.CognitiveServices.Speech.PropertyCollection::.ctor(System.IntPtr)
+extern void PropertyCollection__ctor_mA9184AF1E753A0FA6F0AA9151AD16E9D2465A557 (void);
+// 0x00000002 System.Void Microsoft.CognitiveServices.Speech.PropertyCollection::Close()
+extern void PropertyCollection_Close_mA9970357DE133999377FD4AC51B3B6EF4C1FC437 (void);
+// 0x00000003 System.String Microsoft.CognitiveServices.Speech.PropertyCollection::GetProperty(Microsoft.CognitiveServices.Speech.PropertyId)
+extern void PropertyCollection_GetProperty_mDF937E9084584AF726BB281F07ED5E091F22D83B (void);
+// 0x00000004 System.Void Microsoft.CognitiveServices.Speech.PropertyCollection::SetProperty(Microsoft.CognitiveServices.Speech.PropertyId,System.String)
+extern void PropertyCollection_SetProperty_m679D655AE85517FA950ADCF4D89CD492D366D987 (void);
+// 0x00000005 System.Void Microsoft.CognitiveServices.Speech.PropertyCollection::SetProperty(System.String,System.String)
+extern void PropertyCollection_SetProperty_mA1833B3E126FF8240B3326AA80E9EAABD53534A4 (void);
+// 0x00000006 System.String Microsoft.CognitiveServices.Speech.PropertyCollection::GetPropertyString(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.Int32,System.String,System.String)
+extern void PropertyCollection_GetPropertyString_mD7C5DE1FC7DAA1A59F619945F21E70465DC65EEB (void);
+// 0x00000007 System.Void Microsoft.CognitiveServices.Speech.RecognitionEventArgs::.ctor(System.IntPtr)
+extern void RecognitionEventArgs__ctor_m461FB32C4087EB9186809AA45718D717ABA56228 (void);
+// 0x00000008 System.UInt64 Microsoft.CognitiveServices.Speech.RecognitionEventArgs::get_Offset()
+extern void RecognitionEventArgs_get_Offset_m1B25331E2A8187D036670E2F774D31AFA7A96C90 (void);
+// 0x00000009 System.String Microsoft.CognitiveServices.Speech.RecognitionEventArgs::ToString()
+extern void RecognitionEventArgs_ToString_mFAB28C00AE08304EA8352340ECBE022B33AEE064 (void);
+// 0x0000000A System.Void Microsoft.CognitiveServices.Speech.RecognitionResult::.ctor(System.IntPtr)
+extern void RecognitionResult__ctor_m41A680284FE5920D28E7C9FF16AD7A671C9DB272 (void);
+// 0x0000000B System.String Microsoft.CognitiveServices.Speech.RecognitionResult::get_ResultId()
+extern void RecognitionResult_get_ResultId_m7A0642DB5B767C3D72C6C1AE263189FC9E716B6D (void);
+// 0x0000000C Microsoft.CognitiveServices.Speech.ResultReason Microsoft.CognitiveServices.Speech.RecognitionResult::get_Reason()
+extern void RecognitionResult_get_Reason_m40585A0DE0842E26C8F52E62625BD10E8C264ACA (void);
+// 0x0000000D System.String Microsoft.CognitiveServices.Speech.RecognitionResult::get_Text()
+extern void RecognitionResult_get_Text_mC2C012A14C98A7923666852B4FD2B4C5914ED78B (void);
+// 0x0000000E Microsoft.CognitiveServices.Speech.PropertyCollection Microsoft.CognitiveServices.Speech.RecognitionResult::get_Properties()
+extern void RecognitionResult_get_Properties_m205F2DC517C756A011831E182A3EBD2E897D4407 (void);
+// 0x0000000F System.Void Microsoft.CognitiveServices.Speech.RecognitionResult::set_Properties(Microsoft.CognitiveServices.Speech.PropertyCollection)
+extern void RecognitionResult_set_Properties_mC1A2601BE02CC3F56013BC78DE0B6080C8506897 (void);
+// 0x00000010 System.String Microsoft.CognitiveServices.Speech.RecognitionResult::ToString()
+extern void RecognitionResult_ToString_m4F8114C8C702EF6B2D92F0C080BA0645D4C524AC (void);
+// 0x00000011 Microsoft.CognitiveServices.Speech.CancellationDetails Microsoft.CognitiveServices.Speech.CancellationDetails::FromResult(Microsoft.CognitiveServices.Speech.RecognitionResult)
+extern void CancellationDetails_FromResult_m8CC67B3B88A390519550F82FB06BFC5D49B972D8 (void);
+// 0x00000012 System.Void Microsoft.CognitiveServices.Speech.CancellationDetails::.ctor(Microsoft.CognitiveServices.Speech.RecognitionResult)
+extern void CancellationDetails__ctor_m2AEA3FF2830DA2A22B120F39EAE10763223A38A5 (void);
+// 0x00000013 Microsoft.CognitiveServices.Speech.CancellationReason Microsoft.CognitiveServices.Speech.CancellationDetails::get_Reason()
+extern void CancellationDetails_get_Reason_mFA299E969201C80764CE51E9385C711D1A5BE7C4 (void);
+// 0x00000014 System.Void Microsoft.CognitiveServices.Speech.CancellationDetails::set_Reason(Microsoft.CognitiveServices.Speech.CancellationReason)
+extern void CancellationDetails_set_Reason_m578B1960A6530BCC26465D19FFBBD66A74B3A9F3 (void);
+// 0x00000015 Microsoft.CognitiveServices.Speech.CancellationErrorCode Microsoft.CognitiveServices.Speech.CancellationDetails::get_ErrorCode()
+extern void CancellationDetails_get_ErrorCode_mE36061E2CA470971CC88AB5CE10759721C613098 (void);
+// 0x00000016 System.Void Microsoft.CognitiveServices.Speech.CancellationDetails::set_ErrorCode(Microsoft.CognitiveServices.Speech.CancellationErrorCode)
+extern void CancellationDetails_set_ErrorCode_m17C4CA0669E323A99CF1EF485ECB7AE3C2D9737F (void);
+// 0x00000017 System.String Microsoft.CognitiveServices.Speech.CancellationDetails::get_ErrorDetails()
+extern void CancellationDetails_get_ErrorDetails_m753FE13177C2092EB81EBB530389877925316E2E (void);
+// 0x00000018 System.Void Microsoft.CognitiveServices.Speech.CancellationDetails::set_ErrorDetails(System.String)
+extern void CancellationDetails_set_ErrorDetails_m612BA9D99F7B23DC7793DD5E9269C1B1B82CFC79 (void);
+// 0x00000019 System.String Microsoft.CognitiveServices.Speech.CancellationDetails::ToString()
+extern void CancellationDetails_ToString_m67736791E1C2E3D6ACE84615BA3051BFE0227453 (void);
+// 0x0000001A System.Void Microsoft.CognitiveServices.Speech.Recognizer::add__SessionStarted(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_add__SessionStarted_mABA2AFFD9ED2E90F78F52E09DDAAE6016D3D1290 (void);
+// 0x0000001B System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove__SessionStarted(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_remove__SessionStarted_m1DEB85971A7C25D29EDBEA2C1969C15462973172 (void);
+// 0x0000001C System.Void Microsoft.CognitiveServices.Speech.Recognizer::add__SessionStopped(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_add__SessionStopped_mCA2C511C7C5E2AC13CF61093BE2FFFE1FBF47584 (void);
+// 0x0000001D System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove__SessionStopped(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_remove__SessionStopped_m6287430E5F33931F8D4705D273D335B5E30EF1EF (void);
+// 0x0000001E System.Void Microsoft.CognitiveServices.Speech.Recognizer::add__SpeechStartDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_add__SpeechStartDetected_mB2B58A6A1CDCC75C1FA0C73F12D3E3214FD1237E (void);
+// 0x0000001F System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove__SpeechStartDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_remove__SpeechStartDetected_mDDC93504ACEADE5901E702515CF5F624A45E1E39 (void);
+// 0x00000020 System.Void Microsoft.CognitiveServices.Speech.Recognizer::add__SpeechEndDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_add__SpeechEndDetected_m82C4AE98DD1AE4E7FCE970743E32E2F19B4BFD34 (void);
+// 0x00000021 System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove__SpeechEndDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_remove__SpeechEndDetected_m4ECEDF962186E1CBA5D99C497C92D3BE1BFE8409 (void);
+// 0x00000022 System.Void Microsoft.CognitiveServices.Speech.Recognizer::add_SessionStarted(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_add_SessionStarted_m1ED72D3EB43AF873238336D92FB6BD7AFE3BFF6D (void);
+// 0x00000023 System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove_SessionStarted(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_remove_SessionStarted_mB67A9E901D4B3920C5D44B186ABEC49859629F24 (void);
+// 0x00000024 System.Void Microsoft.CognitiveServices.Speech.Recognizer::add_SessionStopped(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_add_SessionStopped_m028437879ECB65F9E49FC8D5753C3E6DC3CF5C0E (void);
+// 0x00000025 System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove_SessionStopped(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SessionEventArgs>)
+extern void Recognizer_remove_SessionStopped_m87B980BF6B2F659B2138687FBA6DCB509B05E5BD (void);
+// 0x00000026 System.Void Microsoft.CognitiveServices.Speech.Recognizer::add_SpeechStartDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_add_SpeechStartDetected_m15CD6124464F5598BEFD17771EC307FFACA81295 (void);
+// 0x00000027 System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove_SpeechStartDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_remove_SpeechStartDetected_mB56D9D4D6F25EC269808ECB98F71F617FD8F4B3E (void);
+// 0x00000028 System.Void Microsoft.CognitiveServices.Speech.Recognizer::add_SpeechEndDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_add_SpeechEndDetected_mC93AC350E6A570044899A9E7506C089DB3DAAE6E (void);
+// 0x00000029 System.Void Microsoft.CognitiveServices.Speech.Recognizer::remove_SpeechEndDetected(System.EventHandler`1<Microsoft.CognitiveServices.Speech.RecognitionEventArgs>)
+extern void Recognizer_remove_SpeechEndDetected_m750776680F3BED04653DCFE9645272542F1C0954 (void);
+// 0x0000002A System.Void Microsoft.CognitiveServices.Speech.Recognizer::.ctor(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void Recognizer__ctor_mA212ABA7ACCB40EB42D035F7EE635E78F6ED0F68 (void);
+// 0x0000002B System.Void Microsoft.CognitiveServices.Speech.Recognizer::Finalize()
+extern void Recognizer_Finalize_m9750ABD8D70F016156BD0F8663C9B4B6CE9CF373 (void);
+// 0x0000002C System.Void Microsoft.CognitiveServices.Speech.Recognizer::Dispose()
+extern void Recognizer_Dispose_m408BD97F98DBB1025787B4A323C0C7960EF7FA3A (void);
+// 0x0000002D System.Void Microsoft.CognitiveServices.Speech.Recognizer::Dispose(System.Boolean)
+extern void Recognizer_Dispose_mB79F3964354355E1B534A782677B72F0F17FB3B6 (void);
+// 0x0000002E System.Void Microsoft.CognitiveServices.Speech.Recognizer::FireEvent_SetSessionStarted(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void Recognizer_FireEvent_SetSessionStarted_mCF41D541D7BE7A62317E86900F2AA2623A0F1E56 (void);
+// 0x0000002F System.Void Microsoft.CognitiveServices.Speech.Recognizer::FireEvent_SetSessionStopped(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void Recognizer_FireEvent_SetSessionStopped_m1744D16CE80810C45299095BB9350EF74CD697F0 (void);
+// 0x00000030 System.Void Microsoft.CognitiveServices.Speech.Recognizer::FireEvent_SpeechStartDetected(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void Recognizer_FireEvent_SpeechStartDetected_m5A0303B793DEE63CA3E1C5360C0B3CFB051454F1 (void);
+// 0x00000031 System.Void Microsoft.CognitiveServices.Speech.Recognizer::FireEvent_SpeechEndDetected(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void Recognizer_FireEvent_SpeechEndDetected_m60B70E7C6524081E1C6E4E208EB989E6AF4FA984 (void);
+// 0x00000032 System.Void Microsoft.CognitiveServices.Speech.Recognizer::DoAsyncRecognitionAction(System.Action)
+extern void Recognizer_DoAsyncRecognitionAction_mB64950A6774B0D59E72F2962E5E9A7409DCE46BF (void);
+// 0x00000033 System.Void Microsoft.CognitiveServices.Speech.Recognizer::StartContinuousRecognition()
+extern void Recognizer_StartContinuousRecognition_m2A030F4CAA792DFFFA04C9FF5FF14F70BA05458A (void);
+// 0x00000034 System.Void Microsoft.CognitiveServices.Speech.Recognizer::StopContinuousRecognition()
+extern void Recognizer_StopContinuousRecognition_m6E569B61B4D371939A219D172F8D841CED5CC265 (void);
+// 0x00000035 Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle Microsoft.CognitiveServices.Speech.Recognizer::FromConfig(Microsoft.CognitiveServices.Speech.Recognizer_GetRecognizerFromConfigDelegate,Microsoft.CognitiveServices.Speech.SpeechConfig)
+extern void Recognizer_FromConfig_m4EBC18E31B66DBBDE63534A28644AB6DD241C672 (void);
+// 0x00000036 System.Void Microsoft.CognitiveServices.Speech.Recognizer_GetRecognizerFromConfigDelegate::.ctor(System.Object,System.IntPtr)
+extern void GetRecognizerFromConfigDelegate__ctor_m20C5D68DC30492452813140BDB2974219F284DF6 (void);
+// 0x00000037 System.IntPtr Microsoft.CognitiveServices.Speech.Recognizer_GetRecognizerFromConfigDelegate::Invoke(System.IntPtr&,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void GetRecognizerFromConfigDelegate_Invoke_m14621955E4734DC3826C0529478917B086465142 (void);
+// 0x00000038 System.IAsyncResult Microsoft.CognitiveServices.Speech.Recognizer_GetRecognizerFromConfigDelegate::BeginInvoke(System.IntPtr&,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.AsyncCallback,System.Object)
+extern void GetRecognizerFromConfigDelegate_BeginInvoke_m5848807B4D7059D62BD5151DBD6BD1E79DC5631A (void);
+// 0x00000039 System.IntPtr Microsoft.CognitiveServices.Speech.Recognizer_GetRecognizerFromConfigDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void GetRecognizerFromConfigDelegate_EndInvoke_m9FD9C4C44E663DB4CC6D937F4345F72C0D25E396 (void);
+// 0x0000003A System.Void Microsoft.CognitiveServices.Speech.SessionEventArgs::.ctor(System.IntPtr)
+extern void SessionEventArgs__ctor_m6EB4C8FB47CD8ACFDED454634F1E9C30E719805C (void);
+// 0x0000003B System.String Microsoft.CognitiveServices.Speech.SessionEventArgs::get_SessionId()
+extern void SessionEventArgs_get_SessionId_mF73CFD57B462E48C3591A157402336B3123DBFDD (void);
+// 0x0000003C System.String Microsoft.CognitiveServices.Speech.SessionEventArgs::ToString()
+extern void SessionEventArgs_ToString_m181C4F9B90EA0F31D52DE360A9A0FAF6724083D0 (void);
+// 0x0000003D System.Void Microsoft.CognitiveServices.Speech.SpeechConfig::.ctor(System.IntPtr)
+extern void SpeechConfig__ctor_mAFAF1B4E70735A979E996E6894F40F75CDCD18C9 (void);
+// 0x0000003E Microsoft.CognitiveServices.Speech.SpeechConfig Microsoft.CognitiveServices.Speech.SpeechConfig::FromSubscription(System.String,System.String)
+extern void SpeechConfig_FromSubscription_mFCACA12424DB57C976F9BBEB647DF44D0643BC0A (void);
+// 0x0000003F System.Void Microsoft.CognitiveServices.Speech.SpeechConfig::set_SpeechRecognitionLanguage(System.String)
+extern void SpeechConfig_set_SpeechRecognitionLanguage_mB6D817A28D4B3DB4A428CAE03946F9F2916ABA01 (void);
+// 0x00000040 System.Void Microsoft.CognitiveServices.Speech.SpeechConfig::SetProperty(System.String,System.String)
+extern void SpeechConfig_SetProperty_mD3294ED7F69346BB957F2881AD9C4A94981C0981 (void);
+// 0x00000041 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognitionResult::.ctor(System.IntPtr)
+extern void SpeechRecognitionResult__ctor_mCC7AB8F002D2D18C570A516379BC02C53EFF0818 (void);
+// 0x00000042 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs::.ctor(System.IntPtr)
+extern void SpeechRecognitionEventArgs__ctor_m579703E107124C6ABC9D07C40ACD3A2FDD241758 (void);
+// 0x00000043 Microsoft.CognitiveServices.Speech.SpeechRecognitionResult Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs::get_Result()
+extern void SpeechRecognitionEventArgs_get_Result_m249E934B104F937DF7D70FC516EE99BB0A0F3564 (void);
+// 0x00000044 System.String Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs::ToString()
+extern void SpeechRecognitionEventArgs_ToString_m0FFB9A33D71F4C2F0440679047766BE7A40D36FA (void);
+// 0x00000045 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs::.ctor(System.IntPtr)
+extern void SpeechRecognitionCanceledEventArgs__ctor_m634909B5124346C7611D9FBF6D082E72083165C2 (void);
+// 0x00000046 Microsoft.CognitiveServices.Speech.CancellationReason Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs::get_Reason()
+extern void SpeechRecognitionCanceledEventArgs_get_Reason_m5CE0AD1B468DB01E33DE3166D2BBACF1C7A75FA9 (void);
+// 0x00000047 Microsoft.CognitiveServices.Speech.CancellationErrorCode Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs::get_ErrorCode()
+extern void SpeechRecognitionCanceledEventArgs_get_ErrorCode_mFF19E44FF8FE7ED536A6196004FC481C064E0F5A (void);
+// 0x00000048 System.String Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs::ToString()
+extern void SpeechRecognitionCanceledEventArgs_ToString_m22545242D570915603572ADEAEE1A0E0343A89B5 (void);
+// 0x00000049 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add__Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_add__Recognizing_mBCFF45A9074293638177355466BDD25A76629F10 (void);
+// 0x0000004A System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove__Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_remove__Recognizing_mF5B0896939F3941899B5FD62D42070B0677B3D18 (void);
+// 0x0000004B System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add__Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_add__Recognized_m452CB6D9E14C9ECD47C1CA5E6A4F96A577B5D86B (void);
+// 0x0000004C System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove__Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_remove__Recognized_m5FBC660836B737333CD28FB3977644D482D2056C (void);
+// 0x0000004D System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add__Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs>)
+extern void SpeechRecognizer_add__Canceled_mCE313D273999287BFE5BC37517E0C8573AE9169D (void);
+// 0x0000004E System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove__Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs>)
+extern void SpeechRecognizer_remove__Canceled_mE48E2516A2404852413FABE6AECB5E3E9A9A09CD (void);
+// 0x0000004F System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add_Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_add_Recognizing_mDD4B9F4FADA673CD654F345E8979A3C0EC82EF2F (void);
+// 0x00000050 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove_Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_remove_Recognizing_m47F3F7544807E40A9F448CC9504644265CEADD4B (void);
+// 0x00000051 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add_Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_add_Recognized_mB492B0A09F6B8F9652D950BE045D51FCAC0C1E1B (void);
+// 0x00000052 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove_Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs>)
+extern void SpeechRecognizer_remove_Recognized_m220F1B2BC237C0E5A079818B13EF8758E63B2578 (void);
+// 0x00000053 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::add_Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs>)
+extern void SpeechRecognizer_add_Canceled_mB3B1B1BC7AE2400CFEC9D87EBE99FD20157A70BD (void);
+// 0x00000054 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::remove_Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.SpeechRecognitionCanceledEventArgs>)
+extern void SpeechRecognizer_remove_Canceled_mF2A2D6A26EE1E2025E1DD556BF28FEB1C645C538 (void);
+// 0x00000055 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::.ctor(Microsoft.CognitiveServices.Speech.SpeechConfig)
+extern void SpeechRecognizer__ctor_m8F0C6A4C2A429A294414B5A6947C042E5CF6A5FE (void);
+// 0x00000056 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::.ctor(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void SpeechRecognizer__ctor_m5A53BD63443FC453CD24FE2221074E3EC659E025 (void);
+// 0x00000057 Microsoft.CognitiveServices.Speech.PropertyCollection Microsoft.CognitiveServices.Speech.SpeechRecognizer::get_Properties()
+extern void SpeechRecognizer_get_Properties_m56DA0677021BA0F40F75E11BEBCC4EDCCF95A6C4 (void);
+// 0x00000058 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::set_Properties(Microsoft.CognitiveServices.Speech.PropertyCollection)
+extern void SpeechRecognizer_set_Properties_mF66781C8B847863D19D8E0772EC05E0F454EF510 (void);
+// 0x00000059 System.Threading.Tasks.Task Microsoft.CognitiveServices.Speech.SpeechRecognizer::StartContinuousRecognitionAsync()
+extern void SpeechRecognizer_StartContinuousRecognitionAsync_m282E75F85AFA36D5514BCF0583100C7ED75E7AAF (void);
+// 0x0000005A System.Threading.Tasks.Task Microsoft.CognitiveServices.Speech.SpeechRecognizer::StopContinuousRecognitionAsync()
+extern void SpeechRecognizer_StopContinuousRecognitionAsync_mBE703D597C3CBD7DF9CB13FAA65445B0B3B9A4D4 (void);
+// 0x0000005B System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::Finalize()
+extern void SpeechRecognizer_Finalize_mA74ECCBCD4232CF7C2D9A2846E60D1149C344373 (void);
+// 0x0000005C System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::Dispose(System.Boolean)
+extern void SpeechRecognizer_Dispose_mF6B21E1F4EA19B8C9A660AA2DD8D57957747AF89 (void);
+// 0x0000005D System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::FireEvent_Recognizing(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void SpeechRecognizer_FireEvent_Recognizing_m04B3941BCB305E6EEA61C01B25221B6AFCB64CF9 (void);
+// 0x0000005E System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::FireEvent_Recognized(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void SpeechRecognizer_FireEvent_Recognized_m7B66BF8F7176BA99BD0719398E3DBF5B227337AA (void);
+// 0x0000005F System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::FireEvent_Canceled(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void SpeechRecognizer_FireEvent_Canceled_m196DE0AF9B978BF526926931E8C64745D4461C0E (void);
+// 0x00000060 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::<StartContinuousRecognitionAsync>b__44_0()
+extern void SpeechRecognizer_U3CStartContinuousRecognitionAsyncU3Eb__44_0_m42101489CDD2C57A969B6DBBDC532D41D6A6C747 (void);
+// 0x00000061 System.Void Microsoft.CognitiveServices.Speech.SpeechRecognizer::<StopContinuousRecognitionAsync>b__45_0()
+extern void SpeechRecognizer_U3CStopContinuousRecognitionAsyncU3Eb__45_0_m664F8A1FC652005363F52F6A914C916D21742D58 (void);
+// 0x00000062 System.Void Microsoft.CognitiveServices.Speech.SpeechTranslationConfig::.ctor(System.IntPtr)
+extern void SpeechTranslationConfig__ctor_m55A368968F153795FB4C81A583F53DBC8038A43A (void);
+// 0x00000063 Microsoft.CognitiveServices.Speech.SpeechTranslationConfig Microsoft.CognitiveServices.Speech.SpeechTranslationConfig::FromSubscription(System.String,System.String)
+extern void SpeechTranslationConfig_FromSubscription_m81603F9F084E80243E8DE16467CEBC6FF349FA7D (void);
+// 0x00000064 System.Void Microsoft.CognitiveServices.Speech.SpeechTranslationConfig::AddTargetLanguage(System.String)
+extern void SpeechTranslationConfig_AddTargetLanguage_mB3C0C4F15802A24D62C1EC036D82893AAB183259 (void);
+// 0x00000065 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionResult::.ctor(System.IntPtr)
+extern void TranslationRecognitionResult__ctor_m8F3AA678E2BF7392D54F788D8F0D6CE95A5FB1E3 (void);
+// 0x00000066 System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionResult::get_Translations()
+extern void TranslationRecognitionResult_get_Translations_mDB43E322D12D1158F3CB5673E154F631C59BB9C0 (void);
+// 0x00000067 System.String Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionResult::ToString()
+extern void TranslationRecognitionResult_ToString_m843C36EF6E29023E82F4C1C1D054BAADCB714B8E (void);
+// 0x00000068 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionResult::GetTranslationTexts()
+extern void TranslationRecognitionResult_GetTranslationTexts_m103345A1BADB5B14768AD76D750EF019C19C6CE4 (void);
+// 0x00000069 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add__Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_add__Recognizing_mCA94FA9628897C281138E33F6041BE9B59EFBD4C (void);
+// 0x0000006A System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove__Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_remove__Recognizing_mBA98EB8295ACBBDBACD6464704BD90B0BC1101AF (void);
+// 0x0000006B System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add__Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_add__Recognized_m4A7DA49CC499B3B602BBF7E50187E94B4B7ACFFA (void);
+// 0x0000006C System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove__Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_remove__Recognized_m26E6A00A709B851FD5A922A37719C60A29A863BC (void);
+// 0x0000006D System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add__Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs>)
+extern void TranslationRecognizer_add__Canceled_m8D6B743B7A6A3EAB92D6BBA248D2A259B38C8C7C (void);
+// 0x0000006E System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove__Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs>)
+extern void TranslationRecognizer_remove__Canceled_mD588774BEB68BD8897A6BFA332672912F143C591 (void);
+// 0x0000006F System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add_Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_add_Recognizing_m67D532A7D04B4831715816E256DB3B17427E8A6E (void);
+// 0x00000070 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove_Recognizing(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_remove_Recognizing_mF7751DD217F9B58B8166E1CBB2AF7936B3D1B950 (void);
+// 0x00000071 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add_Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_add_Recognized_m4E94E7F03297CB6194CC85085DF74C4E5BF6CE7F (void);
+// 0x00000072 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove_Recognized(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs>)
+extern void TranslationRecognizer_remove_Recognized_m58914DC22FB05CC109E995A09A1775A8D943CBE0 (void);
+// 0x00000073 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::add_Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs>)
+extern void TranslationRecognizer_add_Canceled_mB54275ABE59490C19A1FCED23C4545847CDB3EDE (void);
+// 0x00000074 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::remove_Canceled(System.EventHandler`1<Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs>)
+extern void TranslationRecognizer_remove_Canceled_m5006AC8827A487546F98104D3A62103FFF00671F (void);
+// 0x00000075 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::.ctor(Microsoft.CognitiveServices.Speech.SpeechTranslationConfig)
+extern void TranslationRecognizer__ctor_m6C17DF3CBAA86392096A296DFA407B0B18B5F68D (void);
+// 0x00000076 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::.ctor(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void TranslationRecognizer__ctor_m30A493F6AF8B764F06DE38D047B559FB7EAB4490 (void);
+// 0x00000077 Microsoft.CognitiveServices.Speech.PropertyCollection Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::get_Properties()
+extern void TranslationRecognizer_get_Properties_m925EB0FFA9D16E0D34BB44876AA8F6611E2839FA (void);
+// 0x00000078 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::set_Properties(Microsoft.CognitiveServices.Speech.PropertyCollection)
+extern void TranslationRecognizer_set_Properties_m2885A31BD24A148C4B8EB79CE438E44B2179B509 (void);
+// 0x00000079 System.Threading.Tasks.Task Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::StartContinuousRecognitionAsync()
+extern void TranslationRecognizer_StartContinuousRecognitionAsync_m6171E2374D614CD945A8B6C4A2055E5C45019BCA (void);
+// 0x0000007A System.Threading.Tasks.Task Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::StopContinuousRecognitionAsync()
+extern void TranslationRecognizer_StopContinuousRecognitionAsync_m1773A26F88A95B7C8FF9539F0B1DD1DDB845CEA5 (void);
+// 0x0000007B System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::Finalize()
+extern void TranslationRecognizer_Finalize_mB6C164E2D8C470F067FC2AE26D8368B62F0DC824 (void);
+// 0x0000007C System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::Dispose(System.Boolean)
+extern void TranslationRecognizer_Dispose_mD9A3D65412E5EB29E792C9BFC144358928E6FFB5 (void);
+// 0x0000007D System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::FireEvent_Recognizing(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void TranslationRecognizer_FireEvent_Recognizing_mA8D429CB9E8FFEC7C10E1F070F665B0BA84B0030 (void);
+// 0x0000007E System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::FireEvent_Recognized(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void TranslationRecognizer_FireEvent_Recognized_mF4796E7E5F690D4341C2BE50E1D2A8BD88354429 (void);
+// 0x0000007F System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::FireEvent_Canceled(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void TranslationRecognizer_FireEvent_Canceled_mF5ABD120E0772BA94E219F2AEBE3A4967A14CC7C (void);
+// 0x00000080 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::FireEvent_SynthesisResult(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void TranslationRecognizer_FireEvent_SynthesisResult_mEAE05BBDCF505C4C9517E0A3B145F0A75D84D7AA (void);
+// 0x00000081 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::<StartContinuousRecognitionAsync>b__43_0()
+extern void TranslationRecognizer_U3CStartContinuousRecognitionAsyncU3Eb__43_0_m4D3D737AE4B9C780C880E60BD7084AE7171C5AB6 (void);
+// 0x00000082 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognizer::<StopContinuousRecognitionAsync>b__44_0()
+extern void TranslationRecognizer_U3CStopContinuousRecognitionAsyncU3Eb__44_0_m42FA92DD686BA88181F433709FF0C6C668241447 (void);
+// 0x00000083 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisResult::.ctor(System.IntPtr)
+extern void TranslationSynthesisResult__ctor_m691EEBD612C0DBAE4B5A22BE51ED709888F58A67 (void);
+// 0x00000084 Microsoft.CognitiveServices.Speech.ResultReason Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisResult::get_Reason()
+extern void TranslationSynthesisResult_get_Reason_mDA53BB6A24DC0980CCA0179C1A299C8B65CF5B38 (void);
+// 0x00000085 System.String Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisResult::ToString()
+extern void TranslationSynthesisResult_ToString_mBC31F78A4B7E9294167426A72C9B33A5B53996C0 (void);
+// 0x00000086 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisResult::GetAudioData(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void TranslationSynthesisResult_GetAudioData_mE782E9A83EF85CFCA8B8AC3827CACF596834E8B1 (void);
+// 0x00000087 System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisEventArgs::.ctor(System.IntPtr)
+extern void TranslationSynthesisEventArgs__ctor_mFF2F042C77F2C9A53E5E3F84D82462F36E7F05B6 (void);
+// 0x00000088 Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisResult Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisEventArgs::get_Result()
+extern void TranslationSynthesisEventArgs_get_Result_mD5DBCA2DDACD4B90254C208BD06385EDF6BBE10E (void);
+// 0x00000089 System.String Microsoft.CognitiveServices.Speech.Translation.TranslationSynthesisEventArgs::ToString()
+extern void TranslationSynthesisEventArgs_ToString_mEF6F6B8610D5798919FC2A15B9B3FDB8972F46B9 (void);
+// 0x0000008A System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs::.ctor(System.IntPtr)
+extern void TranslationRecognitionEventArgs__ctor_m6A2FF47E651A996D20F80B21B3216560BEA24494 (void);
+// 0x0000008B Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionResult Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs::get_Result()
+extern void TranslationRecognitionEventArgs_get_Result_m1D7CE61478E280F8E2CFA1E050A8F9891CB332D2 (void);
+// 0x0000008C System.String Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionEventArgs::ToString()
+extern void TranslationRecognitionEventArgs_ToString_m30AF9D7339ABC41D86C3F5D10343FB4E965C4AA5 (void);
+// 0x0000008D System.Void Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs::.ctor(System.IntPtr)
+extern void TranslationRecognitionCanceledEventArgs__ctor_m061014AA8EC6CB9F98D2A2CBC4F45F4901D460A2 (void);
+// 0x0000008E Microsoft.CognitiveServices.Speech.CancellationReason Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs::get_Reason()
+extern void TranslationRecognitionCanceledEventArgs_get_Reason_mD37070031AD0BC2EBE4E541422AC2818CD29C3F1 (void);
+// 0x0000008F Microsoft.CognitiveServices.Speech.CancellationErrorCode Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs::get_ErrorCode()
+extern void TranslationRecognitionCanceledEventArgs_get_ErrorCode_m4762F2622F4FB7A4285AD393CA46022DAA79D397 (void);
+// 0x00000090 System.String Microsoft.CognitiveServices.Speech.Translation.TranslationRecognitionCanceledEventArgs::ToString()
+extern void TranslationRecognitionCanceledEventArgs_ToString_m391D99CD10C5CBAE651344047A3E2980B60173FA (void);
+// 0x00000091 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.CancellationDetails::result_get_reason_canceled(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.CancellationReason&)
+extern void CancellationDetails_result_get_reason_canceled_m8E2AC0B901F950ED5A144CEFA4AE4454EC72A4BE (void);
+// 0x00000092 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.CancellationDetails::result_get_canceled_error_code(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.CancellationErrorCode&)
+extern void CancellationDetails_result_get_canceled_error_code_mC3014C1B8504724BFC14E4CF095474D3B6D91659 (void);
+// 0x00000093 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpeechConfig::speech_config_from_subscription(System.IntPtr&,System.String,System.String)
+extern void SpeechConfig_speech_config_from_subscription_m6A4E54C48B3AF570223BFFACC0268DD6EB7ADD3E (void);
+// 0x00000094 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpeechConfig::speech_config_release(System.IntPtr)
+extern void SpeechConfig_speech_config_release_m810D0EEA705EE9AF26F7C4E8CE19E0C599F73F42 (void);
+// 0x00000095 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpeechConfig::speech_config_get_property_bag(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void SpeechConfig_speech_config_get_property_bag_m0FC35AFD276675B7761F5CF950AAA402FC53B01E (void);
+// 0x00000096 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpeechTranslationConfig::speech_translation_config_from_subscription(System.IntPtr&,System.String,System.String)
+extern void SpeechTranslationConfig_speech_translation_config_from_subscription_mEA0CE1B7F91F0FAD66E3C8646BD4258E347CA34D (void);
+// 0x00000097 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpeechTranslationConfig::speech_translation_config_add_target_language(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.String)
+extern void SpeechTranslationConfig_speech_translation_config_add_target_language_m1C5B2CEA7607CD1D8C2976DE379F10FDD4ABAF4B (void);
+// 0x00000098 System.Void Microsoft.CognitiveServices.Speech.Internal.DiagnosticsInterop::diagnostics_log_trace_string(System.Int32,System.String,System.String,System.Int32,System.String)
+extern void DiagnosticsInterop_diagnostics_log_trace_string_m3E6E8D19DBDD8948CAC22FEDAAE1BEF27C5069E4 (void);
+// 0x00000099 System.String Microsoft.CognitiveServices.Speech.Internal.SpxError::GetMessage(System.IntPtr)
+extern void SpxError_GetMessage_m506E5ABB75630EE5E4B0EC3CA995C4E7DB1A6CBE (void);
+// 0x0000009A System.Int32 Microsoft.CognitiveServices.Speech.Internal.SpxError::GetErrorCode(System.IntPtr)
+extern void SpxError_GetErrorCode_mC3BB6E08711E97986F04F148CF10A99E6D0B6819 (void);
+// 0x0000009B System.Void Microsoft.CognitiveServices.Speech.Internal.SpxError::Release(System.IntPtr)
+extern void SpxError_Release_m2DA7CB533EAA4E308AB97DD5E67E91295DB4CFC3 (void);
+// 0x0000009C System.Boolean Microsoft.CognitiveServices.Speech.Internal.SpxError::ReleaseNoThrow(System.IntPtr)
+extern void SpxError_ReleaseNoThrow_mD5BC5A60CF3E6942A0897C06A99B0F23929CA582 (void);
+// 0x0000009D System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxError::error_get_message(System.IntPtr)
+extern void SpxError_error_get_message_m95606AFC05E1D182E9BFD9E1B4399671BDB77C5C (void);
+// 0x0000009E System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxError::error_get_error_code(System.IntPtr)
+extern void SpxError_error_get_error_code_m52E3DDF2AE7134765295E48E1E4352C626354A9D (void);
+// 0x0000009F System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxError::error_release(System.IntPtr)
+extern void SpxError_error_release_m0A048C5108A6021E5B674AE40B2558586E697AED (void);
+// 0x000000A0 System.Void Microsoft.CognitiveServices.Speech.Internal.SpxError::.cctor()
+extern void SpxError__cctor_m32BA068ABFF5B96AEDEEDAD9FA83D28BD0683F7B (void);
+// 0x000000A1 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.EventArgs::recognizer_event_handle_release(System.IntPtr)
+extern void EventArgs_recognizer_event_handle_release_mA58732A27533E21F519F2812B9BB4E11D3FE6A0F (void);
+// 0x000000A2 System.Void Microsoft.CognitiveServices.Speech.Internal.MonoPInvokeCallbackAttribute::.ctor(System.Type)
+extern void MonoPInvokeCallbackAttribute__ctor_m84F89E9CB4C97ED968D0BCAAF2FDBB52AC7CB666 (void);
+// 0x000000A3 System.Void Microsoft.CognitiveServices.Speech.Internal.HandleRelease::.ctor(System.Object,System.IntPtr)
+extern void HandleRelease__ctor_m38C14A53FE9403DFAD6B13923B2D9FACA01588AE (void);
+// 0x000000A4 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.HandleRelease::Invoke(System.IntPtr)
+extern void HandleRelease_Invoke_mA31FABBD50FD886AAB189A142C08D208E7CF88F1 (void);
+// 0x000000A5 System.IAsyncResult Microsoft.CognitiveServices.Speech.Internal.HandleRelease::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void HandleRelease_BeginInvoke_m1576462886942C995508EF4B25ACE0BD643AD4CC (void);
+// 0x000000A6 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.HandleRelease::EndInvoke(System.IAsyncResult)
+extern void HandleRelease_EndInvoke_m61AD6E1B231ABB56127AECECC4CCF4EB49E84E82 (void);
+// 0x000000A7 System.Void Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::.ctor(System.IntPtr,Microsoft.CognitiveServices.Speech.Internal.HandleRelease)
+extern void InteropSafeHandle__ctor_mABAE89E85BC9B1A642696DAF491F83BEA4A9A4BF (void);
+// 0x000000A8 System.Boolean Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::get_IsInvalid()
+extern void InteropSafeHandle_get_IsInvalid_m7B650E05CC0F9FDC965F989000D795364899B5EA (void);
+// 0x000000A9 System.Boolean Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::ReleaseHandle()
+extern void InteropSafeHandle_ReleaseHandle_m0F16317A8B4DAD0E7BB83AF9133F8347F215C96C (void);
+// 0x000000AA System.Void Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::Dispose(System.Boolean)
+extern void InteropSafeHandle_Dispose_mBAC748D63BED31C7AE9C52FAFD7021BAEF550E2A (void);
+// 0x000000AB T Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::GetObjectFromWeakHandle(System.IntPtr)
+// 0x000000AC System.String Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::ToString()
+extern void InteropSafeHandle_ToString_m7AFD257CCBD3614B93AB93FBAB3B20F0C2CA3D4D (void);
+// 0x000000AD System.Void Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle::Finalize()
+extern void InteropSafeHandle_Finalize_mC31469A6FA4524D8D5A9F478DB8862E03797FAEF (void);
+// 0x000000AE System.String Microsoft.CognitiveServices.Speech.Internal.SpxFactory::GetDataFromHandleUsingDelegate(Microsoft.CognitiveServices.Speech.Internal.SpxFactory_GetResultDelegate,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.Int32)
+extern void SpxFactory_GetDataFromHandleUsingDelegate_m864B17EE1E702BEEB5256615631DD41B11E21ACC (void);
+// 0x000000AF System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxFactory::recognizer_create_speech_recognizer_from_config(System.IntPtr&,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void SpxFactory_recognizer_create_speech_recognizer_from_config_mB5E66482C47F87CC44048B0190CB00A9C8F9C529 (void);
+// 0x000000B0 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxFactory::recognizer_create_translation_recognizer_from_config(System.IntPtr&,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void SpxFactory_recognizer_create_translation_recognizer_from_config_mB1DE2DFA2EAEC9857328CCAA2D62182FDD7F827A (void);
+// 0x000000B1 System.Void Microsoft.CognitiveServices.Speech.Internal.SpxFactory_GetResultDelegate::.ctor(System.Object,System.IntPtr)
+extern void GetResultDelegate__ctor_mF25D15A597578900AB701F4ECFB335601637EFCB (void);
+// 0x000000B2 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxFactory_GetResultDelegate::Invoke(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.UInt32)
+extern void GetResultDelegate_Invoke_m1A07425BBA386BDA80E13AFAF93445F73BCD61DC (void);
+// 0x000000B3 System.IAsyncResult Microsoft.CognitiveServices.Speech.Internal.SpxFactory_GetResultDelegate::BeginInvoke(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.UInt32,System.AsyncCallback,System.Object)
+extern void GetResultDelegate_BeginInvoke_m76BB19734CBBBAC73782A3F7A787E0BCA3CEE8AF (void);
+// 0x000000B4 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.SpxFactory_GetResultDelegate::EndInvoke(System.IAsyncResult)
+extern void GetResultDelegate_EndInvoke_m13D38F9F57CD675AE1084BB48AE0F7C1A9CD8C41 (void);
+// 0x000000B5 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.PropertyCollection::property_bag_set_string(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.Int32,System.IntPtr,System.IntPtr)
+extern void PropertyCollection_property_bag_set_string_m254D86EE8C87716C0280F589951781F4B7E3E87F (void);
+// 0x000000B6 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.PropertyCollection::property_bag_get_string(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.Int32,System.IntPtr,System.IntPtr)
+extern void PropertyCollection_property_bag_get_string_m6A3EE72C8C9483AF2F42D5CB11C27EFCF5847398 (void);
+// 0x000000B7 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.PropertyCollection::property_bag_free_string(System.IntPtr)
+extern void PropertyCollection_property_bag_free_string_mA44FF2FF1DE00E76E1933C0620A19743E53E2065 (void);
+// 0x000000B8 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.PropertyCollection::property_bag_release(System.IntPtr)
+extern void PropertyCollection_property_bag_release_mA09923F79379625389DD82D332418C57163435B0 (void);
+// 0x000000B9 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::result_get_reason(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.ResultReason&)
+extern void RecognitionResult_result_get_reason_mA12191A2CF4F15BDEB0B9384864025F7AA1637FA (void);
+// 0x000000BA System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::result_get_result_id(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.UInt32)
+extern void RecognitionResult_result_get_result_id_m72882D96F5F2C62A44735EC4AE5F370FB852496E (void);
+// 0x000000BB System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::result_get_text(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.UInt32)
+extern void RecognitionResult_result_get_text_m5282BD9595677A7E09ACD0D31D9298AB2B09B5C1 (void);
+// 0x000000BC System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::result_get_property_bag(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void RecognitionResult_result_get_property_bag_m83F3C6584317CBE18F359A49CAA38D8A39BF8FD3 (void);
+// 0x000000BD System.Boolean Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::recognizer_result_handle_is_valid(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle)
+extern void RecognitionResult_recognizer_result_handle_is_valid_m0461056AE8F887067E41F90018147C90FD01A6DD (void);
+// 0x000000BE System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::recognizer_result_handle_release(System.IntPtr)
+extern void RecognitionResult_recognizer_result_handle_release_mCBF8BCD60731C507F593669FECC6DB7260F84ECC (void);
+// 0x000000BF System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::translation_text_result_get_translation_text_buffer_header(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.Int32&)
+extern void RecognitionResult_translation_text_result_get_translation_text_buffer_header_m2668F37BF9FAE0D04F1D34C8B30AA4A8A6A954B3 (void);
+// 0x000000C0 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.RecognitionResult::translation_synthesis_result_get_audio_data(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.Int32&)
+extern void RecognitionResult_translation_synthesis_result_get_audio_data_m2D2B7A555C4F1F6F3319CDB0BF3526DFCB1FB377 (void);
+// 0x000000C1 System.Void Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void CallbackFunctionDelegate__ctor_mDE545F22DBFF62D4085AF8B43D6B192D54E00386 (void);
+// 0x000000C2 System.Void Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void CallbackFunctionDelegate_Invoke_mC262ABC4DA504D29BA712468E9DC1D68ED64A035 (void);
+// 0x000000C3 System.IAsyncResult Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern void CallbackFunctionDelegate_BeginInvoke_m3D5F5039A15007348CAA8C088F795C5B9C87063B (void);
+// 0x000000C4 System.Void Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate::EndInvoke(System.IAsyncResult)
+extern void CallbackFunctionDelegate_EndInvoke_mF17613B270D3C9BFDE8C80B6052F5BFFC0E14B20 (void);
+// 0x000000C5 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_get_property_bag(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void Recognizer_recognizer_get_property_bag_m78DB85D0F192B71179FB5431EF9964B091015F04 (void);
+// 0x000000C6 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_handle_release(System.IntPtr)
+extern void Recognizer_recognizer_handle_release_m81270BB2C41BB84A47D2DC443CDBAC7AA2141281 (void);
+// 0x000000C7 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_start_continuous_recognition_async(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void Recognizer_recognizer_start_continuous_recognition_async_m2322F7A1288A1725BFF85E8951BF5BA92F064A1D (void);
+// 0x000000C8 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_start_continuous_recognition_async_wait_for(System.IntPtr,System.UInt32)
+extern void Recognizer_recognizer_start_continuous_recognition_async_wait_for_m25CC951D64F9416A6D9C02E5ADC467BEC087D8F2 (void);
+// 0x000000C9 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_stop_continuous_recognition_async(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void Recognizer_recognizer_stop_continuous_recognition_async_m47FE099E1180174B9C901384FAC5D4AE754C46AF (void);
+// 0x000000CA System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_stop_continuous_recognition_async_wait_for(System.IntPtr,System.UInt32)
+extern void Recognizer_recognizer_stop_continuous_recognition_async_wait_for_mA778073DD4C45F082625DF485852B0D08EA69734 (void);
+// 0x000000CB System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_async_handle_release(System.IntPtr)
+extern void Recognizer_recognizer_async_handle_release_m91AD76F45CBBC2A1FC8B78A255D3D7E743F8DD70 (void);
+// 0x000000CC System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_recognition_event_get_offset(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.UInt64&)
+extern void Recognizer_recognizer_recognition_event_get_offset_mE3B3CAB20D9E25B244FBD501506EE0700BD23721 (void);
+// 0x000000CD System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_session_event_get_session_id(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr,System.UInt32)
+extern void Recognizer_recognizer_session_event_get_session_id_m4381CE0315B710E24BB0610D5C021D6FB6940FA6 (void);
+// 0x000000CE System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_recognition_event_get_result(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,System.IntPtr&)
+extern void Recognizer_recognizer_recognition_event_get_result_m4DA203B63EF3F8E6944D99BB42D98653FDC2CEFC (void);
+// 0x000000CF System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_session_started_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_session_started_set_callback_mAD7BA5FACE695E2EF603EBAB87835F312E3DD5B3 (void);
+// 0x000000D0 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_session_stopped_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_session_stopped_set_callback_m8300A4A86349CEE28C34FF4AFAAE6CEB685A4CE2 (void);
+// 0x000000D1 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_speech_start_detected_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_speech_start_detected_set_callback_m58AA90C6CD1B4F2190071E56A1AF2FBD5F179BF8 (void);
+// 0x000000D2 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_speech_end_detected_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_speech_end_detected_set_callback_mB106BEC5AE0BB846C4448C9A7FD63854AE536A43 (void);
+// 0x000000D3 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_recognizing_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_recognizing_set_callback_m28536074A86D5AB1369F95C9B714D7818C6311BA (void);
+// 0x000000D4 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_recognized_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_recognized_set_callback_m4F3B1CF5955A9020E1924AB56B002BAFD8B70B85 (void);
+// 0x000000D5 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::recognizer_canceled_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_recognizer_canceled_set_callback_m222AC60BE8CAAE0E00D5A8E50031C1F99BBC532D (void);
+// 0x000000D6 System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Recognizer::translator_synthesizing_audio_set_callback(Microsoft.CognitiveServices.Speech.Internal.InteropSafeHandle,Microsoft.CognitiveServices.Speech.Internal.CallbackFunctionDelegate,System.IntPtr)
+extern void Recognizer_translator_synthesizing_audio_set_callback_mABB2BE127951DEDA4095F439B71E3FD4E453D0A0 (void);
+// 0x000000D7 System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::ThrowIfFail(System.IntPtr)
+extern void SpxExceptionThrower_ThrowIfFail_m90C92380A9E7BF9B63F1192DE120A1A5E9445911 (void);
+// 0x000000D8 System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::ThrowIfNull(System.Object,System.String)
+extern void SpxExceptionThrower_ThrowIfNull_mC3247410BA2C3E2E5E5EB0A5D03DA5ECC30C4FF5 (void);
+// 0x000000D9 System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::ThrowIfNull(System.IntPtr,System.String)
+extern void SpxExceptionThrower_ThrowIfNull_m2979CAFE21C599A40FB34AAE7777FF5BF0B9E03C (void);
+// 0x000000DA System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::ThrowIfFail(System.Boolean,System.Int32)
+extern void SpxExceptionThrower_ThrowIfFail_m2528B3C10CA3FC050E6D01EFABF83CC88DBCA4D9 (void);
+// 0x000000DB System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::LogErrorIfFail(System.IntPtr)
+extern void SpxExceptionThrower_LogErrorIfFail_mC27E865F834245B35B0DCCC3C627670AEEE9A0BD (void);
+// 0x000000DC System.Void Microsoft.CognitiveServices.Speech.Internal.SpxExceptionThrower::LogError(System.String)
+extern void SpxExceptionThrower_LogError_m0A082DA2E1A7C1F0846E271B2AAA63673CE20402 (void);
+// 0x000000DD System.String Microsoft.CognitiveServices.Speech.Internal.Utf8StringMarshaler::MarshalNativeToManaged(System.IntPtr)
+extern void Utf8StringMarshaler_MarshalNativeToManaged_mE3176B3F81593CCDD474A1DF3813804ECE4A79E7 (void);
+// 0x000000DE System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Utf8StringMarshaler::MarshalManagedToNative(System.String)
+extern void Utf8StringMarshaler_MarshalManagedToNative_m2EB3F0F826B4A93D6C3A63565F0BEA647C0BAA34 (void);
+// 0x000000DF System.IntPtr Microsoft.CognitiveServices.Speech.Internal.Utf8StringMarshaler::MarshalManagedToNative(System.String,System.Int32&)
+extern void Utf8StringMarshaler_MarshalManagedToNative_mF66EF1E5F35BAE95CD414179F3EF8D672C098B3B (void);
+// 0x000000E0 System.Object[] Microsoft.CognitiveServices.Speech.Internal.Diagnostics::Args(System.Object[])
+extern void Diagnostics_Args_m251253E55B990FCC7FF3EAD5A275736B01DBCB92 (void);
+// 0x000000E1 System.Void Microsoft.CognitiveServices.Speech.Internal.Diagnostics::SPX_TRACE_VERBOSE(System.String,System.Int32,System.String,System.String)
+extern void Diagnostics_SPX_TRACE_VERBOSE_m426BBFEE0D63C3631ABC3B3DF179D99478F83CCC (void);
+// 0x000000E2 System.Void Microsoft.CognitiveServices.Speech.Internal.Diagnostics::SPX_TRACE_VERBOSE(System.String,System.Object[],System.Int32,System.String,System.String)
+extern void Diagnostics_SPX_TRACE_VERBOSE_m6908A21A209406C576DBADED0D873DE54C3E6735 (void);
+// 0x000000E3 System.Void Microsoft.CognitiveServices.Speech.Internal.Diagnostics::.cctor()
+extern void Diagnostics__cctor_m31311509DDC17D7F6EFF5F2FECB24F2C81A230C1 (void);
+static Il2CppMethodPointer s_methodPointers[227] = 
+{
+	PropertyCollection__ctor_mA9184AF1E753A0FA6F0AA9151AD16E9D2465A557,
+	PropertyCollection_Close_mA9970357DE133999377FD4AC51B3B6EF4C1FC437,
+	PropertyCollection_GetProperty_mDF937E9084584AF726BB281F07ED5E091F22D83B,
+	PropertyCollection_SetProperty_m679D655AE85517FA950ADCF4D89CD492D366D987,
+	PropertyCollection_SetProperty_mA1833B3E126FF8240B3326AA80E9EAABD53534A4,
+	PropertyCollection_GetPropertyString_mD7C5DE1FC7DAA1A59F619945F21E70465DC65EEB,
+	RecognitionEventArgs__ctor_m461FB32C4087EB9186809AA45718D717ABA56228,
+	RecognitionEventArgs_get_Offset_m1B25331E2A8187D036670E2F774D31AFA7A96C90,
+	RecognitionEventArgs_ToString_mFAB28C00AE08304EA8352340ECBE022B33AEE064,
+	RecognitionResult__ctor_m41A680284FE5920D28E7C9FF16AD7A671C9DB272,
+	RecognitionResult_get_ResultId_m7A0642DB5B767C3D72C6C1AE263189FC9E716B6D,
+	RecognitionResult_get_Reason_m40585A0DE0842E26C8F52E62625BD10E8C264ACA,
+	RecognitionResult_get_Text_mC2C012A14C98A7923666852B4FD2B4C5914ED78B,
+	RecognitionResult_get_Properties_m205F2DC517C756A011831E182A3EBD2E897D4407,
+	RecognitionResult_set_Properties_mC1A2601BE02CC3F56013BC78DE0B6080C8506897,
+	RecognitionResult_ToString_m4F8114C8C702EF6B2D92F0C080BA0645D4C524AC,
+	CancellationDetails_FromResult_m8CC67B3B88A390519550F82FB06BFC5D49B972D8,
+	CancellationDetails__ctor_m2AEA3FF2830DA2A22B120F39EAE10763223A38A5,
+	CancellationDetails_get_Reason_mFA299E969201C80764CE51E9385C711D1A5BE7C4,
+	CancellationDetails_set_Reason_m578B1960A6530BCC26465D19FFBBD66A74B3A9F3,
+	CancellationDetails_get_ErrorCode_mE36061E2CA470971CC88AB5CE10759721C613098,
+	CancellationDetails_set_ErrorCode_m17C4CA0669E323A99CF1EF485ECB7AE3C2D9737F,
+	CancellationDetails_get_ErrorDetails_m753FE13177C2092EB81EBB530389877925316E2E,
+	CancellationDetails_set_ErrorDetails_m612BA9D99F7B23DC7793DD5E9269C1B1B82CFC79,
+	CancellationDetails_ToString_m67736791E1C2E3D6ACE84615BA3051BFE0227453,
+	Recognizer_add__SessionStarted_mABA2AFFD9ED2E90F78F52E09DDAAE6016D3D1290,
+	Recognizer_remove__SessionStarted_m1DEB85971A7C25D29EDBEA2C1969C15462973172,
+	Recognizer_add__SessionStopped_mCA2C511C7C5E2AC13CF61093BE2FFFE1FBF47584,
+	Recognizer_remove__SessionStopped_m6287430E5F33931F8D4705D273D335B5E30EF1EF,
+	Recognizer_add__SpeechStartDetected_mB2B58A6A1CDCC75C1FA0C73F12D3E3214FD1237E,
+	Recognizer_remove__SpeechStartDetected_mDDC93504ACEADE5901E702515CF5F624A45E1E39,
+	Recognizer_add__SpeechEndDetected_m82C4AE98DD1AE4E7FCE970743E32E2F19B4BFD34,
+	Recognizer_remove__SpeechEndDetected_m4ECEDF962186E1CBA5D99C497C92D3BE1BFE8409,
+	Recognizer_add_SessionStarted_m1ED72D3EB43AF873238336D92FB6BD7AFE3BFF6D,
+	Recognizer_remove_SessionStarted_mB67A9E901D4B3920C5D44B186ABEC49859629F24,
+	Recognizer_add_SessionStopped_m028437879ECB65F9E49FC8D5753C3E6DC3CF5C0E,
+	Recognizer_remove_SessionStopped_m87B980BF6B2F659B2138687FBA6DCB509B05E5BD,
+	Recognizer_add_SpeechStartDetected_m15CD6124464F5598BEFD17771EC307FFACA81295,
+	Recognizer_remove_SpeechStartDetected_mB56D9D4D6F25EC269808ECB98F71F617FD8F4B3E,
+	Recognizer_add_SpeechEndDetected_mC93AC350E6A570044899A9E7506C089DB3DAAE6E,
+	Recognizer_remove_SpeechEndDetected_m750776680F3BED04653DCFE9645272542F1C0954,
+	Recognizer__ctor_mA212ABA7ACCB40EB42D035F7EE635E78F6ED0F68,
+	Recognizer_Finalize_m9750ABD8D70F016156BD0F8663C9B4B6CE9CF373,
+	Recognizer_Dispose_m408BD97F98DBB1025787B4A323C0C7960EF7FA3A,
+	Recognizer_Dispose_mB79F3964354355E1B534A782677B72F0F17FB3B6,
+	Recognizer_FireEvent_SetSessionStarted_mCF41D541D7BE7A62317E86900F2AA2623A0F1E56,
+	Recognizer_FireEvent_SetSessionStopped_m1744D16CE80810C45299095BB9350EF74CD697F0,
+	Recognizer_FireEvent_SpeechStartDetected_m5A0303B793DEE63CA3E1C5360C0B3CFB051454F1,
+	Recognizer_FireEvent_SpeechEndDetected_m60B70E7C6524081E1C6E4E208EB989E6AF4FA984,
+	Recognizer_DoAsyncRecognitionAction_mB64950A6774B0D59E72F2962E5E9A7409DCE46BF,
+	Recognizer_StartContinuousRecognition_m2A030F4CAA792DFFFA04C9FF5FF14F70BA05458A,
+	Recognizer_StopContinuousRecognition_m6E569B61B4D371939A219D172F8D841CED5CC265,
+	Recognizer_FromConfig_m4EBC18E31B66DBBDE63534A28644AB6DD241C672,
+	GetRecognizerFromConfigDelegate__ctor_m20C5D68DC30492452813140BDB2974219F284DF6,
+	GetRecognizerFromConfigDelegate_Invoke_m14621955E4734DC3826C0529478917B086465142,
+	GetRecognizerFromConfigDelegate_BeginInvoke_m5848807B4D7059D62BD5151DBD6BD1E79DC5631A,
+	GetRecognizerFromConfigDelegate_EndInvoke_m9FD9C4C44E663DB4CC6D937F4345F72C0D25E396,
+	SessionEventArgs__ctor_m6EB4C8FB47CD8ACFDED454634F1E9C30E719805C,
+	SessionEventArgs_get_SessionId_mF73CFD57B462E48C3591A157402336B3123DBFDD,
+	SessionEventArgs_ToString_m181C4F9B90EA0F31D52DE360A9A0FAF6724083D0,
+	SpeechConfig__ctor_mAFAF1B4E70735A979E996E6894F40F75CDCD18C9,
+	SpeechConfig_FromSubscription_mFCACA12424DB57C976F9BBEB647DF44D0643BC0A,
+	SpeechConfig_set_SpeechRecognitionLanguage_mB6D817A28D4B3DB4A428CAE03946F9F2916ABA01,
+	SpeechConfig_SetProperty_mD3294ED7F69346BB957F2881AD9C4A94981C0981,
+	SpeechRecognitionResult__ctor_mCC7AB8F002D2D18C570A516379BC02C53EFF0818,
+	SpeechRecognitionEventArgs__ctor_m579703E107124C6ABC9D07C40ACD3A2FDD241758,
+	SpeechRecognitionEventArgs_get_Result_m249E934B104F937DF7D70FC516EE99BB0A0F3564,
+	SpeechRecognitionEventArgs_ToString_m0FFB9A33D71F4C2F0440679047766BE7A40D36FA,
+	SpeechRecognitionCanceledEventArgs__ctor_m634909B5124346C7611D9FBF6D082E72083165C2,
+	SpeechRecognitionCanceledEventArgs_get_Reason_m5CE0AD1B468DB01E33DE3166D2BBACF1C7A75FA9,
+	SpeechRecognitionCanceledEventArgs_get_ErrorCode_mFF19E44FF8FE7ED536A6196004FC481C064E0F5A,
+	SpeechRecognitionCanceledEventArgs_ToString_m22545242D570915603572ADEAEE1A0E0343A89B5,
+	SpeechRecognizer_add__Recognizing_mBCFF45A9074293638177355466BDD25A76629F10,
+	SpeechRecognizer_remove__Recognizing_mF5B0896939F3941899B5FD62D42070B0677B3D18,
+	SpeechRecognizer_add__Recognized_m452CB6D9E14C9ECD47C1CA5E6A4F96A577B5D86B,
+	SpeechRecognizer_remove__Recognized_m5FBC660836B737333CD28FB3977644D482D2056C,
+	SpeechRecognizer_add__Canceled_mCE313D273999287BFE5BC37517E0C8573AE9169D,
+	SpeechRecognizer_remove__Canceled_mE48E2516A2404852413FABE6AECB5E3E9A9A09CD,
+	SpeechRecognizer_add_Recognizing_mDD4B9F4FADA673CD654F345E8979A3C0EC82EF2F,
+	SpeechRecognizer_remove_Recognizing_m47F3F7544807E40A9F448CC9504644265CEADD4B,
+	SpeechRecognizer_add_Recognized_mB492B0A09F6B8F9652D950BE045D51FCAC0C1E1B,
+	SpeechRecognizer_remove_Recognized_m220F1B2BC237C0E5A079818B13EF8758E63B2578,
+	SpeechRecognizer_add_Canceled_mB3B1B1BC7AE2400CFEC9D87EBE99FD20157A70BD,
+	SpeechRecognizer_remove_Canceled_mF2A2D6A26EE1E2025E1DD556BF28FEB1C645C538,
+	SpeechRecognizer__ctor_m8F0C6A4C2A429A294414B5A6947C042E5CF6A5FE,
+	SpeechRecognizer__ctor_m5A53BD63443FC453CD24FE2221074E3EC659E025,
+	SpeechRecognizer_get_Properties_m56DA0677021BA0F40F75E11BEBCC4EDCCF95A6C4,
+	SpeechRecognizer_set_Properties_mF66781C8B847863D19D8E0772EC05E0F454EF510,
+	SpeechRecognizer_StartContinuousRecognitionAsync_m282E75F85AFA36D5514BCF0583100C7ED75E7AAF,
+	SpeechRecognizer_StopContinuousRecognitionAsync_mBE703D597C3CBD7DF9CB13FAA65445B0B3B9A4D4,
+	SpeechRecognizer_Finalize_mA74ECCBCD4232CF7C2D9A2846E60D1149C344373,
+	SpeechRecognizer_Dispose_mF6B21E1F4EA19B8C9A660AA2DD8D57957747AF89,
+	SpeechRecognizer_FireEvent_Recognizing_m04B3941BCB305E6EEA61C01B25221B6AFCB64CF9,
+	SpeechRecognizer_FireEvent_Recognized_m7B66BF8F7176BA99BD0719398E3DBF5B227337AA,
+	SpeechRecognizer_FireEvent_Canceled_m196DE0AF9B978BF526926931E8C64745D4461C0E,
+	SpeechRecognizer_U3CStartContinuousRecognitionAsyncU3Eb__44_0_m42101489CDD2C57A969B6DBBDC532D41D6A6C747,
+	SpeechRecognizer_U3CStopContinuousRecognitionAsyncU3Eb__45_0_m664F8A1FC652005363F52F6A914C916D21742D58,
+	SpeechTranslationConfig__ctor_m55A368968F153795FB4C81A583F53DBC8038A43A,
+	SpeechTranslationConfig_FromSubscription_m81603F9F084E80243E8DE16467CEBC6FF349FA7D,
+	SpeechTranslationConfig_AddTargetLanguage_mB3C0C4F15802A24D62C1EC036D82893AAB183259,
+	TranslationRecognitionResult__ctor_m8F3AA678E2BF7392D54F788D8F0D6CE95A5FB1E3,
+	TranslationRecognitionResult_get_Translations_mDB43E322D12D1158F3CB5673E154F631C59BB9C0,
+	TranslationRecognitionResult_ToString_m843C36EF6E29023E82F4C1C1D054BAADCB714B8E,
+	TranslationRecognitionResult_GetTranslationTexts_m103345A1BADB5B14768AD76D750EF019C19C6CE4,
+	TranslationRecognizer_add__Recognizing_mCA94FA9628897C281138E33F6041BE9B59EFBD4C,
+	TranslationRecognizer_remove__Recognizing_mBA98EB8295ACBBDBACD6464704BD90B0BC1101AF,
+	TranslationRecognizer_add__Recognized_m4A7DA49CC499B3B602BBF7E50187E94B4B7ACFFA,
+	TranslationRecognizer_remove__Recognized_m26E6A00A709B851FD5A922A37719C60A29A863BC,
+	TranslationRecognizer_add__Canceled_m8D6B743B7A6A3EAB92D6BBA248D2A259B38C8C7C,
+	TranslationRecognizer_remove__Canceled_mD588774BEB68BD8897A6BFA332672912F143C591,
+	TranslationRecognizer_add_Recognizing_m67D532A7D04B4831715816E256DB3B17427E8A6E,
+	TranslationRecognizer_remove_Recognizing_mF7751DD217F9B58B8166E1CBB2AF7936B3D1B950,
+	TranslationRecognizer_add_Recognized_m4E94E7F03297CB6194CC85085DF74C4E5BF6CE7F,
+	TranslationRecognizer_remove_Recognized_m58914DC22FB05CC109E995A09A1775A8D943CBE0,
+	TranslationRecognizer_add_Canceled_mB54275ABE59490C19A1FCED23C4545847CDB3EDE,
+	TranslationRecognizer_remove_Canceled_m5006AC8827A487546F98104D3A62103FFF00671F,
+	TranslationRecognizer__ctor_m6C17DF3CBAA86392096A296DFA407B0B18B5F68D,
+	TranslationRecognizer__ctor_m30A493F6AF8B764F06DE38D047B559FB7EAB4490,
+	TranslationRecognizer_get_Properties_m925EB0FFA9D16E0D34BB44876AA8F6611E2839FA,
+	TranslationRecognizer_set_Properties_m2885A31BD24A148C4B8EB79CE438E44B2179B509,
+	TranslationRecognizer_StartContinuousRecognitionAsync_m6171E2374D614CD945A8B6C4A2055E5C45019BCA,
+	TranslationRecognizer_StopContinuousRecognitionAsync_m1773A26F88A95B7C8FF9539F0B1DD1DDB845CEA5,
+	TranslationRecognizer_Finalize_mB6C164E2D8C470F067FC2AE26D8368B62F0DC824,
+	TranslationRecognizer_Dispose_mD9A3D65412E5EB29E792C9BFC144358928E6FFB5,
+	TranslationRecognizer_FireEvent_Recognizing_mA8D429CB9E8FFEC7C10E1F070F665B0BA84B0030,
+	TranslationRecognizer_FireEvent_Recognized_mF4796E7E5F690D4341C2BE50E1D2A8BD88354429,
+	TranslationRecognizer_FireEvent_Canceled_mF5ABD120E0772BA94E219F2AEBE3A4967A14CC7C,
+	TranslationRecognizer_FireEvent_SynthesisResult_mEAE05BBDCF505C4C9517E0A3B145F0A75D84D7AA,
+	TranslationRecognizer_U3CStartContinuousRecognitionAsyncU3Eb__43_0_m4D3D737AE4B9C780C880E60BD7084AE7171C5AB6,
+	TranslationRecognizer_U3CStopContinuousRecognitionAsyncU3Eb__44_0_m42FA92DD686BA88181F433709FF0C6C668241447,
+	TranslationSynthesisResult__ctor_m691EEBD612C0DBAE4B5A22BE51ED709888F58A67,
+	TranslationSynthesisResult_get_Reason_mDA53BB6A24DC0980CCA0179C1A299C8B65CF5B38,
+	TranslationSynthesisResult_ToString_mBC31F78A4B7E9294167426A72C9B33A5B53996C0,
+	TranslationSynthesisResult_GetAudioData_mE782E9A83EF85CFCA8B8AC3827CACF596834E8B1,
+	TranslationSynthesisEventArgs__ctor_mFF2F042C77F2C9A53E5E3F84D82462F36E7F05B6,
+	TranslationSynthesisEventArgs_get_Result_mD5DBCA2DDACD4B90254C208BD06385EDF6BBE10E,
+	TranslationSynthesisEventArgs_ToString_mEF6F6B8610D5798919FC2A15B9B3FDB8972F46B9,
+	TranslationRecognitionEventArgs__ctor_m6A2FF47E651A996D20F80B21B3216560BEA24494,
+	TranslationRecognitionEventArgs_get_Result_m1D7CE61478E280F8E2CFA1E050A8F9891CB332D2,
+	TranslationRecognitionEventArgs_ToString_m30AF9D7339ABC41D86C3F5D10343FB4E965C4AA5,
+	TranslationRecognitionCanceledEventArgs__ctor_m061014AA8EC6CB9F98D2A2CBC4F45F4901D460A2,
+	TranslationRecognitionCanceledEventArgs_get_Reason_mD37070031AD0BC2EBE4E541422AC2818CD29C3F1,
+	TranslationRecognitionCanceledEventArgs_get_ErrorCode_m4762F2622F4FB7A4285AD393CA46022DAA79D397,
+	TranslationRecognitionCanceledEventArgs_ToString_m391D99CD10C5CBAE651344047A3E2980B60173FA,
+	CancellationDetails_result_get_reason_canceled_m8E2AC0B901F950ED5A144CEFA4AE4454EC72A4BE,
+	CancellationDetails_result_get_canceled_error_code_mC3014C1B8504724BFC14E4CF095474D3B6D91659,
+	SpeechConfig_speech_config_from_subscription_m6A4E54C48B3AF570223BFFACC0268DD6EB7ADD3E,
+	SpeechConfig_speech_config_release_m810D0EEA705EE9AF26F7C4E8CE19E0C599F73F42,
+	SpeechConfig_speech_config_get_property_bag_m0FC35AFD276675B7761F5CF950AAA402FC53B01E,
+	SpeechTranslationConfig_speech_translation_config_from_subscription_mEA0CE1B7F91F0FAD66E3C8646BD4258E347CA34D,
+	SpeechTranslationConfig_speech_translation_config_add_target_language_m1C5B2CEA7607CD1D8C2976DE379F10FDD4ABAF4B,
+	DiagnosticsInterop_diagnostics_log_trace_string_m3E6E8D19DBDD8948CAC22FEDAAE1BEF27C5069E4,
+	SpxError_GetMessage_m506E5ABB75630EE5E4B0EC3CA995C4E7DB1A6CBE,
+	SpxError_GetErrorCode_mC3BB6E08711E97986F04F148CF10A99E6D0B6819,
+	SpxError_Release_m2DA7CB533EAA4E308AB97DD5E67E91295DB4CFC3,
+	SpxError_ReleaseNoThrow_mD5BC5A60CF3E6942A0897C06A99B0F23929CA582,
+	SpxError_error_get_message_m95606AFC05E1D182E9BFD9E1B4399671BDB77C5C,
+	SpxError_error_get_error_code_m52E3DDF2AE7134765295E48E1E4352C626354A9D,
+	SpxError_error_release_m0A048C5108A6021E5B674AE40B2558586E697AED,
+	SpxError__cctor_m32BA068ABFF5B96AEDEEDAD9FA83D28BD0683F7B,
+	EventArgs_recognizer_event_handle_release_mA58732A27533E21F519F2812B9BB4E11D3FE6A0F,
+	MonoPInvokeCallbackAttribute__ctor_m84F89E9CB4C97ED968D0BCAAF2FDBB52AC7CB666,
+	HandleRelease__ctor_m38C14A53FE9403DFAD6B13923B2D9FACA01588AE,
+	HandleRelease_Invoke_mA31FABBD50FD886AAB189A142C08D208E7CF88F1,
+	HandleRelease_BeginInvoke_m1576462886942C995508EF4B25ACE0BD643AD4CC,
+	HandleRelease_EndInvoke_m61AD6E1B231ABB56127AECECC4CCF4EB49E84E82,
+	InteropSafeHandle__ctor_mABAE89E85BC9B1A642696DAF491F83BEA4A9A4BF,
+	InteropSafeHandle_get_IsInvalid_m7B650E05CC0F9FDC965F989000D795364899B5EA,
+	InteropSafeHandle_ReleaseHandle_m0F16317A8B4DAD0E7BB83AF9133F8347F215C96C,
+	InteropSafeHandle_Dispose_mBAC748D63BED31C7AE9C52FAFD7021BAEF550E2A,
+	NULL,
+	InteropSafeHandle_ToString_m7AFD257CCBD3614B93AB93FBAB3B20F0C2CA3D4D,
+	InteropSafeHandle_Finalize_mC31469A6FA4524D8D5A9F478DB8862E03797FAEF,
+	SpxFactory_GetDataFromHandleUsingDelegate_m864B17EE1E702BEEB5256615631DD41B11E21ACC,
+	SpxFactory_recognizer_create_speech_recognizer_from_config_mB5E66482C47F87CC44048B0190CB00A9C8F9C529,
+	SpxFactory_recognizer_create_translation_recognizer_from_config_mB1DE2DFA2EAEC9857328CCAA2D62182FDD7F827A,
+	GetResultDelegate__ctor_mF25D15A597578900AB701F4ECFB335601637EFCB,
+	GetResultDelegate_Invoke_m1A07425BBA386BDA80E13AFAF93445F73BCD61DC,
+	GetResultDelegate_BeginInvoke_m76BB19734CBBBAC73782A3F7A787E0BCA3CEE8AF,
+	GetResultDelegate_EndInvoke_m13D38F9F57CD675AE1084BB48AE0F7C1A9CD8C41,
+	PropertyCollection_property_bag_set_string_m254D86EE8C87716C0280F589951781F4B7E3E87F,
+	PropertyCollection_property_bag_get_string_m6A3EE72C8C9483AF2F42D5CB11C27EFCF5847398,
+	PropertyCollection_property_bag_free_string_mA44FF2FF1DE00E76E1933C0620A19743E53E2065,
+	PropertyCollection_property_bag_release_mA09923F79379625389DD82D332418C57163435B0,
+	RecognitionResult_result_get_reason_mA12191A2CF4F15BDEB0B9384864025F7AA1637FA,
+	RecognitionResult_result_get_result_id_m72882D96F5F2C62A44735EC4AE5F370FB852496E,
+	RecognitionResult_result_get_text_m5282BD9595677A7E09ACD0D31D9298AB2B09B5C1,
+	RecognitionResult_result_get_property_bag_m83F3C6584317CBE18F359A49CAA38D8A39BF8FD3,
+	RecognitionResult_recognizer_result_handle_is_valid_m0461056AE8F887067E41F90018147C90FD01A6DD,
+	RecognitionResult_recognizer_result_handle_release_mCBF8BCD60731C507F593669FECC6DB7260F84ECC,
+	RecognitionResult_translation_text_result_get_translation_text_buffer_header_m2668F37BF9FAE0D04F1D34C8B30AA4A8A6A954B3,
+	RecognitionResult_translation_synthesis_result_get_audio_data_m2D2B7A555C4F1F6F3319CDB0BF3526DFCB1FB377,
+	CallbackFunctionDelegate__ctor_mDE545F22DBFF62D4085AF8B43D6B192D54E00386,
+	CallbackFunctionDelegate_Invoke_mC262ABC4DA504D29BA712468E9DC1D68ED64A035,
+	CallbackFunctionDelegate_BeginInvoke_m3D5F5039A15007348CAA8C088F795C5B9C87063B,
+	CallbackFunctionDelegate_EndInvoke_mF17613B270D3C9BFDE8C80B6052F5BFFC0E14B20,
+	Recognizer_recognizer_get_property_bag_m78DB85D0F192B71179FB5431EF9964B091015F04,
+	Recognizer_recognizer_handle_release_m81270BB2C41BB84A47D2DC443CDBAC7AA2141281,
+	Recognizer_recognizer_start_continuous_recognition_async_m2322F7A1288A1725BFF85E8951BF5BA92F064A1D,
+	Recognizer_recognizer_start_continuous_recognition_async_wait_for_m25CC951D64F9416A6D9C02E5ADC467BEC087D8F2,
+	Recognizer_recognizer_stop_continuous_recognition_async_m47FE099E1180174B9C901384FAC5D4AE754C46AF,
+	Recognizer_recognizer_stop_continuous_recognition_async_wait_for_mA778073DD4C45F082625DF485852B0D08EA69734,
+	Recognizer_recognizer_async_handle_release_m91AD76F45CBBC2A1FC8B78A255D3D7E743F8DD70,
+	Recognizer_recognizer_recognition_event_get_offset_mE3B3CAB20D9E25B244FBD501506EE0700BD23721,
+	Recognizer_recognizer_session_event_get_session_id_m4381CE0315B710E24BB0610D5C021D6FB6940FA6,
+	Recognizer_recognizer_recognition_event_get_result_m4DA203B63EF3F8E6944D99BB42D98653FDC2CEFC,
+	Recognizer_recognizer_session_started_set_callback_mAD7BA5FACE695E2EF603EBAB87835F312E3DD5B3,
+	Recognizer_recognizer_session_stopped_set_callback_m8300A4A86349CEE28C34FF4AFAAE6CEB685A4CE2,
+	Recognizer_recognizer_speech_start_detected_set_callback_m58AA90C6CD1B4F2190071E56A1AF2FBD5F179BF8,
+	Recognizer_recognizer_speech_end_detected_set_callback_mB106BEC5AE0BB846C4448C9A7FD63854AE536A43,
+	Recognizer_recognizer_recognizing_set_callback_m28536074A86D5AB1369F95C9B714D7818C6311BA,
+	Recognizer_recognizer_recognized_set_callback_m4F3B1CF5955A9020E1924AB56B002BAFD8B70B85,
+	Recognizer_recognizer_canceled_set_callback_m222AC60BE8CAAE0E00D5A8E50031C1F99BBC532D,
+	Recognizer_translator_synthesizing_audio_set_callback_mABB2BE127951DEDA4095F439B71E3FD4E453D0A0,
+	SpxExceptionThrower_ThrowIfFail_m90C92380A9E7BF9B63F1192DE120A1A5E9445911,
+	SpxExceptionThrower_ThrowIfNull_mC3247410BA2C3E2E5E5EB0A5D03DA5ECC30C4FF5,
+	SpxExceptionThrower_ThrowIfNull_m2979CAFE21C599A40FB34AAE7777FF5BF0B9E03C,
+	SpxExceptionThrower_ThrowIfFail_m2528B3C10CA3FC050E6D01EFABF83CC88DBCA4D9,
+	SpxExceptionThrower_LogErrorIfFail_mC27E865F834245B35B0DCCC3C627670AEEE9A0BD,
+	SpxExceptionThrower_LogError_m0A082DA2E1A7C1F0846E271B2AAA63673CE20402,
+	Utf8StringMarshaler_MarshalNativeToManaged_mE3176B3F81593CCDD474A1DF3813804ECE4A79E7,
+	Utf8StringMarshaler_MarshalManagedToNative_m2EB3F0F826B4A93D6C3A63565F0BEA647C0BAA34,
+	Utf8StringMarshaler_MarshalManagedToNative_mF66EF1E5F35BAE95CD414179F3EF8D672C098B3B,
+	Diagnostics_Args_m251253E55B990FCC7FF3EAD5A275736B01DBCB92,
+	Diagnostics_SPX_TRACE_VERBOSE_m426BBFEE0D63C3631ABC3B3DF179D99478F83CCC,
+	Diagnostics_SPX_TRACE_VERBOSE_m6908A21A209406C576DBADED0D873DE54C3E6735,
+	Diagnostics__cctor_m31311509DDC17D7F6EFF5F2FECB24F2C81A230C1,
+};
+static const int32_t s_InvokerIndices[227] = 
+{
+	7,
+	23,
+	34,
+	62,
+	27,
+	153,
+	7,
+	192,
+	14,
+	7,
+	14,
+	10,
+	14,
+	14,
+	26,
+	14,
+	0,
+	26,
+	10,
+	32,
+	10,
+	32,
+	14,
+	26,
+	14,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	23,
+	23,
+	31,
+	1412,
+	1412,
+	1412,
+	1412,
+	26,
+	23,
+	23,
+	1,
+	138,
+	3702,
+	3703,
+	3704,
+	7,
+	14,
+	14,
+	7,
+	1,
+	26,
+	27,
+	7,
+	7,
+	14,
+	14,
+	7,
+	10,
+	10,
+	14,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	14,
+	26,
+	14,
+	14,
+	23,
+	31,
+	1412,
+	1412,
+	1412,
+	23,
+	23,
+	7,
+	1,
+	26,
+	7,
+	14,
+	14,
+	23,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	14,
+	26,
+	14,
+	14,
+	23,
+	31,
+	1412,
+	1412,
+	1412,
+	1412,
+	23,
+	23,
+	7,
+	10,
+	14,
+	26,
+	7,
+	14,
+	14,
+	7,
+	14,
+	14,
+	7,
+	10,
+	10,
+	14,
+	3705,
+	3705,
+	1942,
+	966,
+	3705,
+	1942,
+	2601,
+	3706,
+	18,
+	174,
+	25,
+	629,
+	966,
+	966,
+	966,
+	3,
+	966,
+	26,
+	138,
+	1411,
+	889,
+	165,
+	1414,
+	89,
+	89,
+	31,
+	-1,
+	14,
+	23,
+	133,
+	1942,
+	1942,
+	138,
+	3162,
+	3707,
+	165,
+	3708,
+	3708,
+	966,
+	966,
+	3705,
+	3159,
+	3159,
+	3705,
+	109,
+	966,
+	3709,
+	3709,
+	138,
+	1418,
+	1419,
+	26,
+	3705,
+	966,
+	3705,
+	638,
+	3705,
+	638,
+	966,
+	3705,
+	3159,
+	3705,
+	3710,
+	3710,
+	3710,
+	3710,
+	3710,
+	3710,
+	3710,
+	3710,
+	25,
+	148,
+	1482,
+	3711,
+	25,
+	173,
+	18,
+	24,
+	3705,
+	0,
+	612,
+	3712,
+	3,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[11] = 
+{
+	{ 0x0600002E, 21,  (void**)&Recognizer_FireEvent_SetSessionStarted_mCF41D541D7BE7A62317E86900F2AA2623A0F1E56_RuntimeMethod_var, 0 },
+	{ 0x0600002F, 22,  (void**)&Recognizer_FireEvent_SetSessionStopped_m1744D16CE80810C45299095BB9350EF74CD697F0_RuntimeMethod_var, 0 },
+	{ 0x06000030, 23,  (void**)&Recognizer_FireEvent_SpeechStartDetected_m5A0303B793DEE63CA3E1C5360C0B3CFB051454F1_RuntimeMethod_var, 0 },
+	{ 0x06000031, 24,  (void**)&Recognizer_FireEvent_SpeechEndDetected_m60B70E7C6524081E1C6E4E208EB989E6AF4FA984_RuntimeMethod_var, 0 },
+	{ 0x0600005D, 25,  (void**)&SpeechRecognizer_FireEvent_Recognizing_m04B3941BCB305E6EEA61C01B25221B6AFCB64CF9_RuntimeMethod_var, 0 },
+	{ 0x0600005E, 26,  (void**)&SpeechRecognizer_FireEvent_Recognized_m7B66BF8F7176BA99BD0719398E3DBF5B227337AA_RuntimeMethod_var, 0 },
+	{ 0x0600005F, 27,  (void**)&SpeechRecognizer_FireEvent_Canceled_m196DE0AF9B978BF526926931E8C64745D4461C0E_RuntimeMethod_var, 0 },
+	{ 0x0600007D, 28,  (void**)&TranslationRecognizer_FireEvent_Recognizing_mA8D429CB9E8FFEC7C10E1F070F665B0BA84B0030_RuntimeMethod_var, 0 },
+	{ 0x0600007E, 29,  (void**)&TranslationRecognizer_FireEvent_Recognized_mF4796E7E5F690D4341C2BE50E1D2A8BD88354429_RuntimeMethod_var, 0 },
+	{ 0x0600007F, 30,  (void**)&TranslationRecognizer_FireEvent_Canceled_mF5ABD120E0772BA94E219F2AEBE3A4967A14CC7C_RuntimeMethod_var, 0 },
+	{ 0x06000080, 31,  (void**)&TranslationRecognizer_FireEvent_SynthesisResult_mEAE05BBDCF505C4C9517E0A3B145F0A75D84D7AA_RuntimeMethod_var, 0 },
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x060000AB, { 0, 1 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
+{
+	{ (Il2CppRGCTXDataType)2, 85670 },
+};
+extern const Il2CppCodeGenModule g_Microsoft_CognitiveServices_Speech_csharpCodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_CognitiveServices_Speech_csharpCodeGenModule = 
+{
+	"Microsoft.CognitiveServices.Speech.csharp.dll",
+	227,
+	s_methodPointers,
+	s_InvokerIndices,
+	11,
+	s_reversePInvokeIndices,
+	1,
+	s_rgctxIndices,
+	1,
+	s_rgctxValues,
+	NULL,
+};

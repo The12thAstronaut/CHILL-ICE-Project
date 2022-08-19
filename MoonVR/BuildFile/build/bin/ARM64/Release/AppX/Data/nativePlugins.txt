@@ -1,0 +1,9 @@
+Microsoft.CognitiveServices.Speech.extension.silk_codec.dll
+mrwebrtc.dll
+Microsoft.MixedReality.SceneUnderstanding.dll
+AzureSpatialAnchors.dll
+CoarseRelocUW.dll
+Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+AudioPluginMsHRTF.dll
+Microsoft.CognitiveServices.Speech.extension.kws.dll
+Microsoft.CognitiveServices.Speech.core.dll

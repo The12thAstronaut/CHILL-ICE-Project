@@ -80,7 +80,7 @@ public class voiceManager : MonoBehaviour
                     break;
                 case "Settings":
                     print("Opening Settings Panel");
-                    menuButtons[2].GetComponent<PressableButtonHoloLens2>().ButtonPressed.Invoke();
+                    menuButtons[7].GetComponent<PressableButtonHoloLens2>().ButtonPressed.Invoke();
                     word = "none";
                     break;
                 case "Task":
@@ -110,7 +110,7 @@ public class voiceManager : MonoBehaviour
                     break;
                 case "Suit":
                     print("Opening Suit Panel");
-                    menuButtons[7].GetComponent<PressableButtonHoloLens2>().ButtonPressed.Invoke();
+                    menuButtons[2].GetComponent<PressableButtonHoloLens2>().ButtonPressed.Invoke();
                     word = "none";
                     break;
                 case "Show Menu":

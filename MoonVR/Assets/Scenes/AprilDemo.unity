@@ -31346,7 +31346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1585855317}
   manipulationType: 3
   twoHandedManipulationType: 7
   allowFarManipulation: 1
@@ -53579,7 +53579,7 @@ PrefabInstance:
     - target: {fileID: 877739657405552209, guid: e557ce6d38cad7844963d92db3a8ed0b,
         type: 3}
       propertyPath: m_text
-      value: Lander
+      value: Echo
       objectReference: {fileID: 0}
     - target: {fileID: 877739657405552209, guid: e557ce6d38cad7844963d92db3a8ed0b,
         type: 3}
@@ -57786,6 +57786,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6163419087384770723, guid: 97e5836c23a56d24ba6c131d8ff03a73, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 97e5836c23a56d24ba6c131d8ff03a73, type: 3}
+--- !u!224 &1585855317 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3176702535451562610, guid: 97e5836c23a56d24ba6c131d8ff03a73,
+    type: 3}
+  m_PrefabInstance: {fileID: 1585855316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1588149073
 GameObject:
   m_ObjectHideFlags: 0
@@ -85256,7 +85262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Set Lander Anchor
+  m_text: Set Echo Anchor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce,
