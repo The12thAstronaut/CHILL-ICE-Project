@@ -45,5 +45,12 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         {
             photonView.RequestOwnership();
         }
+
+        public void OnOwnershipTransferFailed(PhotonView targetView, Player previousOwner)
+        {
+            // Empty method to fix bug
+            // Suggested on the photon engine forums
+            // https://forum.photonengine.com/discussion/18509/error-cs0535-occurred-while-following-the-steps-of-mrtk-tutorial-in-ms-docs-hololens-2
+        }
     }
 }
