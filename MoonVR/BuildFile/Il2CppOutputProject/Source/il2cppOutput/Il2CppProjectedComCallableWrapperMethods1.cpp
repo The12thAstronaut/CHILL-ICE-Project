@@ -338,9 +338,8 @@ IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t21B7C3F16270277036176E4B246FD0280
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t22A03F9CB69E228A033183254CFA962DBA0B6D32_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t2AF33D5C229D7797F044439DC291D2C4F4F0E9BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t36441E635AB70A6DB2919479060411437E61E80A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t423134076199A208F4CCAA64CEE1753D834AF9CC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t474B96650C2F81F900305B229D767B7D0E3DEC94_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t53F3BAEE44353110551708ADD3C4BEFDE24CEA7C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t4820F6F65DABB711DC307EC4ECBB49F1A856ABA9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t581813FF84D3C963A4EB78DE10EF1E7EEB8EF3FE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t64229E8418E361463A6B30FDECEDD757113952FC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t65CC2EAD6BEA438BB9AB93C04245173C397FD82D_il2cpp_TypeInfo_var;
@@ -351,6 +350,7 @@ IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t74EDEB37ECD6589975C9615E4BAA40F10
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t82193363BF44AAF36E630B42F361CD1692831AAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t8FFA58BE25A69A9EC9876A7154EB596F0EF5D508_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tA21353721C4509554ECDED9188C9614435FAABFA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tAC030C7C7441ECA474A74F0C221538CCC199B6B6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tADA9A913D82971D7154C7E4750E8FF3762B94E2D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tB31032040CD4C91524FDC5CFCE08076C5174AB91_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tBE473D6B301E7ADB3C93F6CAD5DE287CFF2C513B_il2cpp_TypeInfo_var;
@@ -9845,7 +9845,7 @@ il2cpp_hresult_t IVector_1_GetView_m5706C1523BEF32FA5D517CF45B8C1D656805F738_Com
 	try
 	{
 		RuntimeObject* __thisValue = __this;
-		if (IsInst(__thisValue, IReadOnlyList_1_t53F3BAEE44353110551708ADD3C4BEFDE24CEA7C_il2cpp_TypeInfo_var))
+		if (IsInst(__thisValue, IReadOnlyList_1_t4820F6F65DABB711DC307EC4ECBB49F1A856ABA9_il2cpp_TypeInfo_var))
 		{
 			returnValue = __thisValue;
 		}
@@ -10587,7 +10587,7 @@ il2cpp_hresult_t IVectorView_1_GetAt_m14F9F838AEFF053BF5113A7C11D53404385FCDDE_C
 	{
 		try
 		{
-			returnValue = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t53F3BAEE44353110551708ADD3C4BEFDE24CEA7C_il2cpp_TypeInfo_var, __this, ___index0);
+			returnValue = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t4820F6F65DABB711DC307EC4ECBB49F1A856ABA9_il2cpp_TypeInfo_var, __this, ___index0);
 		}
 		catch (const Il2CppExceptionWrapper& ex)
 		{
@@ -10679,7 +10679,7 @@ il2cpp_hresult_t IVectorView_1_IndexOf_m61183EE261ECC5A0AA685E3F1A63E24DE31D4B42
 		int elementsInCollection = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.IReadOnlyCollection`1<System.Int16>::get_Count() */, IReadOnlyCollection_1_tF04E8F68D07757873FCFF23EC5F94898FBAE3717_il2cpp_TypeInfo_var, __this);
 		for (int i = 0; i < elementsInCollection; i++)
 		{
-			int16_t item = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t53F3BAEE44353110551708ADD3C4BEFDE24CEA7C_il2cpp_TypeInfo_var, __this, i);
+			int16_t item = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t4820F6F65DABB711DC307EC4ECBB49F1A856ABA9_il2cpp_TypeInfo_var, __this, i);
 			if (item == ___value0)
 			{
 				____index1_empty = static_cast<uint32_t>(i);
@@ -10738,7 +10738,7 @@ il2cpp_hresult_t IVectorView_1_GetMany_mBA7C082D1246775525C0887B9CDFD05C0F81A945
 			returnValue = std::min(___items1ArraySize, elementsInCollection - ___startIndex0);
 			for (uint32_t i = 0; i < returnValue; i++)
 			{
-				int16_t itemManaged = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t53F3BAEE44353110551708ADD3C4BEFDE24CEA7C_il2cpp_TypeInfo_var, __this, i + ___startIndex0);
+				int16_t itemManaged = InterfaceFuncInvoker1< int16_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Int16>::get_Item(System.Int32) */, IReadOnlyList_1_t4820F6F65DABB711DC307EC4ECBB49F1A856ABA9_il2cpp_TypeInfo_var, __this, i + ___startIndex0);
 				___items1[i] = itemManaged;
 			}
 		}
@@ -10867,7 +10867,7 @@ il2cpp_hresult_t IVector_1_GetView_m5C4041963CDEA0CEA2F0F9D2F16EFC3D8299296D_Com
 	try
 	{
 		RuntimeObject* __thisValue = __this;
-		if (IsInst(__thisValue, IReadOnlyList_1_t423134076199A208F4CCAA64CEE1753D834AF9CC_il2cpp_TypeInfo_var))
+		if (IsInst(__thisValue, IReadOnlyList_1_tAC030C7C7441ECA474A74F0C221538CCC199B6B6_il2cpp_TypeInfo_var))
 		{
 			returnValue = __thisValue;
 		}
@@ -11609,7 +11609,7 @@ il2cpp_hresult_t IVectorView_1_GetAt_m7A1B74FDB62EE471C566ABC673A166BD973D53CE_C
 	{
 		try
 		{
-			returnValue = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_t423134076199A208F4CCAA64CEE1753D834AF9CC_il2cpp_TypeInfo_var, __this, ___index0);
+			returnValue = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_tAC030C7C7441ECA474A74F0C221538CCC199B6B6_il2cpp_TypeInfo_var, __this, ___index0);
 		}
 		catch (const Il2CppExceptionWrapper& ex)
 		{
@@ -11701,7 +11701,7 @@ il2cpp_hresult_t IVectorView_1_IndexOf_m33C42AA555D77EE38E58AF4046FAD02C3DB9FB52
 		int elementsInCollection = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.IReadOnlyCollection`1<System.Single>::get_Count() */, IReadOnlyCollection_1_t1B7983AD1823DA4CB88D79DF38D43BD286A49A18_il2cpp_TypeInfo_var, __this);
 		for (int i = 0; i < elementsInCollection; i++)
 		{
-			float item = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_t423134076199A208F4CCAA64CEE1753D834AF9CC_il2cpp_TypeInfo_var, __this, i);
+			float item = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_tAC030C7C7441ECA474A74F0C221538CCC199B6B6_il2cpp_TypeInfo_var, __this, i);
 			if (item == ___value0)
 			{
 				____index1_empty = static_cast<uint32_t>(i);
@@ -11760,7 +11760,7 @@ il2cpp_hresult_t IVectorView_1_GetMany_mB61F24A55E27429FBDA0AF3BCFBA13B05D9558EB
 			returnValue = std::min(___items1ArraySize, elementsInCollection - ___startIndex0);
 			for (uint32_t i = 0; i < returnValue; i++)
 			{
-				float itemManaged = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_t423134076199A208F4CCAA64CEE1753D834AF9CC_il2cpp_TypeInfo_var, __this, i + ___startIndex0);
+				float itemManaged = InterfaceFuncInvoker1< float, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<System.Single>::get_Item(System.Int32) */, IReadOnlyList_1_tAC030C7C7441ECA474A74F0C221538CCC199B6B6_il2cpp_TypeInfo_var, __this, i + ___startIndex0);
 				___items1[i] = itemManaged;
 			}
 		}

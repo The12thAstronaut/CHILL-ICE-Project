@@ -7104,7 +7104,7 @@ public:
 	// System.Threading.Tasks.Task`1<System.Boolean> System.Threading.SemaphoreSlim::s_trueTask
 	Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * ___s_trueTask_7;
 	// System.Action`1<System.Object> System.Threading.SemaphoreSlim::s_cancellationTokenCanceledEventHandler
-	Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * ___s_cancellationTokenCanceledEventHandler_8;
+	Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * ___s_cancellationTokenCanceledEventHandler_9;
 
 public:
 	inline static int32_t get_offset_of_s_trueTask_7() { return static_cast<int32_t>(offsetof(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields, ___s_trueTask_7)); }
@@ -7116,13 +7116,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___s_trueTask_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_cancellationTokenCanceledEventHandler_8() { return static_cast<int32_t>(offsetof(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields, ___s_cancellationTokenCanceledEventHandler_8)); }
-	inline Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * get_s_cancellationTokenCanceledEventHandler_8() const { return ___s_cancellationTokenCanceledEventHandler_8; }
-	inline Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 ** get_address_of_s_cancellationTokenCanceledEventHandler_8() { return &___s_cancellationTokenCanceledEventHandler_8; }
-	inline void set_s_cancellationTokenCanceledEventHandler_8(Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * value)
+	inline static int32_t get_offset_of_s_cancellationTokenCanceledEventHandler_9() { return static_cast<int32_t>(offsetof(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields, ___s_cancellationTokenCanceledEventHandler_9)); }
+	inline Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * get_s_cancellationTokenCanceledEventHandler_9() const { return ___s_cancellationTokenCanceledEventHandler_9; }
+	inline Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 ** get_address_of_s_cancellationTokenCanceledEventHandler_9() { return &___s_cancellationTokenCanceledEventHandler_9; }
+	inline void set_s_cancellationTokenCanceledEventHandler_9(Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * value)
 	{
-		___s_cancellationTokenCanceledEventHandler_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_cancellationTokenCanceledEventHandler_8), (void*)value);
+		___s_cancellationTokenCanceledEventHandler_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_cancellationTokenCanceledEventHandler_9), (void*)value);
 	}
 };
 
@@ -14663,6 +14663,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim_Wait_mE6DB20AC7CFF0C340A49
 		return;
 	}
 }
+// System.Boolean System.Threading.SemaphoreSlim::Wait(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SemaphoreSlim_Wait_m06C7EEAE82739011DE288ACF6F58F2331649D83D (SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * __this, int32_t ___millisecondsTimeout0, const RuntimeMethod* method)
+{
+	CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___millisecondsTimeout0;
+		il2cpp_codegen_initobj((&V_0), sizeof(CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB ));
+		CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  L_1 = V_0;
+		bool L_2 = SemaphoreSlim_Wait_m29DC4B74F86F97ACA15A0454BDD03DFB78C84A12(__this, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.Boolean System.Threading.SemaphoreSlim::Wait(System.Int32,System.Threading.CancellationToken)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SemaphoreSlim_Wait_m29DC4B74F86F97ACA15A0454BDD03DFB78C84A12 (SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * __this, int32_t ___millisecondsTimeout0, CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  ___cancellationToken1, const RuntimeMethod* method)
 {
@@ -14738,7 +14751,7 @@ IL_003c:
 		V_2 = (Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 *)NULL;
 		V_3 = (bool)0;
 		IL2CPP_RUNTIME_CLASS_INIT(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var);
-		Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * L_9 = ((SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields*)il2cpp_codegen_static_fields_for(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var))->get_s_cancellationTokenCanceledEventHandler_8();
+		Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * L_9 = ((SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields*)il2cpp_codegen_static_fields_for(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var))->get_s_cancellationTokenCanceledEventHandler_9();
 		CancellationTokenRegistration_tCDB9825D1854DD0D7FF737C82B099FC468107BB2  L_10 = CancellationToken_InternalRegisterWithoutEC_m2AB5F8C5E8800786BE0825ACE80BAA2EFB719DFF((CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB *)(&___cancellationToken1), L_9, __this, /*hidden argument*/NULL);
 		V_4 = L_10;
 	}
@@ -15984,7 +15997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim__cctor_m34A79947854EAC06EB
 		((SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields*)il2cpp_codegen_static_fields_for(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var))->set_s_trueTask_7(L_1);
 		Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * L_2 = (Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 *)il2cpp_codegen_object_new(Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0_il2cpp_TypeInfo_var);
 		Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510(L_2, NULL, (intptr_t)((intptr_t)SemaphoreSlim_CancellationTokenCanceledEventHandler_mB383239D3DB7336602D104C7D17B70F5D2232389_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510_RuntimeMethod_var);
-		((SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields*)il2cpp_codegen_static_fields_for(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var))->set_s_cancellationTokenCanceledEventHandler_8(L_2);
+		((SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_StaticFields*)il2cpp_codegen_static_fields_for(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048_il2cpp_TypeInfo_var))->set_s_cancellationTokenCanceledEventHandler_9(L_2);
 		return;
 	}
 }
@@ -22993,6 +23006,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_IsCompletedMethod_mDB10A23B3BE87989
 		return (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)23068672)))) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
+// System.Boolean System.Threading.Tasks.Task::get_IsCompletedSuccessfully()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompletedSuccessfully_m44041358F44D6BC880C45B3EECFB05DDF1E3D400 (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = __this->get_m_stateFlags_9();
+		il2cpp_codegen_memory_barrier();
+		return (bool)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)23068672)))) == ((int32_t)((int32_t)16777216)))? 1 : 0);
+	}
+}
 // System.Boolean System.Threading.Tasks.Task::get_IsRanToCompletion()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsRanToCompletion_mCCFB04975336938D365F65C71C75A38CFE3721BC (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, const RuntimeMethod* method)
 {
@@ -25655,6 +25677,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Task_Wait_m7793234C16E5D2B719519CE3C5565
 		return;
 	}
 }
+// System.Boolean System.Threading.Tasks.Task::Wait(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_Wait_mDB77694E7CA32B0D6F92B35A097383A59A01BA48 (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, int32_t ___millisecondsTimeout0, const RuntimeMethod* method)
+{
+	CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___millisecondsTimeout0;
+		il2cpp_codegen_initobj((&V_0), sizeof(CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB ));
+		CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  L_1 = V_0;
+		bool L_2 = Task_Wait_m937DA145B3571DD253A6FB99CBC824F0839FDA72(__this, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.Boolean System.Threading.Tasks.Task::Wait(System.Int32,System.Threading.CancellationToken)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_Wait_m937DA145B3571DD253A6FB99CBC824F0839FDA72 (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, int32_t ___millisecondsTimeout0, CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  ___cancellationToken1, const RuntimeMethod* method)
 {
@@ -26947,6 +26982,20 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69AC
 		CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  L_2 = V_1;
 		Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * L_3 = Task_ContinueWith_m9B5987FB2709FB98AD32D3083DC203748C43D04B(__this, L_0, L_1, L_2, 0, (int32_t*)(&V_0), /*hidden argument*/NULL);
 		return L_3;
+	}
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::ContinueWith(System.Action`1<System.Threading.Tasks.Task>,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * Task_ContinueWith_m8A6FCDE3052E2D23E153C904DB0F30B3309E3A8C (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, Action_1_t965212EDC10FB8052CC3E9BF3FBDF913BEFD4827 * ___continuationAction0, CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  ___cancellationToken1, int32_t ___continuationOptions2, TaskScheduler_t966F2798F198FA90A0DA8EFC92BAC08297793114 * ___scheduler3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 1;
+		Action_1_t965212EDC10FB8052CC3E9BF3FBDF913BEFD4827 * L_0 = ___continuationAction0;
+		TaskScheduler_t966F2798F198FA90A0DA8EFC92BAC08297793114 * L_1 = ___scheduler3;
+		CancellationToken_t9E956952F7F20908F2AE72EDF36D97E6C7DB63AB  L_2 = ___cancellationToken1;
+		int32_t L_3 = ___continuationOptions2;
+		Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * L_4 = Task_ContinueWith_m9B5987FB2709FB98AD32D3083DC203748C43D04B(__this, L_0, L_1, L_2, L_3, (int32_t*)(&V_0), /*hidden argument*/NULL);
+		return L_4;
 	}
 }
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::ContinueWith(System.Action`1<System.Threading.Tasks.Task>,System.Threading.Tasks.TaskScheduler,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.StackCrawlMark&)

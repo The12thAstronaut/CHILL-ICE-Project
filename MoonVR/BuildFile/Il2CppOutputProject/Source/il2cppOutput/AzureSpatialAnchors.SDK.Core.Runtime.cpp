@@ -4438,7 +4438,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m0CE0B6919A0
 // System.Void System.Collections.Generic.Queue`1<System.Object>::Enqueue(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m12D1C0BBE742C2537335B7E2B71F7E42A421A6FD_gshared (Queue_1_tCC0C12E9ABD1C1421DEDD8C737F1A87C67ACC8F0 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Queue`1<System.Object>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_mF36FE6C8779E886EBE356BF7752596F9D9AC71BE_gshared (Queue_1_tCC0C12E9ABD1C1421DEDD8C737F1A87C67ACC8F0 * __this, int32_t ___capacity0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_mB9BC12C810333F8482D93ECD911EEBE71112E54D_gshared (Queue_1_tCC0C12E9ABD1C1421DEDD8C737F1A87C67ACC8F0 * __this, int32_t ___capacity0, const RuntimeMethod* method);
 
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
@@ -4980,7 +4980,7 @@ inline void Queue_1_Enqueue_m970999AE950228056D62A65FE6AC2ED8250AD571 (Queue_1_t
 // System.Void System.Collections.Generic.Queue`1<System.Action>::.ctor(System.Int32)
 inline void Queue_1__ctor_mA862BA07BDDE0E72D6C88C83F6AFB17811251A82 (Queue_1_t3900094C92EA06922F371A34500D5D7E6ACF2795 * __this, int32_t ___capacity0, const RuntimeMethod* method)
 {
-	((  void (*) (Queue_1_t3900094C92EA06922F371A34500D5D7E6ACF2795 *, int32_t, const RuntimeMethod*))Queue_1__ctor_mF36FE6C8779E886EBE356BF7752596F9D9AC71BE_gshared)(__this, ___capacity0, method);
+	((  void (*) (Queue_1_t3900094C92EA06922F371A34500D5D7E6ACF2795 *, int32_t, const RuntimeMethod*))Queue_1__ctor_mB9BC12C810333F8482D93ECD911EEBE71112E54D_gshared)(__this, ___capacity0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic push

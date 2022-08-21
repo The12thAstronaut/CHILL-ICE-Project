@@ -10597,7 +10597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m3C52626EAD0998616A6
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mE2BD5476A999119F49555D958386A0688E9C0C01_gshared (Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.HashSet`1<System.Object>::get_Count()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m3199849B2D9664DC8C8F48BC9962FAE119ED2BCA_gshared_inline (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(!0)
@@ -10795,7 +10795,7 @@ inline void Enumerator_Dispose_m5A76FCD7A5BDD1A9F61A98164A8CBA72C037B116 (Enumer
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>::Remove(!0)
 inline bool HashSet_1_Remove_mA6D93F3F3AB723D208ECD0BED696F4862A100365 (HashSet_1_tB59AB701726F5C621DD326286AA6F830502B679D * __this, Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tB59AB701726F5C621DD326286AA6F830502B679D *, Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 *, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tB59AB701726F5C621DD326286AA6F830502B679D *, Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Int32 System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>::get_Count()
 inline int32_t HashSet_1_get_Count_m468A6154DCBE7B0FA15B3C70A06E084CC4BE1DDC_inline (HashSet_1_tB59AB701726F5C621DD326286AA6F830502B679D * __this, const RuntimeMethod* method)

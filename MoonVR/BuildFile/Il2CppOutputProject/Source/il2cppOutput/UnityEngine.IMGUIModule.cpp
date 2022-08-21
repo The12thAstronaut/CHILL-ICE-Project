@@ -209,7 +209,7 @@ struct Exception_t;
 // System.Func`1<System.Boolean>
 struct Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1;
 // System.Func`2<System.Exception,System.Boolean>
-struct Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8;
+struct Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879;
 // System.Func`3<System.Int32,System.IntPtr,System.Boolean>
@@ -440,7 +440,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mB540C90AE8EBE0EB3D63A6A
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m3A0A0A98E9378A32A74EC51C4CAB6C564001CAC7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m9422C22943D0E9900CDB7DF407D9EBE215B2A6B6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1_Invoke_mFA91B93A5C91290D4A3C475C4117CA05B43419E6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Func_2_Invoke_m9621506610C10C9E735B305E826ACEFF914422CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2_Invoke_m400E2C9C3F829B4E4DA3DE8818ED96623384AA2B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_3_Invoke_mCD6DEEC09B4F1B42DD0FD4A8F58632B08EC66737_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUILayoutGroup_GetNext_m0C486106E3ABC96620C4A0AF67CE12BF09C347B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUILayoutUtility_BeginLayoutArea_m15DFD32060BD3C3F13664AC7150720AB4A026DFF_RuntimeMethod_var;
@@ -1576,7 +1576,7 @@ public:
 	// System.Action UnityEngine.GUIUtility::cleanupRoots
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___cleanupRoots_5;
 	// System.Func`2<System.Exception,System.Boolean> UnityEngine.GUIUtility::endContainerGUIFromException
-	Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * ___endContainerGUIFromException_6;
+	Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * ___endContainerGUIFromException_6;
 	// System.Action UnityEngine.GUIUtility::guiChanged
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___guiChanged_7;
 	// System.Boolean UnityEngine.GUIUtility::<guiIsExiting>k__BackingField
@@ -1638,9 +1638,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_endContainerGUIFromException_6() { return static_cast<int32_t>(offsetof(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields, ___endContainerGUIFromException_6)); }
-	inline Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * get_endContainerGUIFromException_6() const { return ___endContainerGUIFromException_6; }
-	inline Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 ** get_address_of_endContainerGUIFromException_6() { return &___endContainerGUIFromException_6; }
-	inline void set_endContainerGUIFromException_6(Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * value)
+	inline Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * get_endContainerGUIFromException_6() const { return ___endContainerGUIFromException_6; }
+	inline Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F ** get_address_of_endContainerGUIFromException_6() { return &___endContainerGUIFromException_6; }
+	inline void set_endContainerGUIFromException_6(Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * value)
 	{
 		___endContainerGUIFromException_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___endContainerGUIFromException_6), (void*)value);
@@ -5064,7 +5064,7 @@ public:
 
 
 // System.Func`2<System.Exception,System.Boolean>
-struct  Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8  : public MulticastDelegate_t
+struct  Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F  : public MulticastDelegate_t
 {
 public:
 
@@ -6542,9 +6542,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIContent_ClearStaticCache_m567DA736612
 // System.Boolean UnityEngine.GUIUtility::ShouldRethrowException(System.Exception)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUIUtility_ShouldRethrowException_mCF3B04493727D6A40ED50AC2414D5617455339B6 (Exception_t * ___exception0, const RuntimeMethod* method);
 // !1 System.Func`2<System.Exception,System.Boolean>::Invoke(!0)
-inline bool Func_2_Invoke_m9621506610C10C9E735B305E826ACEFF914422CD (Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * __this, Exception_t * ___arg0, const RuntimeMethod* method)
+inline bool Func_2_Invoke_m400E2C9C3F829B4E4DA3DE8818ED96623384AA2B (Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * __this, Exception_t * ___arg0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 *, Exception_t *, const RuntimeMethod*))Func_2_Invoke_mE25788DCE25515291EAA06F55BEF30F9F27FBBA9_gshared)(__this, ___arg0, method);
+	return ((  bool (*) (Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F *, Exception_t *, const RuntimeMethod*))Func_2_Invoke_mE25788DCE25515291EAA06F55BEF30F9F27FBBA9_gshared)(__this, ___arg0, method);
 }
 // UnityEngineInternal.GenericStack UnityEngine.GUI::get_scrollViewStates()
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR GenericStack_tC59D21E8DBC50F3C608479C942200AC44CA2D5BC * GUI_get_scrollViewStates_m2FAC333F84B90E4F1E1ED5FC8651DC8C4C30B7AF_inline (const RuntimeMethod* method);
@@ -21083,8 +21083,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUIUtility_EndContainerGUIFromException_
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * L_0 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
-		V_0 = (bool)((!(((RuntimeObject*)(Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * L_0 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
+		V_0 = (bool)((!(((RuntimeObject*)(Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -21092,10 +21092,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUIUtility_EndContainerGUIFromException_
 		}
 	}
 	{
-		Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * L_2 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
+		Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * L_2 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
 		Exception_t * L_3 = ___exception0;
 		NullCheck(L_2);
-		bool L_4 = Func_2_Invoke_m9621506610C10C9E735B305E826ACEFF914422CD(L_2, L_3, /*hidden argument*/Func_2_Invoke_m9621506610C10C9E735B305E826ACEFF914422CD_RuntimeMethod_var);
+		bool L_4 = Func_2_Invoke_m400E2C9C3F829B4E4DA3DE8818ED96623384AA2B(L_2, L_3, /*hidden argument*/Func_2_Invoke_m400E2C9C3F829B4E4DA3DE8818ED96623384AA2B_RuntimeMethod_var);
 		V_1 = L_4;
 		goto IL_001f;
 	}

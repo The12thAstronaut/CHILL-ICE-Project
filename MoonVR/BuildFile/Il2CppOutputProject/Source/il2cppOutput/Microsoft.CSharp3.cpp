@@ -11618,7 +11618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OfType_TisRuntimeOb
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared (Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Boolean System.Linq.Enumerable::Any<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
@@ -12385,7 +12385,7 @@ inline void Func_2__ctor_mC8F4FDE1EF6033FF679CFD730E397974CE704278 (Func_2_tF7AC
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Runtime.CompilerServices.InternalsVisibleToAttribute,System.Reflection.AssemblyName>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisInternalsVisibleToAttribute_t3AEE3C8B7B894E54091E79A5A1C570B6DBB82767_TisAssemblyName_t6F3EC58113268060348EE894DCB46F6EF6BBBB82_m58826900A8F8CCEDC7C265299F6AB28C2CEEFC60 (RuntimeObject* ___source0, Func_2_tF7ACBFB8BB8C5308332F7375F20508D4DF9A4A10 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tF7ACBFB8BB8C5308332F7375F20508D4DF9A4A10 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tF7ACBFB8BB8C5308332F7375F20508D4DF9A4A10 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Void System.Func`2<System.Reflection.AssemblyName,System.Boolean>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_m808696FDF17884DA0EC268F7EB2D9BFF86739234 (Func_2_t1F4B2822FE551B1D49B8B10D943691D7BD349464 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)

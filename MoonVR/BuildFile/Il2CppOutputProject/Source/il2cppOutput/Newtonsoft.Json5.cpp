@@ -14493,7 +14493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2C7E51568033239B506E
 // !!0 System.Linq.Enumerable::LastOrDefault<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_LastOrDefault_TisRuntimeObject_m9E4784C4D799D5770F318BD20B78105674B1DB5D_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Int32 System.Linq.Enumerable::Count<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8E9FA96864291A9D7EFECBE85759FED5F9528EA1 * Enumerable_ToList_TisKeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE_m68395F47242C6E5D4789952939C921360AF0F620_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::GetEnumerator()
@@ -14589,7 +14589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m6E336459937EBBC514F001464C
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // System.Linq.IOrderedEnumerable`1<!!0> System.Linq.Enumerable::OrderBy<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>,System.Collections.Generic.IComparer`1<!!1>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderBy_TisRuntimeObject_TisRuntimeObject_m88B1E7285BB7C4CFD6DDCE5D218324D6BEC23811_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___keySelector1, RuntimeObject* ___comparer2, const RuntimeMethod* method);
 // System.Void System.Collections.ObjectModel.KeyedCollection`2<System.Object,System.Object>::.ctor()
@@ -15032,7 +15032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_m03D31CAB7050E8286A8A9071
 // System.Int32 System.Linq.Enumerable::Count<Newtonsoft.Json.Linq.JToken>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline int32_t Enumerable_Count_TisJToken_t2A0B2A41949AC39CE8E8C39DFB9E37E46E2703F2_mF2C1E317F329E494A9D501966E7AF3A20C61AEC8 (RuntimeObject* ___source0, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared)(___source0, method);
+	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared)(___source0, method);
 }
 // System.Boolean Newtonsoft.Json.Schema.JsonSchema::get_ReferencesResolved()
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR bool JsonSchema_get_ReferencesResolved_m26FD4D2B62035FF045C712FE51D477DEE9BB3FF8_inline (JsonSchema_t840BAF43A6F118874754AB68057F14CB8177FD4D * __this, const RuntimeMethod* method);
@@ -15787,7 +15787,7 @@ inline void Func_2__ctor_m037B9DC6FA1B4FCE28DE19F631E2C3C10EF95661 (Func_2_t1FB2
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Newtonsoft.Json.Schema.JsonSchema,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisJsonSchema_t840BAF43A6F118874754AB68057F14CB8177FD4D_TisString_t_m21451ED6ADD5562C693ADFF5F3FD99052F2E8070 (RuntimeObject* ___source0, Func_2_t1FB2465E5A82A25192B039E54B21C8E819542099 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t1FB2465E5A82A25192B039E54B21C8E819542099 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t1FB2465E5A82A25192B039E54B21C8E819542099 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Void System.Func`2<System.String,System.String>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_mE752CBA6BFA4559301B6A2FED5E1A34B3E391A20 (Func_2_tA838F61747C9836A9B70383AD1F1DF31FB16DE79 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)

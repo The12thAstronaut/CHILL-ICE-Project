@@ -6483,7 +6483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderBy_TisRuntimeO
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * Enumerable_ToList_TisRuntimeObject_m60A4853FE3E8D49EA18001EEBDF8D2773159A337_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Collections.ObjectModel.ReadOnlyCollection`1<!0> System.Collections.Generic.List`1<System.Object>::AsReadOnly()
@@ -6775,7 +6775,7 @@ inline void Func_2__ctor_m63DCCC643C83FECF6B47FD364B887E34F0810DBA (Func_2_tA836
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Reflection.FieldInfo,UnityEngine.Rendering.VolumeParameter>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisFieldInfo_t_TisVolumeParameter_tCDE6ED34C0CCAD13E50C7267DA667EB9F8E5D978_m0A1A3816137D3D54238302995CCBF4C685D65380 (RuntimeObject* ___source0, Func_2_tA836A55552642780FCE7C82F78DD54D71B76BB97 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tA836A55552642780FCE7C82F78DD54D71B76BB97 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tA836A55552642780FCE7C82F78DD54D71B76BB97 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<UnityEngine.Rendering.VolumeParameter>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline List_1_t6744CE43F180BD002102D31EB468920B2B4A0BB2 * Enumerable_ToList_TisVolumeParameter_tCDE6ED34C0CCAD13E50C7267DA667EB9F8E5D978_m7125A13261303A65E8976B3FC278C608E1A89F3A (RuntimeObject* ___source0, const RuntimeMethod* method)

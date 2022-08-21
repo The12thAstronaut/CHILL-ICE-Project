@@ -850,12 +850,12 @@ IL2CPP_EXTERN_C RuntimeClass* Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4_i
 IL2CPP_EXTERN_C RuntimeClass* Guid_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IArrayPool_1_t75003AD22E009C0AC90325B5C489F107F0BEC2C1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_t07089249B235FE067D7DFF77EC766E0BE2FB615D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICollection_1_t4179E989039D1906C03653626445621BEF6D219F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_t673C5263E56218CEE10D5A8A9B65B31BC1554E48_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_t6EF26BE0EC8281D8436F1F1C06C9D1EC8C7634D5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_t91B808EA55C30159408A2490E19AE6A64CDE7AEF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_tC308DBA17F4D6037E4EE646B86F35A007F2FDBF9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_1_tCF6608F5451366FA683D05E3FBEB44FB76C079FD_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ICollection_1_tF199E8A491AFB0F5FE7719C70280982101532AEA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICollection_tA3BAB2482E28132A7CA9E0E21393027353C28B54_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDynamicMetaObjectProvider_t59B41F4DD90BFC241ACD3598700D1C41761A9FD3_il2cpp_TypeInfo_var;
@@ -14118,7 +14118,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_GetValueOrDefault_mEB3
 // System.Void Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Object,System.Object>::.ctor(System.Func`2<TKey,TValue>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadSafeStore_2__ctor_mE2D2FC1369883470FBFED2203825F326847E8E86_gshared (ThreadSafeStore_2_t3C11C4DCAC182348523D194928356010A01A80FF * __this, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___creator0, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Enumerable_ToArray_TisRuntimeObject_mF33F5D8045B820AE98F4EEE7524A58F9B52436DA_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Object Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>::Invoke(System.Object[])
@@ -14445,7 +14445,7 @@ inline void Func_2__ctor_mE32884D9F0FE330F45FDF03419E9C5C465E1CD1B (Func_2_t35C3
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Type>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisRuntimeObject_TisType_t_m110F9105226CA989762ECB1FFF4B95E5E3D54971 (RuntimeObject* ___source0, Func_2_t35C3626563F45CA6F2EEFA233CE2CD333CF2B48A * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t35C3626563F45CA6F2EEFA233CE2CD333CF2B48A *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t35C3626563F45CA6F2EEFA233CE2CD333CF2B48A *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // !!0[] System.Linq.Enumerable::ToArray<System.Type>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* Enumerable_ToArray_TisType_t_m772DD5335FA05614D92A229FB062B7A680099506 (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -15345,7 +15345,7 @@ inline void Func_2__ctor_mE6F5B7699CA2C1CE60122E7EECDC5E83619844BE (Func_2_t977F
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Runtime.Serialization.EnumMemberAttribute,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisEnumMemberAttribute_t115D80337B2C8222158FC46345EA100EEB63B32D_TisString_t_m0597ACD40A0E30F3911A2E8CC4ADAF2CE8D6588E (RuntimeObject* ___source0, Func_2_t977F003ABC31CDE569DFE325CE4E4D8B97502735 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t977F003ABC31CDE569DFE325CE4E4D8B97502735 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t977F003ABC31CDE569DFE325CE4E4D8B97502735 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // !!0 System.Linq.Enumerable::SingleOrDefault<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline String_t* Enumerable_SingleOrDefault_TisString_t_m8117EEF422F7CD86F441D2F4049C194A751FBEC3 (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -22080,10 +22080,10 @@ IL_0008:
 		NullCheck(L_3);
 		int32_t L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_tA3BAB2482E28132A7CA9E0E21393027353C28B54_il2cpp_TypeInfo_var, L_3);
 		NullCheck(L_2);
-		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(!0) */, ICollection_1_tF199E8A491AFB0F5FE7719C70280982101532AEA_il2cpp_TypeInfo_var, L_2, L_4);
+		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(!0) */, ICollection_1_t4179E989039D1906C03653626445621BEF6D219F_il2cpp_TypeInfo_var, L_2, L_4);
 		RuntimeObject* L_5 = V_0;
 		NullCheck(L_5);
-		int32_t L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Int32>::get_Count() */, ICollection_1_tF199E8A491AFB0F5FE7719C70280982101532AEA_il2cpp_TypeInfo_var, L_5);
+		int32_t L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Int32>::get_Count() */, ICollection_1_t4179E989039D1906C03653626445621BEF6D219F_il2cpp_TypeInfo_var, L_5);
 		int32_t L_7 = ___dimensionsCount1;
 		if ((((int32_t)L_6) == ((int32_t)L_7)))
 		{
@@ -22345,14 +22345,14 @@ IL_000a:
 	{
 		RuntimeObject* L_3 = V_0;
 		NullCheck(L_3);
-		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(!0) */, ICollection_1_tF199E8A491AFB0F5FE7719C70280982101532AEA_il2cpp_TypeInfo_var, L_3, 0);
+		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(!0) */, ICollection_1_t4179E989039D1906C03653626445621BEF6D219F_il2cpp_TypeInfo_var, L_3, 0);
 	}
 
 IL_0011:
 	{
 		RuntimeObject* L_4 = V_0;
 		NullCheck(L_4);
-		int32_t L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Int32>::get_Count() */, ICollection_1_tF199E8A491AFB0F5FE7719C70280982101532AEA_il2cpp_TypeInfo_var, L_4);
+		int32_t L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Int32>::get_Count() */, ICollection_1_t4179E989039D1906C03653626445621BEF6D219F_il2cpp_TypeInfo_var, L_4);
 		int32_t L_6 = ___rank2;
 		if ((((int32_t)L_5) < ((int32_t)L_6)))
 		{

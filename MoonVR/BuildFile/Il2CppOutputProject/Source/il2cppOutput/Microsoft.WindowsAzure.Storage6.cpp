@@ -702,7 +702,7 @@ struct Func_4_tE786DEE86B39444A4B74776AC90903301AEED6D9;
 // System.Func`4<System.IO.Stream,System.Net.Http.HttpResponseMessage,System.String,Microsoft.WindowsAzure.Storage.StorageExtendedErrorInformation>
 struct Func_4_t686474302521FCB450805463630906816E0EE11C;
 // System.Func`4<System.Object,System.Object,System.Object,System.Object>
-struct Func_4_tF894E38D74B50563E2D6CA38E64B922F59E65E99;
+struct Func_4_tDE5921A25D234E3DBE5C9C30BB10B083C67F4439;
 // System.Func`5<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Core.NullType>,System.Net.Http.HttpResponseMessage,System.Exception,Microsoft.WindowsAzure.Storage.OperationContext,Microsoft.WindowsAzure.Storage.Core.NullType>
 struct Func_5_t0E6EF0ACFE0A96A7E2304F8355097B111BC0F859;
 // System.Func`5<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>,System.Net.Http.HttpResponseMessage,System.Exception,Microsoft.WindowsAzure.Storage.OperationContext,Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>
@@ -5368,68 +5368,68 @@ struct  Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4  : public RuntimeObje
 {
 public:
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_9;
+	int32_t ___m_codePage_55;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * ___dataItem_10;
+	CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * ___dataItem_56;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_11;
+	bool ___m_deserializedFromEverett_57;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_12;
+	bool ___m_isReadOnly_58;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * ___encoderFallback_13;
+	EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * ___encoderFallback_59;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * ___decoderFallback_14;
+	DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * ___decoderFallback_60;
 
 public:
-	inline static int32_t get_offset_of_m_codePage_9() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_codePage_9)); }
-	inline int32_t get_m_codePage_9() const { return ___m_codePage_9; }
-	inline int32_t* get_address_of_m_codePage_9() { return &___m_codePage_9; }
-	inline void set_m_codePage_9(int32_t value)
+	inline static int32_t get_offset_of_m_codePage_55() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_codePage_55)); }
+	inline int32_t get_m_codePage_55() const { return ___m_codePage_55; }
+	inline int32_t* get_address_of_m_codePage_55() { return &___m_codePage_55; }
+	inline void set_m_codePage_55(int32_t value)
 	{
-		___m_codePage_9 = value;
+		___m_codePage_55 = value;
 	}
 
-	inline static int32_t get_offset_of_dataItem_10() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___dataItem_10)); }
-	inline CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * get_dataItem_10() const { return ___dataItem_10; }
-	inline CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB ** get_address_of_dataItem_10() { return &___dataItem_10; }
-	inline void set_dataItem_10(CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * value)
+	inline static int32_t get_offset_of_dataItem_56() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___dataItem_56)); }
+	inline CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * get_dataItem_56() const { return ___dataItem_56; }
+	inline CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB ** get_address_of_dataItem_56() { return &___dataItem_56; }
+	inline void set_dataItem_56(CodePageDataItem_t6E34BEE9CCCBB35C88D714664633AF6E5F5671FB * value)
 	{
-		___dataItem_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_10), (void*)value);
+		___dataItem_56 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_56), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_deserializedFromEverett_11() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_deserializedFromEverett_11)); }
-	inline bool get_m_deserializedFromEverett_11() const { return ___m_deserializedFromEverett_11; }
-	inline bool* get_address_of_m_deserializedFromEverett_11() { return &___m_deserializedFromEverett_11; }
-	inline void set_m_deserializedFromEverett_11(bool value)
+	inline static int32_t get_offset_of_m_deserializedFromEverett_57() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_deserializedFromEverett_57)); }
+	inline bool get_m_deserializedFromEverett_57() const { return ___m_deserializedFromEverett_57; }
+	inline bool* get_address_of_m_deserializedFromEverett_57() { return &___m_deserializedFromEverett_57; }
+	inline void set_m_deserializedFromEverett_57(bool value)
 	{
-		___m_deserializedFromEverett_11 = value;
+		___m_deserializedFromEverett_57 = value;
 	}
 
-	inline static int32_t get_offset_of_m_isReadOnly_12() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_isReadOnly_12)); }
-	inline bool get_m_isReadOnly_12() const { return ___m_isReadOnly_12; }
-	inline bool* get_address_of_m_isReadOnly_12() { return &___m_isReadOnly_12; }
-	inline void set_m_isReadOnly_12(bool value)
+	inline static int32_t get_offset_of_m_isReadOnly_58() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___m_isReadOnly_58)); }
+	inline bool get_m_isReadOnly_58() const { return ___m_isReadOnly_58; }
+	inline bool* get_address_of_m_isReadOnly_58() { return &___m_isReadOnly_58; }
+	inline void set_m_isReadOnly_58(bool value)
 	{
-		___m_isReadOnly_12 = value;
+		___m_isReadOnly_58 = value;
 	}
 
-	inline static int32_t get_offset_of_encoderFallback_13() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___encoderFallback_13)); }
-	inline EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * get_encoderFallback_13() const { return ___encoderFallback_13; }
-	inline EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 ** get_address_of_encoderFallback_13() { return &___encoderFallback_13; }
-	inline void set_encoderFallback_13(EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * value)
+	inline static int32_t get_offset_of_encoderFallback_59() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___encoderFallback_59)); }
+	inline EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * get_encoderFallback_59() const { return ___encoderFallback_59; }
+	inline EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 ** get_address_of_encoderFallback_59() { return &___encoderFallback_59; }
+	inline void set_encoderFallback_59(EncoderFallback_tDE342346D01608628F1BCEBB652D31009852CF63 * value)
 	{
-		___encoderFallback_13 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_13), (void*)value);
+		___encoderFallback_59 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_59), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_decoderFallback_14() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___decoderFallback_14)); }
-	inline DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * get_decoderFallback_14() const { return ___decoderFallback_14; }
-	inline DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 ** get_address_of_decoderFallback_14() { return &___decoderFallback_14; }
-	inline void set_decoderFallback_14(DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * value)
+	inline static int32_t get_offset_of_decoderFallback_60() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4, ___decoderFallback_60)); }
+	inline DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * get_decoderFallback_60() const { return ___decoderFallback_60; }
+	inline DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 ** get_address_of_decoderFallback_60() { return &___decoderFallback_60; }
+	inline void set_decoderFallback_60(DecoderFallback_t128445EB7676870485230893338EF044F6B72F60 * value)
 	{
-		___decoderFallback_14 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_14), (void*)value);
+		___decoderFallback_60 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_60), (void*)value);
 	}
 };
 
@@ -5455,7 +5455,7 @@ public:
 	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject * ___s_InternalSyncObject_15;
+	RuntimeObject * ___s_InternalSyncObject_61;
 
 public:
 	inline static int32_t get_offset_of_defaultEncoding_0() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4_StaticFields, ___defaultEncoding_0)); }
@@ -5539,13 +5539,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___encodings_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_InternalSyncObject_15() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4_StaticFields, ___s_InternalSyncObject_15)); }
-	inline RuntimeObject * get_s_InternalSyncObject_15() const { return ___s_InternalSyncObject_15; }
-	inline RuntimeObject ** get_address_of_s_InternalSyncObject_15() { return &___s_InternalSyncObject_15; }
-	inline void set_s_InternalSyncObject_15(RuntimeObject * value)
+	inline static int32_t get_offset_of_s_InternalSyncObject_61() { return static_cast<int32_t>(offsetof(Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4_StaticFields, ___s_InternalSyncObject_61)); }
+	inline RuntimeObject * get_s_InternalSyncObject_61() const { return ___s_InternalSyncObject_61; }
+	inline RuntimeObject ** get_address_of_s_InternalSyncObject_61() { return &___s_InternalSyncObject_61; }
+	inline void set_s_InternalSyncObject_61(RuntimeObject * value)
 	{
-		___s_InternalSyncObject_15 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_15), (void*)value);
+		___s_InternalSyncObject_61 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_61), (void*)value);
 	}
 };
 
@@ -6672,27 +6672,27 @@ struct  Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7  : public MarshalByRefO
 {
 public:
 	// System.IO.Stream_ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * ____activeReadWriteTask_2;
+	ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * ____asyncActiveSemaphore_4;
 
 public:
-	inline static int32_t get_offset_of__activeReadWriteTask_2() { return static_cast<int32_t>(offsetof(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7, ____activeReadWriteTask_2)); }
-	inline ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * get__activeReadWriteTask_2() const { return ____activeReadWriteTask_2; }
-	inline ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 ** get_address_of__activeReadWriteTask_2() { return &____activeReadWriteTask_2; }
-	inline void set__activeReadWriteTask_2(ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * value)
+	inline static int32_t get_offset_of__activeReadWriteTask_3() { return static_cast<int32_t>(offsetof(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7, ____activeReadWriteTask_3)); }
+	inline ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * get__activeReadWriteTask_3() const { return ____activeReadWriteTask_3; }
+	inline ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 ** get_address_of__activeReadWriteTask_3() { return &____activeReadWriteTask_3; }
+	inline void set__activeReadWriteTask_3(ReadWriteTask_tFA17EEE8BC5C4C83EAEFCC3662A30DE351ABAA80 * value)
 	{
-		____activeReadWriteTask_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____activeReadWriteTask_2), (void*)value);
+		____activeReadWriteTask_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____activeReadWriteTask_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__asyncActiveSemaphore_3() { return static_cast<int32_t>(offsetof(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7, ____asyncActiveSemaphore_3)); }
-	inline SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * get__asyncActiveSemaphore_3() const { return ____asyncActiveSemaphore_3; }
-	inline SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 ** get_address_of__asyncActiveSemaphore_3() { return &____asyncActiveSemaphore_3; }
-	inline void set__asyncActiveSemaphore_3(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * value)
+	inline static int32_t get_offset_of__asyncActiveSemaphore_4() { return static_cast<int32_t>(offsetof(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7, ____asyncActiveSemaphore_4)); }
+	inline SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * get__asyncActiveSemaphore_4() const { return ____asyncActiveSemaphore_4; }
+	inline SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 ** get_address_of__asyncActiveSemaphore_4() { return &____asyncActiveSemaphore_4; }
+	inline void set__asyncActiveSemaphore_4(SemaphoreSlim_t2E2888D1C0C8FAB80823C76F1602E4434B8FA048 * value)
 	{
-		____asyncActiveSemaphore_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____asyncActiveSemaphore_3), (void*)value);
+		____asyncActiveSemaphore_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____asyncActiveSemaphore_4), (void*)value);
 	}
 };
 
@@ -7158,25 +7158,25 @@ struct  UTF8Encoding_t77ED103B749A387EF072C3429F48C91D12CA08DE  : public Encodin
 {
 public:
 	// System.Boolean System.Text.UTF8Encoding::emitUTF8Identifier
-	bool ___emitUTF8Identifier_16;
+	bool ___emitUTF8Identifier_62;
 	// System.Boolean System.Text.UTF8Encoding::isThrowException
-	bool ___isThrowException_17;
+	bool ___isThrowException_63;
 
 public:
-	inline static int32_t get_offset_of_emitUTF8Identifier_16() { return static_cast<int32_t>(offsetof(UTF8Encoding_t77ED103B749A387EF072C3429F48C91D12CA08DE, ___emitUTF8Identifier_16)); }
-	inline bool get_emitUTF8Identifier_16() const { return ___emitUTF8Identifier_16; }
-	inline bool* get_address_of_emitUTF8Identifier_16() { return &___emitUTF8Identifier_16; }
-	inline void set_emitUTF8Identifier_16(bool value)
+	inline static int32_t get_offset_of_emitUTF8Identifier_62() { return static_cast<int32_t>(offsetof(UTF8Encoding_t77ED103B749A387EF072C3429F48C91D12CA08DE, ___emitUTF8Identifier_62)); }
+	inline bool get_emitUTF8Identifier_62() const { return ___emitUTF8Identifier_62; }
+	inline bool* get_address_of_emitUTF8Identifier_62() { return &___emitUTF8Identifier_62; }
+	inline void set_emitUTF8Identifier_62(bool value)
 	{
-		___emitUTF8Identifier_16 = value;
+		___emitUTF8Identifier_62 = value;
 	}
 
-	inline static int32_t get_offset_of_isThrowException_17() { return static_cast<int32_t>(offsetof(UTF8Encoding_t77ED103B749A387EF072C3429F48C91D12CA08DE, ___isThrowException_17)); }
-	inline bool get_isThrowException_17() const { return ___isThrowException_17; }
-	inline bool* get_address_of_isThrowException_17() { return &___isThrowException_17; }
-	inline void set_isThrowException_17(bool value)
+	inline static int32_t get_offset_of_isThrowException_63() { return static_cast<int32_t>(offsetof(UTF8Encoding_t77ED103B749A387EF072C3429F48C91D12CA08DE, ___isThrowException_63)); }
+	inline bool get_isThrowException_63() const { return ___isThrowException_63; }
+	inline bool* get_address_of_isThrowException_63() { return &___isThrowException_63; }
+	inline void set_isThrowException_63(bool value)
 	{
-		___isThrowException_17 = value;
+		___isThrowException_63 = value;
 	}
 };
 
@@ -7387,77 +7387,77 @@ struct  MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F  : pub
 {
 public:
 	// System.Int32 Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::bufferSize
-	int32_t ___bufferSize_5;
+	int32_t ___bufferSize_6;
 	// System.Collections.Generic.List`1<System.Byte[]> Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::bufferBlocks
-	List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___bufferBlocks_6;
+	List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___bufferBlocks_7;
 	// System.Int64 Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::length
-	int64_t ___length_7;
+	int64_t ___length_8;
 	// System.Int64 Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::capacity
-	int64_t ___capacity_8;
+	int64_t ___capacity_9;
 	// System.Int64 Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::position
-	int64_t ___position_9;
+	int64_t ___position_10;
 	// Microsoft.WindowsAzure.Storage.IBufferManager Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::bufferManager
-	RuntimeObject* ___bufferManager_10;
+	RuntimeObject* ___bufferManager_11;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Microsoft.WindowsAzure.Storage.Core.MultiBufferMemoryStream::disposed
-	bool ___disposed_11;
+	bool ___disposed_12;
 
 public:
-	inline static int32_t get_offset_of_bufferSize_5() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferSize_5)); }
-	inline int32_t get_bufferSize_5() const { return ___bufferSize_5; }
-	inline int32_t* get_address_of_bufferSize_5() { return &___bufferSize_5; }
-	inline void set_bufferSize_5(int32_t value)
+	inline static int32_t get_offset_of_bufferSize_6() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferSize_6)); }
+	inline int32_t get_bufferSize_6() const { return ___bufferSize_6; }
+	inline int32_t* get_address_of_bufferSize_6() { return &___bufferSize_6; }
+	inline void set_bufferSize_6(int32_t value)
 	{
-		___bufferSize_5 = value;
+		___bufferSize_6 = value;
 	}
 
-	inline static int32_t get_offset_of_bufferBlocks_6() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferBlocks_6)); }
-	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * get_bufferBlocks_6() const { return ___bufferBlocks_6; }
-	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 ** get_address_of_bufferBlocks_6() { return &___bufferBlocks_6; }
-	inline void set_bufferBlocks_6(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * value)
+	inline static int32_t get_offset_of_bufferBlocks_7() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferBlocks_7)); }
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * get_bufferBlocks_7() const { return ___bufferBlocks_7; }
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 ** get_address_of_bufferBlocks_7() { return &___bufferBlocks_7; }
+	inline void set_bufferBlocks_7(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * value)
 	{
-		___bufferBlocks_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___bufferBlocks_6), (void*)value);
+		___bufferBlocks_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___bufferBlocks_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_length_7() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___length_7)); }
-	inline int64_t get_length_7() const { return ___length_7; }
-	inline int64_t* get_address_of_length_7() { return &___length_7; }
-	inline void set_length_7(int64_t value)
+	inline static int32_t get_offset_of_length_8() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___length_8)); }
+	inline int64_t get_length_8() const { return ___length_8; }
+	inline int64_t* get_address_of_length_8() { return &___length_8; }
+	inline void set_length_8(int64_t value)
 	{
-		___length_7 = value;
+		___length_8 = value;
 	}
 
-	inline static int32_t get_offset_of_capacity_8() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___capacity_8)); }
-	inline int64_t get_capacity_8() const { return ___capacity_8; }
-	inline int64_t* get_address_of_capacity_8() { return &___capacity_8; }
-	inline void set_capacity_8(int64_t value)
+	inline static int32_t get_offset_of_capacity_9() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___capacity_9)); }
+	inline int64_t get_capacity_9() const { return ___capacity_9; }
+	inline int64_t* get_address_of_capacity_9() { return &___capacity_9; }
+	inline void set_capacity_9(int64_t value)
 	{
-		___capacity_8 = value;
+		___capacity_9 = value;
 	}
 
-	inline static int32_t get_offset_of_position_9() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___position_9)); }
-	inline int64_t get_position_9() const { return ___position_9; }
-	inline int64_t* get_address_of_position_9() { return &___position_9; }
-	inline void set_position_9(int64_t value)
+	inline static int32_t get_offset_of_position_10() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___position_10)); }
+	inline int64_t get_position_10() const { return ___position_10; }
+	inline int64_t* get_address_of_position_10() { return &___position_10; }
+	inline void set_position_10(int64_t value)
 	{
-		___position_9 = value;
+		___position_10 = value;
 	}
 
-	inline static int32_t get_offset_of_bufferManager_10() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferManager_10)); }
-	inline RuntimeObject* get_bufferManager_10() const { return ___bufferManager_10; }
-	inline RuntimeObject** get_address_of_bufferManager_10() { return &___bufferManager_10; }
-	inline void set_bufferManager_10(RuntimeObject* value)
+	inline static int32_t get_offset_of_bufferManager_11() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___bufferManager_11)); }
+	inline RuntimeObject* get_bufferManager_11() const { return ___bufferManager_11; }
+	inline RuntimeObject** get_address_of_bufferManager_11() { return &___bufferManager_11; }
+	inline void set_bufferManager_11(RuntimeObject* value)
 	{
-		___bufferManager_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___bufferManager_10), (void*)value);
+		___bufferManager_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___bufferManager_11), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_disposed_11() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___disposed_11)); }
-	inline bool get_disposed_11() const { return ___disposed_11; }
-	inline bool* get_address_of_disposed_11() { return &___disposed_11; }
-	inline void set_disposed_11(bool value)
+	inline static int32_t get_offset_of_disposed_12() { return static_cast<int32_t>(offsetof(MultiBufferMemoryStream_t39B0CBB546326484EF9424EE2BB28B9A87909E7F, ___disposed_12)); }
+	inline bool get_disposed_12() const { return ___disposed_12; }
+	inline bool* get_address_of_disposed_12() { return &___disposed_12; }
+	inline void set_disposed_12(bool value)
 	{
-		___disposed_11 = value;
+		___disposed_12 = value;
 	}
 };
 
@@ -7467,16 +7467,16 @@ struct  NonCloseableStream_t9D0D8752CF53BD1D74608AE637224AB311FCBC7B  : public S
 {
 public:
 	// System.IO.Stream Microsoft.WindowsAzure.Storage.Core.NonCloseableStream::wrappedStream
-	Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * ___wrappedStream_4;
+	Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * ___wrappedStream_5;
 
 public:
-	inline static int32_t get_offset_of_wrappedStream_4() { return static_cast<int32_t>(offsetof(NonCloseableStream_t9D0D8752CF53BD1D74608AE637224AB311FCBC7B, ___wrappedStream_4)); }
-	inline Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * get_wrappedStream_4() const { return ___wrappedStream_4; }
-	inline Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 ** get_address_of_wrappedStream_4() { return &___wrappedStream_4; }
-	inline void set_wrappedStream_4(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * value)
+	inline static int32_t get_offset_of_wrappedStream_5() { return static_cast<int32_t>(offsetof(NonCloseableStream_t9D0D8752CF53BD1D74608AE637224AB311FCBC7B, ___wrappedStream_5)); }
+	inline Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * get_wrappedStream_5() const { return ___wrappedStream_5; }
+	inline Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 ** get_address_of_wrappedStream_5() { return &___wrappedStream_5; }
+	inline void set_wrappedStream_5(Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * value)
 	{
-		___wrappedStream_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___wrappedStream_4), (void*)value);
+		___wrappedStream_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___wrappedStream_5), (void*)value);
 	}
 };
 
@@ -18091,7 +18091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mDCF191A98C4C31CEBD4FAD6055
 // System.Void Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<System.Object>::set_StreamToDispose(System.IO.Stream)
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR void RESTCommand_1_set_StreamToDispose_m933CF52B922B11116473C984B8E8FDC0C53E98AF_gshared_inline (RESTCommand_1_t6A22144EB05B3DC5AABC7524A6B2F5E4E41F08A9 * __this, Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * ___value0, const RuntimeMethod* method);
 // System.Void System.Func`4<System.Object,System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared (Func_4_tF894E38D74B50563E2D6CA38E64B922F59E65E99 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared (Func_4_tDE5921A25D234E3DBE5C9C30BB10B083C67F4439 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<System.TimeSpan>::get_HasValue()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m59ABA96C6361E1EB9D0B2E65C035127B684B15F4_gshared_inline (Nullable_1_tAE17873A01A7B115BFE9B673C3101F3F5569359F * __this, const RuntimeMethod* method);
 // !0 System.Nullable`1<System.TimeSpan>::get_Value()
@@ -18115,7 +18115,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR Stream_tFC50657DD5AAB87770987F9179D934
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * Enumerable_ToList_TisRuntimeObject_m60A4853FE3E8D49EA18001EEBDF8D2773159A337_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // T Microsoft.WindowsAzure.Storage.Shared.Protocol.HttpResponseParsers::ProcessExpectedStatusCodeNoException<System.Boolean>(System.Net.HttpStatusCode,System.Net.Http.HttpResponseMessage,T,Microsoft.WindowsAzure.Storage.Core.Executor.StorageCommandBase`1<T>,System.Exception)
@@ -19013,7 +19013,7 @@ inline void Func_5__ctor_mDEFCBE06A4E1A607BACAAB780805425EA274C190 (Func_5_t1EB1
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Queue.Protocol.QueuePermissions>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.Queue.Protocol.QueuePermissions>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_m46F0C5A483F3DFA8B8A880C3266500CC55406FD9 (Func_4_t6CFF818BAABCF2CB0C2BDFA2345C81F047F480B9 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t6CFF818BAABCF2CB0C2BDFA2345C81F047F480B9 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t6CFF818BAABCF2CB0C2BDFA2345C81F047F480B9 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Microsoft.WindowsAzure.Storage.Queue.CloudQueue/<>c__DisplayClass104_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass104_0__ctor_m9B3EB8471EE0C7571EC152544D7867434EDC8A5C (U3CU3Ec__DisplayClass104_0_t0A2CE95E76E8EFE12BE0B78F556D2C50FDA569CD * __this, const RuntimeMethod* method);
@@ -19072,7 +19072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueueRequest_WriteMessageContent_m8ECC49
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Core.NullType>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.Core.NullType>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_m1787D67801E99BFF23E274E30839FE545FFC5DC7 (Func_4_t0B8767DE0F28D305B0C068C8CC9BA254461A7488 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t0B8767DE0F28D305B0C068C8CC9BA254461A7488 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t0B8767DE0F28D305B0C068C8CC9BA254461A7488 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Microsoft.WindowsAzure.Storage.Queue.CloudQueue/<>c__DisplayClass105_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass105_0__ctor_m1E3FE372749E6D9ABE6700DB6256BA45672431EC (U3CU3Ec__DisplayClass105_0_t4178B88A39B563D2A02B1F03FD50A2514B84F431 * __this, const RuntimeMethod* method);
@@ -19111,7 +19111,7 @@ inline void Func_5__ctor_m61BE9BCC0205E112AD1025002D6381B327A9504F (Func_5_t1927
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<System.Collections.Generic.IEnumerable`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_m232D7EE1B544C059395E8866C1CAAFCCD77564AF (Func_4_tB0F98F0C3A2070DA5976C918032BEE24A63B2C76 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_tB0F98F0C3A2070DA5976C918032BEE24A63B2C76 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_tB0F98F0C3A2070DA5976C918032BEE24A63B2C76 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Microsoft.WindowsAzure.Storage.Queue.CloudQueue/<>c__DisplayClass108_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass108_0__ctor_mC787314A846D0AFAB23361AB42A7E5FF1951EE99 (U3CU3Ec__DisplayClass108_0_tD6AFF94D20E401ADAABFC042DDF27F25FD85A022 * __this, const RuntimeMethod* method);
@@ -19140,7 +19140,7 @@ inline void Func_5__ctor_mAB7682A4C2F46D05D351CB123008BAD83FD079D0 (Func_5_tDA2D
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_mF5FFD411BE7A36EF4BA28E2E1766FF167C69F831 (Func_4_t6B32C408EE036A8D7922C3029CEE837E274E76FA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t6B32C408EE036A8D7922C3029CEE837E274E76FA *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t6B32C408EE036A8D7922C3029CEE837E274E76FA *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Collections.Generic.IDictionary`2<System.String,System.String> Microsoft.WindowsAzure.Storage.Queue.Protocol.QueueHttpResponseParsers::GetMetadata(System.Net.Http.HttpResponseMessage)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueueHttpResponseParsers_GetMetadata_mC455D0434656269765A11839D2AC9FB1690ACFBB (HttpResponseMessage_t619DB9FDC8E63CDF2D0A314B61A4C6609A43F904 * ___response0, const RuntimeMethod* method);
@@ -19220,7 +19220,7 @@ inline void Func_2__ctor_m0C1B03A93658F684924253C5D2EEB47AD6EAD494 (Func_2_t23EA
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Microsoft.WindowsAzure.Storage.Queue.Protocol.QueueMessage,Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisQueueMessage_t44B39C9A9686E1AD71B75721FA151DACE2228C37_TisCloudQueueMessage_tCDB5FE8308A6005158ADCDA182FCE9E6FC17CE28_mBCDFBA055B8E0B1ABB63E88FA6B26B76D8A7773A (RuntimeObject* ___source0, Func_2_t23EAF522C81D0EAA344599D61AC256190614815C * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t23EAF522C81D0EAA344599D61AC256190614815C *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t23EAF522C81D0EAA344599D61AC256190614815C *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline List_1_tE6832D785ABD0138E2860D0124CC3409AAE95F8F * Enumerable_ToList_TisCloudQueueMessage_tCDB5FE8308A6005158ADCDA182FCE9E6FC17CE28_mEE389142BAE93B02E1CAE443085D3D3F05407348 (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -19449,7 +19449,7 @@ inline void Func_5__ctor_m594FCB0434B18EFD0C3B1FC4847A42E40033B138 (Func_5_t0807
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.ResultSegment`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueue>>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.ResultSegment`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueue>>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_mB8E8F691CEDE6050662E901EEEFBA4C9C08E1D3F (Func_4_t13F01B1EA0E01C5E703214E40842266D70FCB7A2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t13F01B1EA0E01C5E703214E40842266D70FCB7A2 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t13F01B1EA0E01C5E703214E40842266D70FCB7A2 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceProperties> Microsoft.WindowsAzure.Storage.Queue.CloudQueueClient::GetServicePropertiesImpl(Microsoft.WindowsAzure.Storage.Queue.QueueRequestOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RESTCommand_1_tB3EE7B68D956AB5CD5424F42575E3C5BF09AB6D5 * CloudQueueClient_GetServicePropertiesImpl_m61B3588F4AB47F12498882A4C2F591ABCCEB8557 (CloudQueueClient_t62970BD86B95214BA480FD82D21E616FAD33F3C8 * __this, QueueRequestOptions_t2E3DDE763C963975F3BD8D3C4EC6CD9256B8CDF5 * ___requestOptions0, const RuntimeMethod* method);
@@ -19476,7 +19476,7 @@ inline void Func_5__ctor_m607EDA884352A6FCECB14BD99810DC304BC44F33 (Func_5_t0B3E
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceProperties>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceProperties>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_m380014C0040E1BA25F44A8252E08ABAD4FEE3C89 (Func_4_t9346E462DB4EB720F4392D79F6716C0736FE679E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t9346E462DB4EB720F4392D79F6716C0736FE679E *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t9346E462DB4EB720F4392D79F6716C0736FE679E *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Microsoft.WindowsAzure.Storage.Queue.QueueRequestOptions::ApplyToStorageCommand<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceProperties>(Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<T>)
 inline void QueueRequestOptions_ApplyToStorageCommand_TisServiceProperties_t489862002407E92FCC002B18FFD122D58B9BFECC_m60B04472A6F3E3B7F8E24B563D2DAA60248138D1 (QueueRequestOptions_t2E3DDE763C963975F3BD8D3C4EC6CD9256B8CDF5 * __this, RESTCommand_1_tB3EE7B68D956AB5CD5424F42575E3C5BF09AB6D5 * ___cmd0, const RuntimeMethod* method)
@@ -19531,7 +19531,7 @@ inline void Func_5__ctor_m63B4872AFBC753860FFDED54B0FF6D75C36FA0DC (Func_5_tB976
 // System.Void System.Func`4<Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceStats>,System.Net.Http.HttpResponseMessage,Microsoft.WindowsAzure.Storage.OperationContext,System.Threading.Tasks.Task`1<Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceStats>>::.ctor(System.Object,System.IntPtr)
 inline void Func_4__ctor_m3E950FD664194E7D8186B45DD5D50228F5A35898 (Func_4_t234CE6CC051D984672C74047CCFCEC65350B9B43 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_4_t234CE6CC051D984672C74047CCFCEC65350B9B43 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_m078CF06295E5F9B7C3A5E868E9C1BEEC28E5369C_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_4_t234CE6CC051D984672C74047CCFCEC65350B9B43 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_4__ctor_mFA713E17166DC8A205250B47792A46E3E3273253_gshared)(__this, ___object0, ___method1, method);
 }
 // System.IO.Stream Microsoft.WindowsAzure.Storage.Core.Executor.RESTCommand`1<Microsoft.WindowsAzure.Storage.ResultSegment`1<Microsoft.WindowsAzure.Storage.Queue.CloudQueue>>::get_ResponseStream()
 inline Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * RESTCommand_1_get_ResponseStream_mE188CF0D9EE45A9E84F060EFEACCCB3B9567AE92_inline (RESTCommand_1_t26BA4BAEE2C6DE7D03225F94A82908891BC000F0 * __this, const RuntimeMethod* method)
@@ -19550,7 +19550,7 @@ inline void Func_2__ctor_m2E3F0B8A32E4414417FA8887223B1C20DC39F735 (Func_2_t2590
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Microsoft.WindowsAzure.Storage.Queue.Protocol.QueueEntry,Microsoft.WindowsAzure.Storage.Queue.CloudQueue>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisQueueEntry_tCA6B2F814C954CB53F6E6B489A7C295C6EE4EFF4_TisCloudQueue_t777FD9B55CA7A87F61192966C65F95F075A0DD6A_mCEB90B7EF7B795CBB50A39A7789476783E74B6D5 (RuntimeObject* ___source0, Func_2_t2590BFCED80CEE23DF06673A0BB66BD365AA0764 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t2590BFCED80CEE23DF06673A0BB66BD365AA0764 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t2590BFCED80CEE23DF06673A0BB66BD365AA0764 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<Microsoft.WindowsAzure.Storage.Queue.CloudQueue>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline List_1_t55143D908D980E7FF2585FA7B78BD6E86176F59F * Enumerable_ToList_TisCloudQueue_t777FD9B55CA7A87F61192966C65F95F075A0DD6A_m1CBBFB2285C4CBB505EB62F1BDE6E5501C3A248D (RuntimeObject* ___source0, const RuntimeMethod* method)

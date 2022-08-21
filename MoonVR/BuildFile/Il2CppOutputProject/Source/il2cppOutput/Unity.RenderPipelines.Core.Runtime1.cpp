@@ -13386,7 +13386,7 @@ public:
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Enumerable_ToArray_TisRuntimeObject_mF33F5D8045B820AE98F4EEE7524A58F9B52436DA_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Void UnityEngine.Rendering.DebugUI/Field`1<System.Object>::.ctor()
@@ -13412,7 +13412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m236B4013FB31497A692E886
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Distinct<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Distinct_TisRuntimeObject_mAEF0AF86F988CE8A5CF50D6844CB25CFACF58384_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Int32 System.Linq.Enumerable::Count<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // !!0 System.Linq.Enumerable::ElementAt<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_ElementAt_TisRuntimeObject_m517AAFEC5FBAEA3AD2E3DC8AFB6926C163D15C45_gshared (RuntimeObject* ___source0, int32_t ___index1, const RuntimeMethod* method);
 // System.Void UnityEngine.Rendering.DebugUI/Field`1<System.Int32>::.ctor()
@@ -13464,7 +13464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeParameter_1__ctor_m4907616EF245F3F
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Contains(!0)
@@ -13598,7 +13598,7 @@ inline void Func_2__ctor_m80B2F3F987D521642BB9DEB47A40E46BF2DF8BE3 (Func_2_t61A5
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.String,UnityEngine.GUIContent>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisString_t_TisGUIContent_t2A00F8961C69C0A382168840CFB2111FB00B5EA0_m5BAFF71FC0EE749DFDE0833B9300F59B5FDD2EA2 (RuntimeObject* ___source0, Func_2_t61A5A2708A54F67907258C4D7E3FFC9AEB54DF13 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t61A5A2708A54F67907258C4D7E3FFC9AEB54DF13 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t61A5A2708A54F67907258C4D7E3FFC9AEB54DF13 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // !!0[] System.Linq.Enumerable::ToArray<UnityEngine.GUIContent>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline GUIContentU5BU5D_tAC6B5D8011AB50FF019C989B8A3CB5D2A29FA43C* Enumerable_ToArray_TisGUIContent_t2A00F8961C69C0A382168840CFB2111FB00B5EA0_m9F6D7B77E7DAE2F93D35AA423A607FFC656403EF (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -13703,7 +13703,7 @@ inline void Func_2__ctor_m77BD49BCD4E6331936644D60ACD6C4C716405295 (Func_2_t1115
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<UnityEngine.GUIContent,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisGUIContent_t2A00F8961C69C0A382168840CFB2111FB00B5EA0_TisString_t_m5D14B9515C55FE0211D1D0B504358DDE597CECBC (RuntimeObject* ___source0, Func_2_t1115A3A4E918BB16AB8FB223154A6DE050D4E337 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t1115A3A4E918BB16AB8FB223154A6DE050D4E337 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t1115A3A4E918BB16AB8FB223154A6DE050D4E337 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Distinct<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline RuntimeObject* Enumerable_Distinct_TisString_t_m111C1841ABCB52EDE16A5C00959F7F91821FC11F (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -13713,7 +13713,7 @@ inline RuntimeObject* Enumerable_Distinct_TisString_t_m111C1841ABCB52EDE16A5C009
 // System.Int32 System.Linq.Enumerable::Count<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline int32_t Enumerable_Count_TisString_t_mA4E2842D5231D538C533407721FEDCF28FE5DE37 (RuntimeObject* ___source0, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared)(___source0, method);
+	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared)(___source0, method);
 }
 // !!0 System.Linq.Enumerable::ElementAt<System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Int32)
 inline String_t* Enumerable_ElementAt_TisString_t_m1F15105A9FF79F82605C4F1D9D6019919EB4E2EE (RuntimeObject* ___source0, int32_t ___index1, const RuntimeMethod* method)
@@ -14145,7 +14145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RTHandle_Release_m58DB7405E3437FE7126D19
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.Rendering.RTHandle>::Remove(!0)
 inline bool HashSet_1_Remove_m38EE56339FE86D0D07E238AC97D16266E7A4F2D9 (HashSet_1_tDBF987B75A7E88D2FAE17C3CB0506A57EA2A4593 * __this, RTHandle_tEA0162F7F963913BAEDC1F970E261D0874F2996C * ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tDBF987B75A7E88D2FAE17C3CB0506A57EA2A4593 *, RTHandle_tEA0162F7F963913BAEDC1F970E261D0874F2996C *, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tDBF987B75A7E88D2FAE17C3CB0506A57EA2A4593 *, RTHandle_tEA0162F7F963913BAEDC1F970E261D0874F2996C *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Int32 UnityEngine.Rendering.RTHandleSystem::GetMaxWidth()
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t RTHandleSystem_GetMaxWidth_mA056075ED90DA9478915CD52F9CDED1C618D0F3F_inline (RTHandleSystem_t767D689BA191A921429672BF8830F8AC24ADC36F * __this, const RuntimeMethod* method);

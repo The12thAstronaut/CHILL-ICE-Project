@@ -9975,7 +9975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mE2BD5476A999119F4955
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m4A0C4C988C2B9F801D155D22295CF4DA2DBFDC0D_gshared (UnityAction_1_t0064196FB7635B812E65BA9FD08D39F68C75DCD9 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::RemoveListener(UnityEngine.Events.UnityAction`1<!0>)
@@ -10801,12 +10801,12 @@ inline bool HashSet_1_Add_mE70447209B08431BFBF087BC6A0631968137985B (HashSet_1_t
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable>::Remove(!0)
 inline bool HashSet_1_Remove_mC8424DAAA0E645FEC7B1CE940BD1D5278CDBFC4C (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD * __this, RuntimeObject* ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic>::Remove(!0)
 inline bool HashSet_1_Remove_mE80B086A5164A2BDB1581A7929D8FDA5DA5C68B9 (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 * __this, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F * ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Void UnityEngine.EventSystems.UIBehaviour::OnTransformParentChanged()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIBehaviour_OnTransformParentChanged_m94918707543A748636155588EAE7D50A471D9EDE (UIBehaviour_t3C3C339CD5677BA7FC27C352FED8B78052A3FE70 * __this, const RuntimeMethod* method);

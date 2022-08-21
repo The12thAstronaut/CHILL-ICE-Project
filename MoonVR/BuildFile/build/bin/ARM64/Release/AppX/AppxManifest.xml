@@ -7,24 +7,24 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="Template3D" Publisher="CN=12thAstronaut" Version="1.0.0.0" ProcessorArchitecture="arm64" />
-  <mp:PhoneIdentity PhoneProductId="a79f78e7-055c-49c4-8fd6-be1416237477" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="MoonVR" Publisher="CN=12thAstronaut" Version="1.0.0.0" ProcessorArchitecture="arm64" />
+  <mp:PhoneIdentity PhoneProductId="962c78dd-0671-4d3d-ba7c-c8dd921d30a5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>CHILL-ICE</DisplayName>
-    <PublisherDisplayName>12thAstronaut</PublisherDisplayName>
+    <DisplayName>MoonVR</DisplayName>
+    <PublisherDisplayName>DefaultCompany</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.10240.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.19041.0" />
     <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30704.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="CHILL-ICE.exe" EntryPoint="Template3D.App">
-      <uap:VisualElements DisplayName="CHILL-ICE" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Template_3D" BackgroundColor="transparent">
-        <uap:DefaultTile ShortName="New Unity Project" Wide310x150Logo="Assets\Wide310x150Logo.png" />
+    <Application Id="App" Executable="MoonVR.exe" EntryPoint="MoonVR.App">
+      <uap:VisualElements DisplayName="MoonVR" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MoonVR" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />
@@ -37,10 +37,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <Capability Name="internetClientServer" />
-    <Capability Name="privateNetworkClientServer" />
     <uap2:Capability Name="spatialPerception" />
-    <DeviceCapability Name="webcam" />
     <DeviceCapability Name="microphone" />
     <DeviceCapability Name="gazeinput" />
   </Capabilities>
@@ -54,7 +51,7 @@
     </Extension>
   </Extensions>
   <build:Metadata>
-    <build:Item Name="cl.exe" Version="19.33.31629.0" />
+    <build:Item Name="cl.exe" Version="19.29.30146.0 built by: cloudtest" />
     <build:Item Name="CodeSharingProject" Value="6A2255BE-B368-4127-9782-BD762DEA33C5" />
     <build:Item Name="VisualStudio" Version="17.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
@@ -63,7 +60,7 @@
     <build:Item Name="ProjectGUID" Value="{2fabdf39-a3a3-4497-95ba-5aee089ebf0f}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Native" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="17.0.32728.75" />
     <build:Item Name="WindowsMobile" Version="10.0.19041.0" />
     <build:Item Name="MakePri.exe" Version="10.0.19041.685 (WinBuild.160101.0800)" />
   </build:Metadata>

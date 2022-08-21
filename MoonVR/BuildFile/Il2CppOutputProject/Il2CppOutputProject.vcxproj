@@ -119,6 +119,9 @@
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking.Demos_CodeGen.c"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking.Utilities_CodeGen.c"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking_CodeGen.c"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.API_CodeGen.c"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.PUN_CodeGen.c"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice_CodeGen.c"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\RestSharp_CodeGen.c"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Collections_CodeGen.c"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.ComponentModel.TypeConverter_CodeGen.c"></ClCompile>
@@ -214,6 +217,7 @@
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp2.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp3.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp4.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Assembly-CSharp5.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\AzureSpatialAnchors.SDK.Core.Runtime.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\AzureSpatialAnchors.SDK.Windows.Runtime.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods.cpp"></ClCompile>
@@ -234,6 +238,7 @@
     <ClCompile Include="Source\il2cppOutput\GenericMethods22.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods23.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods24.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods25.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods3.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods4.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods5.cpp"></ClCompile>
@@ -253,7 +258,12 @@
     <ClCompile Include="Source\il2cppOutput\Generics106.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics107.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics108.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics109.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics11.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics110.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics111.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics112.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics113.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics12.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics13.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics14.cpp"></ClCompile>
@@ -425,7 +435,10 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers66.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers67.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers68.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers69.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers7.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers70.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers71.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers8.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers9.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues.cpp"></ClCompile>
@@ -448,6 +461,7 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppProjectedComCallableWrapperMethods5.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppProjectedComCallableWrapperMethods6.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppProjectedComCallableWrapperMethods7.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppProjectedComCallableWrapperMethods8.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppReversePInvokeWrapperTable.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.CognitiveServices.Speech.csharp.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.CSharp.cpp"></ClCompile>
@@ -547,6 +561,11 @@
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking.Demos1.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking.Utilities.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\PhotonUnityNetworking1.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.API.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.API1.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice.PUN.cpp"></ClCompile>
+    <ClCompile Include="Source\il2cppOutput\PhotonVoice1.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\RestSharp.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Collections.cpp"></ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.ComponentModel.TypeConverter.cpp"></ClCompile>

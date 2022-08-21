@@ -1127,7 +1127,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* EventFunction_1__ctor_mFC8B30DCF034FB4E5007
 IL2CPP_EXTERN_C const RuntimeMethod* EventFunction_1__ctor_mFE9042E5F127623ADBBD5F3CD0371D1BA8124FEE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ExecuteEvents_ExecuteHierarchy_TisIMixedRealityFocusChangedHandler_t1822507CC9ED1A9755F00D9037883444547A588F_m215B24C9CBCAC09167E79F9903255480BEC8F3E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ExecuteEvents_ExecuteHierarchy_TisIMixedRealityFocusHandler_t5437E688850A82CF30CBB00C70F476568C7AC7A5_m9B32DD027F4E29E7B4F83E02DD93D10D3B035734_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMixedRealityInputModule_t0DE6D07F3678EEC1E93424AD3DEE566B2F282FF4_m34FAB1B087283C6055F983F9B5310EC658B6FAB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisIMixedRealityCursor_t5CB717D2AFE455FE2DC89AB280C35323D0670E05_m96F21A23B24805F9F10AE4FB85A7F767DEE6DD2C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMixedRealityInputModule_t0DE6D07F3678EEC1E93424AD3DEE566B2F282FF4_m90208373E2FCF46011EE9E7630F568240382172C_RuntimeMethod_var;
@@ -13974,7 +13974,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Remove(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m53A3271E51DB23EFC5BD1A0A2E26154B4C41AB1E_gshared (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * __this, RuntimeObject * ___key0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Contains(!0)
@@ -14012,7 +14012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CStart
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<Microsoft.MixedReality.Toolkit.Input.InputSystemGlobalHandlerListener/<EnsureInputSystemValid>d__4>(!!0&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CEnsureInputSystemValidU3Ed__4_t21BAC12637359584DC3CA117E89F430C858E599F_m260FF10279AD9FF2AF02435AE25B14308C2E8925_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CEnsureInputSystemValidU3Ed__4_t21BAC12637359584DC3CA117E89F430C858E599F * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_gshared (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_gshared (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitOnCompleted<System.Object,Microsoft.MixedReality.Toolkit.Input.InputSystemGlobalHandlerListener/<EnsureInputSystemValid>d__4>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitOnCompleted_TisRuntimeObject_TisU3CEnsureInputSystemValidU3Ed__4_t21BAC12637359584DC3CA117E89F430C858E599F_m6EECA39EA3C0AAC63C2C8FF72EE4BE992BBA96F1_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, RuntimeObject ** ___awaiter0, U3CEnsureInputSystemValidU3Ed__4_t21BAC12637359584DC3CA117E89F430C858E599F * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.MixedReality.Toolkit.Input.InputSystemGlobalHandlerListener/<Start>d__2>(!!0&,!!1&)
@@ -14622,7 +14622,7 @@ inline bool Dictionary_2_Remove_m3943E83168D0EA6E26E880A781C15902B23B848B (Dicti
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.GameObject>::Remove(!0)
 inline bool HashSet_1_Remove_m959CA76C6788170A88C252EF3809598CE4C8A847 (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E * __this, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // !0 System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::get_Item(System.Int32)
 inline PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE * List_1_get_Item_mDF5BD58E49374DFC97242DEB16EC16F0CF17A710_inline (List_1_tBCBEB3920240D8E26AD373E765B37AFF2688708D * __this, int32_t ___index0, const RuntimeMethod* method)
@@ -14999,9 +14999,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB
 // System.Void Microsoft.MixedReality.Toolkit.Input.InputSystemGlobalHandlerListener/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA077D3D6856DE58CF775C64C59205BEC4378A7F9 (U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3 * __this, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552 (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void UnityEngine.WaitUntil::.ctor(System.Func`1<System.Boolean>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitUntil__ctor_mC1A43A512B185C55FBE858F741BEA6D4417105C1 (WaitUntil_t012561515C0E1D3DEA19DB3A05444B020C68E13F * __this, Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * ___predicate0, const RuntimeMethod* method);
@@ -15494,12 +15494,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MixedRealityInputSystem_get_Fo
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource>::Remove(!0)
 inline bool HashSet_1_Remove_mDE83CDA5702AE684888339721D6E2D62AD06077B (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F * __this, RuntimeObject* ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController>::Remove(!0)
 inline bool HashSet_1_Remove_mCC9ED5ABAB86D5E4CB0221D60B64874D2D0D8850 (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 * __this, RuntimeObject* ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, ___item0, method);
 }
 // System.Void Microsoft.MixedReality.Toolkit.Input.SourcePoseEventData`1<Microsoft.MixedReality.Toolkit.TrackingState>::Initialize(Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,!0)
 inline void SourcePoseEventData_1_Initialize_mCFDABE1601F4B415F6CFABB35DEC791430125A5F (SourcePoseEventData_1_tB0375F43F33B46CEA5D6000C5D4568E11AE9F590 * __this, RuntimeObject* ___inputSource0, RuntimeObject* ___controller1, int32_t ___data2, const RuntimeMethod* method)
@@ -26986,7 +26986,7 @@ IL_0019:
 			IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3_il2cpp_TypeInfo_var);
 			U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3 * L_5 = ((U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_6 = (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *)il2cpp_codegen_object_new(Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1_il2cpp_TypeInfo_var);
-			Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552(L_6, L_5, (intptr_t)((intptr_t)U3CU3Ec_U3CEnsureInputSystemValidU3Eb__4_0_mEF08D39BDCD377932F5D7E51FAC5C4F2F485B1F4_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var);
+			Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E(L_6, L_5, (intptr_t)((intptr_t)U3CU3Ec_U3CEnsureInputSystemValidU3Eb__4_0_mEF08D39BDCD377932F5D7E51FAC5C4F2F485B1F4_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_RuntimeMethod_var);
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_7 = L_6;
 			((U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC9E0E4A5098D22FD3FD65F1076E14CDE21DDC2E3_il2cpp_TypeInfo_var))->set_U3CU3E9__4_0_1(L_7);
 			G_B5_0 = L_7;
@@ -27550,7 +27550,7 @@ IL_0019:
 			IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04_il2cpp_TypeInfo_var);
 			U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04 * L_5 = ((U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_6 = (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *)il2cpp_codegen_object_new(Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1_il2cpp_TypeInfo_var);
-			Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552(L_6, L_5, (intptr_t)((intptr_t)U3CU3Ec_U3CEnsureInputSystemValidU3Eb__4_0_mB0C5BCCFE89B8D1C647ABB4FE14FD7C159EC6EBF_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var);
+			Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E(L_6, L_5, (intptr_t)((intptr_t)U3CU3Ec_U3CEnsureInputSystemValidU3Eb__4_0_mB0C5BCCFE89B8D1C647ABB4FE14FD7C159EC6EBF_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_RuntimeMethod_var);
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_7 = L_6;
 			((U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t7D19406C33686FD9DF237E020906B07C7C1BFD04_il2cpp_TypeInfo_var))->set_U3CU3E9__4_0_1(L_7);
 			G_B5_0 = L_7;

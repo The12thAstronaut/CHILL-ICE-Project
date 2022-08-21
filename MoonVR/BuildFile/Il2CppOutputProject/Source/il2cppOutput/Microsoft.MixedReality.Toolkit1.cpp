@@ -5146,35 +5146,18 @@ public:
 struct ResourceLoader_tCA219CCC141834B11783B5C72C448C34B05421C7_StaticFields
 {
 public:
-	// Cached pointer to IActivationFactory
-	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderFactory
 	IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
-	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics2
-	IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics
 	IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics3
 	IResourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA* ____iresourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA;
+	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics2
+	IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
 
 public:
-	inline Il2CppIActivationFactory* get_activationFactory()
-	{
-		Il2CppIActivationFactory* returnValue = activationFactory;
-		if (returnValue == NULL)
-		{
-			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.ApplicationModel.Resources.ResourceLoader"));
-			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = activationFactory;
-			}
-		}
-		return returnValue;
-	}
-
 	inline IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* get_____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E()
 	{
 		IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* returnValue = ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
@@ -5192,18 +5175,18 @@ public:
 		return returnValue;
 	}
 
-	inline IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* get_____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300()
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* returnValue = ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
+		Il2CppIActivationFactory* returnValue = activationFactory;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.ApplicationModel.Resources.ResourceLoader"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300>((&____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
+				returnValue = activationFactory;
 			}
 		}
 		return returnValue;
@@ -5238,6 +5221,23 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____iresourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* get_____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300()
+	{
+		IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* returnValue = ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300>((&____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
 			}
 		}
 		return returnValue;

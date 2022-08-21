@@ -12073,7 +12073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CLoa
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Cast<System.Object>(System.Collections.IEnumerable)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Cast_TisRuntimeObject_m6991A3BC64D2FEC6390A840FD69A67D45BC65FB1_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // !0 System.Collections.ObjectModel.Collection`1<System.Object>::get_Item(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Collection_1_get_Item_m277E3D748232FF013C242C58902FB68DDA7921CC_gshared (Collection_1_t2574E2BA5987C6EF84CF793F0979451A2257124A * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Int32 System.Collections.ObjectModel.Collection`1<System.Object>::get_Count()
@@ -13247,7 +13247,7 @@ inline void Func_2__ctor_m810CD5C2FB7C9326A637DEE02FA1E2C0A42D44A9 (Func_2_t4A99
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Newtonsoft.Json.Linq.JProperty,Newtonsoft.Json.Linq.JToken>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisJProperty_t2D8059433BBDC734F269A400FF311B29500558B8_TisJToken_t2A0B2A41949AC39CE8E8C39DFB9E37E46E2703F2_mADD8FEFF7CB989F7E5A4E1D25CC52D70C6D828A5 (RuntimeObject* ___source0, Func_2_t4A991F0D535BF71D7EC57ED10BA5A70447A73502 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t4A991F0D535BF71D7EC57ED10BA5A70447A73502 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t4A991F0D535BF71D7EC57ED10BA5A70447A73502 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JObject::get_Item(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JToken_t2A0B2A41949AC39CE8E8C39DFB9E37E46E2703F2 * JObject_get_Item_m45FC4DA2461E8D72F19D1D695D76A5E46A0445FC (JObject_t1DADA3C02B5291E9889F1FC5FCDE97C6650C1670 * __this, String_t* ___propertyName0, const RuntimeMethod* method);

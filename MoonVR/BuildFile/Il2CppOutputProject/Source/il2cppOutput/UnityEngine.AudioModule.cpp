@@ -157,6 +157,8 @@ struct GenericInterfaceActionInvoker2
 struct ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1;
 // System.AsyncCallback
 struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4;
+// System.Char[]
+struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
 // System.Collections.IDictionary
 struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 // System.Delegate
@@ -207,6 +209,7 @@ struct SampleFramesHandler_t5179C92AFBB393A85144E9134A862C161726F6AF;
 struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
 
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var;
@@ -225,6 +228,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4CDCA392B9BF22E4728254EA8AABA605D8A96AC3
 IL2CPP_EXTERN_C String_t* _stringLiteral518B3D08731FC4B4ACDD4C12E1B1B37CC0E64603;
 IL2CPP_EXTERN_C String_t* _stringLiteral5FA39088E79DEB93386A8A29EBFC4BF667035C7F;
 IL2CPP_EXTERN_C String_t* _stringLiteral64727BD135950E8FFCB476F66EAA1B0747F2F8BC;
+IL2CPP_EXTERN_C String_t* _stringLiteral6554658F724E1C1E95CF47B2EB6FBB96835C19D6;
 IL2CPP_EXTERN_C String_t* _stringLiteral6E08EC217803485FD1258E704F681704792FDD20;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1ECCC24C90A5178FA10A29190315449D65E6FA6;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7AB925FF80AE6B8E928777122DF6848168541DC;
@@ -236,6 +240,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* AudioClip_SetData_m7B400A0E491EDFE98D3A732D
 IL2CPP_EXTERN_C const RuntimeMethod* Microphone_Start_mF756A7EBA3E62EF0D138A220482B725D16E96047_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t AudioClipPlayable_Equals_mEB47B5F2E1C643D403FA916C8961F117593DCFC0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioClip_Create_m7D20A6B52ACA39506B505EF162AF7EF81B173995_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AudioClip_GetData_m8150E67D6068CAA88BE4155CB5924B2359272EE0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioClip_SetData_m7B400A0E491EDFE98D3A732D189443846E74CD6C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioClip__ctor_m52425138C3A036FC847A0E4C4ADA31CEF81CD10D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioClip_add_m_PCMReaderCallback_mE70789B25C74C552769FB2DAB96FC416A8508C62_MetadataUsageId;
@@ -245,6 +250,8 @@ IL2CPP_EXTERN_C const uint32_t AudioClip_remove_m_PCMSetPositionCallback_m21FB4E
 IL2CPP_EXTERN_C const uint32_t AudioConfigurationChangeHandler_BeginInvoke_mB0B0ACF6281B999FA11037CA130CA3C72BEC7827_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioMixerPlayable_Equals_m6B84D1A5AEDEAAE12AEFB77319B2662506ABC9C4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioSettings_InvokeOnAudioConfigurationChanged_m8D251791C6A402B12E93C22F43475DE3033FC8E7_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AudioSettings_add_OnAudioConfigurationChanged_mD9E72EBFD77386891B99195873062FEA4AECA473_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AudioSettings_remove_OnAudioConfigurationChanged_mCBEC24CB86EAB7EEFB39ADFAC5BB9106E80FF928_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioSource_PlayOneShot_mA65B809A4480039CD8337ABF45C0E57E137EED41_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Microphone_Start_mF756A7EBA3E62EF0D138A220482B725D16E96047_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PCMSetPositionCallback_BeginInvoke_m88CDF70D75854621CA69ED3D53CD53B8206A5093_MetadataUsageId;
@@ -455,6 +462,74 @@ public:
 	}
 };
 
+
+// System.Double
+struct  Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409 
+{
+public:
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409, ___m_value_0)); }
+	inline double get_m_value_0() const { return ___m_value_0; }
+	inline double* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(double value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409_StaticFields
+{
+public:
+	// System.Double System.Double::NegativeZero
+	double ___NegativeZero_7;
+
+public:
+	inline static int32_t get_offset_of_NegativeZero_7() { return static_cast<int32_t>(offsetof(Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409_StaticFields, ___NegativeZero_7)); }
+	inline double get_NegativeZero_7() const { return ___NegativeZero_7; }
+	inline double* get_address_of_NegativeZero_7() { return &___NegativeZero_7; }
+	inline void set_NegativeZero_7(double value)
+	{
+		___NegativeZero_7 = value;
+	}
+};
+
+
+// System.Enum
+struct  Enum_t2AF27C02B8653AE29442467390005ABC74D8F521  : public ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF
+{
+public:
+
+public:
+};
+
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_com
+{
+};
 
 // System.Int32
 struct  Int32_t585191389E07734F19F3156FF88FB3EF4800D102 
@@ -956,6 +1031,24 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 };
 
+// UnityEngine.AudioSpeakerMode
+struct  AudioSpeakerMode_t054EC3AC7CF95E2929F927039FCAEDF7AD95858C 
+{
+public:
+	// System.Int32 UnityEngine.AudioSpeakerMode::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(AudioSpeakerMode_t054EC3AC7CF95E2929F927039FCAEDF7AD95858C, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.Object
 struct  Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0  : public RuntimeObject
 {
@@ -1206,6 +1299,64 @@ public:
 	{
 		___m_PCMSetPositionCallback_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_PCMSetPositionCallback_5), (void*)value);
+	}
+};
+
+
+// UnityEngine.AudioConfiguration
+struct  AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E 
+{
+public:
+	// UnityEngine.AudioSpeakerMode UnityEngine.AudioConfiguration::speakerMode
+	int32_t ___speakerMode_0;
+	// System.Int32 UnityEngine.AudioConfiguration::dspBufferSize
+	int32_t ___dspBufferSize_1;
+	// System.Int32 UnityEngine.AudioConfiguration::sampleRate
+	int32_t ___sampleRate_2;
+	// System.Int32 UnityEngine.AudioConfiguration::numRealVoices
+	int32_t ___numRealVoices_3;
+	// System.Int32 UnityEngine.AudioConfiguration::numVirtualVoices
+	int32_t ___numVirtualVoices_4;
+
+public:
+	inline static int32_t get_offset_of_speakerMode_0() { return static_cast<int32_t>(offsetof(AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E, ___speakerMode_0)); }
+	inline int32_t get_speakerMode_0() const { return ___speakerMode_0; }
+	inline int32_t* get_address_of_speakerMode_0() { return &___speakerMode_0; }
+	inline void set_speakerMode_0(int32_t value)
+	{
+		___speakerMode_0 = value;
+	}
+
+	inline static int32_t get_offset_of_dspBufferSize_1() { return static_cast<int32_t>(offsetof(AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E, ___dspBufferSize_1)); }
+	inline int32_t get_dspBufferSize_1() const { return ___dspBufferSize_1; }
+	inline int32_t* get_address_of_dspBufferSize_1() { return &___dspBufferSize_1; }
+	inline void set_dspBufferSize_1(int32_t value)
+	{
+		___dspBufferSize_1 = value;
+	}
+
+	inline static int32_t get_offset_of_sampleRate_2() { return static_cast<int32_t>(offsetof(AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E, ___sampleRate_2)); }
+	inline int32_t get_sampleRate_2() const { return ___sampleRate_2; }
+	inline int32_t* get_address_of_sampleRate_2() { return &___sampleRate_2; }
+	inline void set_sampleRate_2(int32_t value)
+	{
+		___sampleRate_2 = value;
+	}
+
+	inline static int32_t get_offset_of_numRealVoices_3() { return static_cast<int32_t>(offsetof(AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E, ___numRealVoices_3)); }
+	inline int32_t get_numRealVoices_3() const { return ___numRealVoices_3; }
+	inline int32_t* get_address_of_numRealVoices_3() { return &___numRealVoices_3; }
+	inline void set_numRealVoices_3(int32_t value)
+	{
+		___numRealVoices_3 = value;
+	}
+
+	inline static int32_t get_offset_of_numVirtualVoices_4() { return static_cast<int32_t>(offsetof(AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E, ___numVirtualVoices_4)); }
+	inline int32_t get_numVirtualVoices_4() const { return ___numVirtualVoices_4; }
+	inline int32_t* get_address_of_numVirtualVoices_4() { return &___numVirtualVoices_4; }
+	inline void set_numVirtualVoices_4(int32_t value)
+	{
+		___numVirtualVoices_4 = value;
 	}
 };
 
@@ -1480,6 +1631,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AudioClip_GetName_mD69F28B33950F21E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mF4626905368D6558695A823466A1AF65EADB9923 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708 (RuntimeObject * ___message0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * ___clip0, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data1, int32_t ___numSamples2, int32_t ___samplesOffset3, const RuntimeMethod* method);
 // System.Int32 UnityEngine.AudioClip::get_samples()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_samples_m7AD532D9288680102A452D2949107BDA88268CA0 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * __this, const RuntimeMethod* method);
 // System.Void System.ArgumentException::.ctor(System.String)
@@ -1506,6 +1659,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t * Delegate_Remove_m0B0DB7D1B3AF96B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PCMReaderCallback_Invoke_m7B101820DB35BEFC8D2724DF96900367863B93B6 (PCMReaderCallback_t9B87AB13DCD37957B045554BF28A57697E6B8EFB * __this, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data0, const RuntimeMethod* method);
 // System.Void UnityEngine.AudioClip/PCMSetPositionCallback::Invoke(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PCMSetPositionCallback_Invoke_m8EA4736B43191A8E6F95E1548AFF124519EC533C (PCMSetPositionCallback_t092ED33043C0279B5E4D343EBCBD516CEF260801 * __this, int32_t ___position0, const RuntimeMethod* method);
+// UnityEngine.AudioSpeakerMode UnityEngine.AudioSettings::GetSpeakerMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02 (const RuntimeMethod* method);
+// System.Int32 UnityEngine.AudioSettings::GetSampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E (const RuntimeMethod* method);
+// System.Void UnityEngine.AudioSettings::GetConfiguration_Injected(UnityEngine.AudioConfiguration&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B (AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::Invoke(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioConfigurationChangeHandler_Invoke_m62D72B397E1DC117C8C92A450D2C86C535A2BF49 (AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * __this, bool ___deviceWasChanged0, const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSource::SetPitch(UnityEngine.AudioSource,System.Single)
@@ -1520,6 +1679,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mBC2401774F3BE33E8CF6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m37338644DC81F640CCDFEAE35A223F0E965F0568 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSource::PlayOneShotHelper(UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShotHelper_mDAEDF5E0C56C665DE62CDF26E7B98149B4A71704 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * ___source0, AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * ___clip1, float ___volumeScale2, const RuntimeMethod* method);
+// System.Void UnityEngine.AudioSource::Stop(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, bool ___stopOneShots0, const RuntimeMethod* method);
 // System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleFramesHandler_Invoke_m52F0148F680B36E04A7F850E617FBEF1CA9809FD (SampleFramesHandler_t5179C92AFBB393A85144E9134A862C161726F6AF * __this, AudioSampleProvider_tD5B209D07C5F1D4714F92069F4071068B9BC6913 * ___provider0, uint32_t ___sampleFrameCount1, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Microphone::GetMicrophoneDeviceIDFromName(System.String)
@@ -1534,6 +1695,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_tCC3C35F579203CE2601243585AB3D6953C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_EndRecord_m6DDB48A30B1A34A6E996A1A1FC194DA184B46733 (int32_t ___deviceID0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Microphone::IsRecording(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m70F5B087E69C0077AA9238931776EDE123FCF122 (int32_t ___deviceID0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Microphone::GetRecordPosition(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED (int32_t ___deviceID0, const RuntimeMethod* method);
 // System.Void UnityEngine.Microphone::GetDeviceCaps(System.Int32,System.Int32&,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_GetDeviceCaps_m4592CD4A6371544156A042579626B9351DCD7E93 (int32_t ___deviceID0, int32_t* ___minFreq1, int32_t* ___maxFreq2, const RuntimeMethod* method);
 #ifdef __clang__
@@ -1706,6 +1869,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClip__ctor_m52425138C3A036FC847A0E4
 		return;
 	}
 }
+// System.Boolean UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * ___clip0, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data1, int32_t ___numSamples2, int32_t ___samplesOffset3, const RuntimeMethod* method)
+{
+	typedef bool (*AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128_ftn) (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 *, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5*, int32_t, int32_t);
+	static AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)");
+	bool retVal = _il2cpp_icall_func(___clip0, ___data1, ___numSamples2, ___samplesOffset3);
+	return retVal;
+}
 // System.Boolean UnityEngine.AudioClip::SetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_SetData_m9422A5FB335AFB42C2CBAD4EE650C5F71ECB3559 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * ___clip0, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data1, int32_t ___numsamples2, int32_t ___samplesOffset3, const RuntimeMethod* method)
 {
@@ -1764,6 +1937,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_channels_m2CF01E121CEBB
 	_il2cpp_icall_func = (AudioClip_get_channels_m2CF01E121CEBBF3B69EC7EEE7EC28172AB6078EC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_channels()");
 	int32_t retVal = _il2cpp_icall_func(__this);
 	return retVal;
+}
+// System.Int32 UnityEngine.AudioClip::get_frequency()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_frequency_m8CE3C1898AEC71B496092039B233B61EED527661 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*AudioClip_get_frequency_m8CE3C1898AEC71B496092039B233B61EED527661_ftn) (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 *);
+	static AudioClip_get_frequency_m8CE3C1898AEC71B496092039B233B61EED527661_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_get_frequency_m8CE3C1898AEC71B496092039B233B61EED527661_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_frequency()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m8150E67D6068CAA88BE4155CB5924B2359272EE0 (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * __this, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AudioClip_GetData_m8150E67D6068CAA88BE4155CB5924B2359272EE0_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = AudioClip_get_channels_m2CF01E121CEBBF3B69EC7EEE7EC28172AB6078EC(__this, /*hidden argument*/NULL);
+		V_1 = (bool)((((int32_t)((((int32_t)L_0) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		String_t* L_2 = AudioClip_GetName_mD69F28B33950F21E36A2F3A659DD89725796D257(__this, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_mF4626905368D6558695A823466A1AF65EADB9923(_stringLiteral6554658F724E1C1E95CF47B2EB6FBB96835C19D6, L_2, _stringLiteral5FA39088E79DEB93386A8A29EBFC4BF667035C7F, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_3, /*hidden argument*/NULL);
+		V_2 = (bool)0;
+		goto IL_004e;
+	}
+
+IL_0031:
+	{
+		SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* L_4 = ___data0;
+		if (L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		G_B5_0 = 0;
+		goto IL_0041;
+	}
+
+IL_0037:
+	{
+		SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* L_5 = ___data0;
+		NullCheck(L_5);
+		int32_t L_6 = AudioClip_get_channels_m2CF01E121CEBBF3B69EC7EEE7EC28172AB6078EC(__this, /*hidden argument*/NULL);
+		G_B5_0 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))))/(int32_t)L_6));
+	}
+
+IL_0041:
+	{
+		V_0 = G_B5_0;
+		SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* L_7 = ___data0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___offsetSamples1;
+		bool L_10 = AudioClip_GetData_mEF59EDCD10F83C280DB82E14FF938FF574BBD128(__this, L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		goto IL_004e;
+	}
+
+IL_004e:
+	{
+		bool L_11 = V_2;
+		return L_11;
+	}
 }
 // System.Boolean UnityEngine.AudioClip::SetData(System.Single[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_SetData_m7B400A0E491EDFE98D3A732D189443846E74CD6C (AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * __this, SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method)
@@ -2542,6 +2794,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PCMSetPositionCallback_EndInvoke_mB711E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Single UnityEngine.AudioHighPassFilter::get_cutoffFrequency()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioHighPassFilter_get_cutoffFrequency_m0733A348725BAAD6E72E4EB47C9900E4496FB917 (AudioHighPassFilter_tAF7C56386170F84139A84528E2EC43DBC9E2C473 * __this, const RuntimeMethod* method)
 {
@@ -2569,6 +2829,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioHighPassFilter_set_cutoffFrequency_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Single UnityEngine.AudioListener::get_volume()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioListener_get_volume_mEC4EAD947C040A3264F3F68B29E222C62A5EAA78 (const RuntimeMethod* method)
+{
+	typedef float (*AudioListener_get_volume_mEC4EAD947C040A3264F3F68B29E222C62A5EAA78_ftn) ();
+	static AudioListener_get_volume_mEC4EAD947C040A3264F3F68B29E222C62A5EAA78_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioListener_get_volume_mEC4EAD947C040A3264F3F68B29E222C62A5EAA78_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioListener::get_volume()");
+	float retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Void UnityEngine.AudioListener::set_volume(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_set_volume_mFD5EDF90B857A5A28A95A1B2367B9B3BA7E90E52 (float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AudioListener_set_volume_mFD5EDF90B857A5A28A95A1B2367B9B3BA7E90E52_ftn) (float);
+	static AudioListener_set_volume_mFD5EDF90B857A5A28A95A1B2367B9B3BA7E90E52_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioListener_set_volume_mFD5EDF90B857A5A28A95A1B2367B9B3BA7E90E52_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioListener::set_volume(System.Single)");
+	_il2cpp_icall_func(___value0);
+}
 // System.Void UnityEngine.AudioListener::set_pause(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_set_pause_mF016E18A018A7CC403D59F7120EB909ED7A687B0 (bool ___value0, const RuntimeMethod* method)
 {
@@ -2613,6 +2892,159 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioLowPassFilter_set_cutoffFrequency_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.AudioSpeakerMode UnityEngine.AudioSettings::GetSpeakerMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02 (const RuntimeMethod* method)
+{
+	typedef int32_t (*AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02_ftn) ();
+	static AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::GetSpeakerMode()");
+	int32_t retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Int32 UnityEngine.AudioSettings::GetSampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E (const RuntimeMethod* method)
+{
+	typedef int32_t (*AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E_ftn) ();
+	static AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::GetSampleRate()");
+	int32_t retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// UnityEngine.AudioSpeakerMode UnityEngine.AudioSettings::get_speakerMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_get_speakerMode_mFE3A64C54935E53E463624EFD3FF4A83CB504D60 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = AudioSettings_GetSpeakerMode_m40ABC1D6AF8296E9C963CEC9F183FA09ACF03F02(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Double UnityEngine.AudioSettings::get_dspTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double AudioSettings_get_dspTime_mB6868AA2EA4B8D17CC0B7AA1AF8B31FA0429A05B (const RuntimeMethod* method)
+{
+	typedef double (*AudioSettings_get_dspTime_mB6868AA2EA4B8D17CC0B7AA1AF8B31FA0429A05B_ftn) ();
+	static AudioSettings_get_dspTime_mB6868AA2EA4B8D17CC0B7AA1AF8B31FA0429A05B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_get_dspTime_mB6868AA2EA4B8D17CC0B7AA1AF8B31FA0429A05B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::get_dspTime()");
+	double retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Int32 UnityEngine.AudioSettings::get_outputSampleRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSettings_get_outputSampleRate_mA9092240D8A06109EA34644BD7FB239483F9A5F9 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = AudioSettings_GetSampleRate_mB74463D0A8B5FF5BBDFE9FA4EAB295405202220E(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.AudioConfiguration UnityEngine.AudioSettings::GetConfiguration()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E  AudioSettings_GetConfiguration_mC8A1E2FE7BA6707FE3741F0050D5A9E0D550B0D2 (const RuntimeMethod* method)
+{
+	AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B((AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E *)(&V_0), /*hidden argument*/NULL);
+		AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.AudioSettings::add_OnAudioConfigurationChanged(UnityEngine.AudioSettings_AudioConfigurationChangeHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSettings_add_OnAudioConfigurationChanged_mD9E72EBFD77386891B99195873062FEA4AECA473 (AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AudioSettings_add_OnAudioConfigurationChanged_mD9E72EBFD77386891B99195873062FEA4AECA473_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_0 = NULL;
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_1 = NULL;
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_2 = NULL;
+	{
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_0 = ((AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_StaticFields*)il2cpp_codegen_static_fields_for(AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_il2cpp_TypeInfo_var))->get_OnAudioConfigurationChanged_0();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_1 = V_0;
+		V_1 = L_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_2 = V_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_3 = ___value0;
+		Delegate_t * L_4 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_2, L_3, /*hidden argument*/NULL);
+		V_2 = ((AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)CastclassSealed((RuntimeObject*)L_4, AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926_il2cpp_TypeInfo_var));
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_5 = V_2;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_6 = V_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_7 = InterlockedCompareExchangeImpl<AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *>((AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 **)(((AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_StaticFields*)il2cpp_codegen_static_fields_for(AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_il2cpp_TypeInfo_var))->get_address_of_OnAudioConfigurationChanged_0()), L_5, L_6);
+		V_0 = L_7;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_8 = V_0;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_9 = V_1;
+		if ((!(((RuntimeObject*)(AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)L_8) == ((RuntimeObject*)(AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AudioSettings::remove_OnAudioConfigurationChanged(UnityEngine.AudioSettings_AudioConfigurationChangeHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSettings_remove_OnAudioConfigurationChanged_mCBEC24CB86EAB7EEFB39ADFAC5BB9106E80FF928 (AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AudioSettings_remove_OnAudioConfigurationChanged_mCBEC24CB86EAB7EEFB39ADFAC5BB9106E80FF928_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_0 = NULL;
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_1 = NULL;
+	AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * V_2 = NULL;
+	{
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_0 = ((AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_StaticFields*)il2cpp_codegen_static_fields_for(AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_il2cpp_TypeInfo_var))->get_OnAudioConfigurationChanged_0();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_1 = V_0;
+		V_1 = L_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_2 = V_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_3 = ___value0;
+		Delegate_t * L_4 = Delegate_Remove_m0B0DB7D1B3AF96B71AFAA72BA0EFE32FBBC2932D(L_2, L_3, /*hidden argument*/NULL);
+		V_2 = ((AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)CastclassSealed((RuntimeObject*)L_4, AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926_il2cpp_TypeInfo_var));
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_5 = V_2;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_6 = V_1;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_7 = InterlockedCompareExchangeImpl<AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *>((AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 **)(((AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_StaticFields*)il2cpp_codegen_static_fields_for(AudioSettings_t77B5D69F704CF3B710B0B6970BB62A4BF25A5B31_il2cpp_TypeInfo_var))->get_address_of_OnAudioConfigurationChanged_0()), L_5, L_6);
+		V_0 = L_7;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_8 = V_0;
+		AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 * L_9 = V_1;
+		if ((!(((RuntimeObject*)(AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)L_8) == ((RuntimeObject*)(AudioConfigurationChangeHandler_t8E0E05D0198D95B5412DC716F87D97020EF54926 *)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
 // System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSettings_InvokeOnAudioConfigurationChanged_m8D251791C6A402B12E93C22F43475DE3033FC8E7 (bool ___deviceWasChanged0, const RuntimeMethod* method)
 {
@@ -2643,6 +3075,15 @@ IL_0019:
 	{
 		return;
 	}
+}
+// System.Void UnityEngine.AudioSettings::GetConfiguration_Injected(UnityEngine.AudioConfiguration&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B (AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E * ___ret0, const RuntimeMethod* method)
+{
+	typedef void (*AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B_ftn) (AudioConfiguration_t8A7131649ECC3D2A89BCEFCB3691937168E3565E *);
+	static AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_GetConfiguration_Injected_m3774F16D453E14B702A07734497182451999B32B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::GetConfiguration_Injected(UnityEngine.AudioConfiguration&)");
+	_il2cpp_icall_func(___ret0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -2798,6 +3239,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShotHelper_mDAEDF5E0C
 	_il2cpp_icall_func = (AudioSource_PlayOneShotHelper_mDAEDF5E0C56C665DE62CDF26E7B98149B4A71704_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayOneShotHelper(UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single)");
 	_il2cpp_icall_func(___source0, ___clip1, ___volumeScale2);
 }
+// System.Void UnityEngine.AudioSource::Stop(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, bool ___stopOneShots0, const RuntimeMethod* method)
+{
+	typedef void (*AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *, bool);
+	static AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Stop(System.Boolean)");
+	_il2cpp_icall_func(__this, ___stopOneShots0);
+}
 // System.Single UnityEngine.AudioSource::get_volume()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioSource_get_volume_mBD65DB423F0520CDCB935CC593565343965A4CB0 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
 {
@@ -2825,6 +3275,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_pitch_mAB8F8CDB21A3139D3
 		AudioSource_SetPitch_mB65EF59C56A49FD68CD3361B2C34E07F89F1244B(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
+}
+// System.Int32 UnityEngine.AudioSource::get_timeSamples()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSource_get_timeSamples_m0E3467605A8D6CBFA36D6F167E4D663DA2D17EE7 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*AudioSource_get_timeSamples_m0E3467605A8D6CBFA36D6F167E4D663DA2D17EE7_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *);
+	static AudioSource_get_timeSamples_m0E3467605A8D6CBFA36D6F167E4D663DA2D17EE7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_timeSamples_m0E3467605A8D6CBFA36D6F167E4D663DA2D17EE7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_timeSamples()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
 }
 // UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * AudioSource_get_clip_m773ECEF5566EA64C74E316D7EF1A63AA01604643 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
@@ -2901,6 +3361,14 @@ IL_0023:
 		return;
 	}
 }
+// System.Void UnityEngine.AudioSource::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m488F7AA7F7067DE3EC92CEE3413E86C2E5940200 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
+{
+	{
+		AudioSource_Stop_mD3712B98BC6DBEA9CEEF778CE9CCB8DBA62F47A8(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Boolean UnityEngine.AudioSource::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSource_get_isPlaying_m5112A878573652681F40C82F0D8103C999978F3C (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
 {
@@ -2938,6 +3406,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_spatialize_m67B01FA31D12
 	_il2cpp_icall_func = (AudioSource_set_spatialize_m67B01FA31D125E7A6E3E20A56A781D1E9200D8FD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_spatialize(System.Boolean)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// System.Boolean UnityEngine.AudioSource::get_mute()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSource_get_mute_mC420E7827CA751603A85430D849E8C3099FBD123 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
+{
+	typedef bool (*AudioSource_get_mute_mC420E7827CA751603A85430D849E8C3099FBD123_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *);
+	static AudioSource_get_mute_mC420E7827CA751603A85430D849E8C3099FBD123_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_mute_mC420E7827CA751603A85430D849E8C3099FBD123_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_mute()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_mute_m04D579849D7D37D6CC39DE31DB928176B2A9C2CF (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AudioSource_set_mute_m04D579849D7D37D6CC39DE31DB928176B2A9C2CF_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *, bool);
+	static AudioSource_set_mute_m04D579849D7D37D6CC39DE31DB928176B2A9C2CF_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_mute_m04D579849D7D37D6CC39DE31DB928176B2A9C2CF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_mute(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3193,6 +3688,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m70F5B087E69C0077
 	bool retVal = _il2cpp_icall_func(___deviceID0);
 	return retVal;
 }
+// System.Int32 UnityEngine.Microphone::GetRecordPosition(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED (int32_t ___deviceID0, const RuntimeMethod* method)
+{
+	typedef int32_t (*Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED_ftn) (int32_t);
+	static Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Microphone::GetRecordPosition(System.Int32)");
+	int32_t retVal = _il2cpp_icall_func(___deviceID0);
+	return retVal;
+}
 // System.Void UnityEngine.Microphone::GetDeviceCaps(System.Int32,System.Int32&,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_GetDeviceCaps_m4592CD4A6371544156A042579626B9351DCD7E93 (int32_t ___deviceID0, int32_t* ___minFreq1, int32_t* ___maxFreq2, const RuntimeMethod* method)
 {
@@ -3390,6 +3895,43 @@ IL_0014:
 IL_001d:
 	{
 		bool L_6 = V_2;
+		return L_6;
+	}
+}
+// System.Int32 UnityEngine.Microphone::GetPosition(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m1C177D77958EB1BBADE1EEBB721428059B14A7FF (String_t* ___deviceName0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0 = ___deviceName0;
+		int32_t L_1 = Microphone_GetMicrophoneDeviceIDFromName_m08C8735264E4D5FEAED224C8E7957CF5916D9A5E(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		V_1 = (bool)((((int32_t)L_2) == ((int32_t)(-1)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		V_2 = 0;
+		goto IL_001d;
+	}
+
+IL_0014:
+	{
+		int32_t L_4 = V_0;
+		int32_t L_5 = Microphone_GetRecordPosition_m39EF5B7BA939CBE97875B9DA5265D8036F5D13ED(L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		int32_t L_6 = V_2;
 		return L_6;
 	}
 }

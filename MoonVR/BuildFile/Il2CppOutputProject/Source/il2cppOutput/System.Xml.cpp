@@ -5441,37 +5441,37 @@ struct  CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D
 {
 public:
 	// System.Xml.CharEntityEncoderFallback System.Xml.CharEntityEncoderFallbackBuffer::parent
-	CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * ___parent_7;
+	CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * ___parent_8;
 	// System.String System.Xml.CharEntityEncoderFallbackBuffer::charEntity
-	String_t* ___charEntity_8;
+	String_t* ___charEntity_9;
 	// System.Int32 System.Xml.CharEntityEncoderFallbackBuffer::charEntityIndex
-	int32_t ___charEntityIndex_9;
+	int32_t ___charEntityIndex_10;
 
 public:
-	inline static int32_t get_offset_of_parent_7() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___parent_7)); }
-	inline CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * get_parent_7() const { return ___parent_7; }
-	inline CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE ** get_address_of_parent_7() { return &___parent_7; }
-	inline void set_parent_7(CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * value)
+	inline static int32_t get_offset_of_parent_8() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___parent_8)); }
+	inline CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * get_parent_8() const { return ___parent_8; }
+	inline CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE ** get_address_of_parent_8() { return &___parent_8; }
+	inline void set_parent_8(CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * value)
 	{
-		___parent_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___parent_7), (void*)value);
+		___parent_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___parent_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_charEntity_8() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___charEntity_8)); }
-	inline String_t* get_charEntity_8() const { return ___charEntity_8; }
-	inline String_t** get_address_of_charEntity_8() { return &___charEntity_8; }
-	inline void set_charEntity_8(String_t* value)
+	inline static int32_t get_offset_of_charEntity_9() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___charEntity_9)); }
+	inline String_t* get_charEntity_9() const { return ___charEntity_9; }
+	inline String_t** get_address_of_charEntity_9() { return &___charEntity_9; }
+	inline void set_charEntity_9(String_t* value)
 	{
-		___charEntity_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___charEntity_8), (void*)value);
+		___charEntity_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___charEntity_9), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_charEntityIndex_9() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___charEntityIndex_9)); }
-	inline int32_t get_charEntityIndex_9() const { return ___charEntityIndex_9; }
-	inline int32_t* get_address_of_charEntityIndex_9() { return &___charEntityIndex_9; }
-	inline void set_charEntityIndex_9(int32_t value)
+	inline static int32_t get_offset_of_charEntityIndex_10() { return static_cast<int32_t>(offsetof(CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8, ___charEntityIndex_10)); }
+	inline int32_t get_charEntityIndex_10() const { return ___charEntityIndex_10; }
+	inline int32_t* get_address_of_charEntityIndex_10() { return &___charEntityIndex_10; }
+	inline void set_charEntityIndex_10(int32_t value)
 	{
-		___charEntityIndex_9 = value;
+		___charEntityIndex_10 = value;
 	}
 };
 
@@ -25988,11 +25988,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharEntityEncoderFallbackBuffer__ctor_m4
 	}
 	{
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
-		__this->set_charEntity_8(L_0);
-		__this->set_charEntityIndex_9((-1));
+		__this->set_charEntity_9(L_0);
+		__this->set_charEntityIndex_10((-1));
 		EncoderFallbackBuffer__ctor_mE3698942F859D99529557619E751C18775FD49E9(__this, /*hidden argument*/NULL);
 		CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * L_1 = ___parent0;
-		__this->set_parent_7(L_1);
+		__this->set_parent_8(L_1);
 		return;
 	}
 }
@@ -26006,7 +26006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharEntityEncoderFallbackBuffer_Fallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		int32_t L_0 = __this->get_charEntityIndex_9();
+		int32_t L_0 = __this->get_charEntityIndex_10();
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
 			goto IL_001b;
@@ -26025,7 +26025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharEntityEncoderFallbackBuffer_Fallback
 
 IL_001b:
 	{
-		CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * L_5 = __this->get_parent_7();
+		CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * L_5 = __this->get_parent_8();
 		int32_t L_6 = ___index1;
 		NullCheck(L_5);
 		bool L_7 = CharEntityEncoderFallback_CanReplaceAt_m443B2C8EDFBF562942A693CF588D0A672D0D37AA(L_5, L_6, /*hidden argument*/NULL);
@@ -26046,8 +26046,8 @@ IL_001b:
 		ArrayElementTypeCheck (L_10, L_13);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_13);
 		String_t* L_14 = String_Format_mF68EE0DEC1AA5ADE9DFEF9AE0508E428FBB10EFD(L_8, _stringLiteralA2D56D545D4078E88A03C81238B6C1BE53199D04, L_10, /*hidden argument*/NULL);
-		__this->set_charEntity_8(L_14);
-		__this->set_charEntityIndex_9(0);
+		__this->set_charEntity_9(L_14);
+		__this->set_charEntityIndex_10(0);
 		return (bool)1;
 	}
 
@@ -26093,7 +26093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharEntityEncoderFallbackBuffer_Fallback
 
 IL_0011:
 	{
-		int32_t L_6 = __this->get_charEntityIndex_9();
+		int32_t L_6 = __this->get_charEntityIndex_10();
 		if ((((int32_t)L_6) < ((int32_t)0)))
 		{
 			goto IL_002d;
@@ -26113,7 +26113,7 @@ IL_0011:
 
 IL_002d:
 	{
-		CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * L_12 = __this->get_parent_7();
+		CharEntityEncoderFallback_tC2F29B6C471EF026F43E8FC22AE9EC72ED51A7BE * L_12 = __this->get_parent_8();
 		int32_t L_13 = ___index2;
 		NullCheck(L_12);
 		bool L_14 = CharEntityEncoderFallback_CanReplaceAt_m443B2C8EDFBF562942A693CF588D0A672D0D37AA(L_12, L_13, /*hidden argument*/NULL);
@@ -26136,8 +26136,8 @@ IL_002d:
 		ArrayElementTypeCheck (L_17, L_22);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_22);
 		String_t* L_23 = String_Format_mF68EE0DEC1AA5ADE9DFEF9AE0508E428FBB10EFD(L_15, _stringLiteralA2D56D545D4078E88A03C81238B6C1BE53199D04, L_17, /*hidden argument*/NULL);
-		__this->set_charEntity_8(L_23);
-		__this->set_charEntityIndex_9(0);
+		__this->set_charEntity_9(L_23);
+		__this->set_charEntityIndex_10(0);
 		return (bool)1;
 	}
 
@@ -26160,8 +26160,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar CharEntityEncoderFallbackBuffer_Ge
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = __this->get_charEntityIndex_9();
-		String_t* L_1 = __this->get_charEntity_8();
+		int32_t L_0 = __this->get_charEntityIndex_10();
+		String_t* L_1 = __this->get_charEntity_9();
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
@@ -26170,12 +26170,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar CharEntityEncoderFallbackBuffer_Ge
 		}
 	}
 	{
-		__this->set_charEntityIndex_9((-1));
+		__this->set_charEntityIndex_10((-1));
 	}
 
 IL_001a:
 	{
-		int32_t L_3 = __this->get_charEntityIndex_9();
+		int32_t L_3 = __this->get_charEntityIndex_10();
 		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
 		{
 			goto IL_0025;
@@ -26187,11 +26187,11 @@ IL_001a:
 
 IL_0025:
 	{
-		String_t* L_4 = __this->get_charEntity_8();
-		int32_t L_5 = __this->get_charEntityIndex_9();
+		String_t* L_4 = __this->get_charEntity_9();
+		int32_t L_5 = __this->get_charEntityIndex_10();
 		V_0 = L_5;
 		int32_t L_6 = V_0;
-		__this->set_charEntityIndex_9(((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1)));
+		__this->set_charEntityIndex_10(((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1)));
 		int32_t L_7 = V_0;
 		NullCheck(L_4);
 		Il2CppChar L_8 = String_get_Chars_m14308AC3B95F8C1D9F1D1055B116B37D595F1D96(L_4, L_7, /*hidden argument*/NULL);
@@ -26202,7 +26202,7 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharEntityEncoderFallbackBuffer_MovePrevious_m1168C6B4C4552395AC8C13E2BD9096B6B2240443 (CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_charEntityIndex_9();
+		int32_t L_0 = __this->get_charEntityIndex_10();
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
 			goto IL_000b;
@@ -26214,15 +26214,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharEntityEncoderFallbackBuffer_MovePrev
 
 IL_000b:
 	{
-		int32_t L_1 = __this->get_charEntityIndex_9();
+		int32_t L_1 = __this->get_charEntityIndex_10();
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
 			goto IL_0024;
 		}
 	}
 	{
-		int32_t L_2 = __this->get_charEntityIndex_9();
-		__this->set_charEntityIndex_9(((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)1)));
+		int32_t L_2 = __this->get_charEntityIndex_10();
+		__this->set_charEntityIndex_10(((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)1)));
 		return (bool)1;
 	}
 
@@ -26235,7 +26235,7 @@ IL_0024:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharEntityEncoderFallbackBuffer_get_Remaining_mEEEF899C67BF996071339A4B6BFB96F38301755A (CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_charEntityIndex_9();
+		int32_t L_0 = __this->get_charEntityIndex_10();
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
 			goto IL_000b;
@@ -26247,10 +26247,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharEntityEncoderFallbackBuffer_get_R
 
 IL_000b:
 	{
-		String_t* L_1 = __this->get_charEntity_8();
+		String_t* L_1 = __this->get_charEntity_9();
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_1, /*hidden argument*/NULL);
-		int32_t L_3 = __this->get_charEntityIndex_9();
+		int32_t L_3 = __this->get_charEntityIndex_10();
 		return ((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)L_3));
 	}
 }
@@ -26258,7 +26258,7 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharEntityEncoderFallbackBuffer_Reset_m5050DB54EE76FA478102EC06B753B0B6A7005788 (CharEntityEncoderFallbackBuffer_tD634B3F88428F39172AB3EBDF8759B1B24D3C2D8 * __this, const RuntimeMethod* method)
 {
 	{
-		__this->set_charEntityIndex_9((-1));
+		__this->set_charEntityIndex_10((-1));
 		return;
 	}
 }

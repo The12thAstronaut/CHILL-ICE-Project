@@ -139,30 +139,6 @@ struct WindowsMixedRealityHandMeshProvider_t4F2F715EE0F84DF068C0E0AE9037022D834B
 struct U3CU3Ec__DisplayClass17_0_t6DFB878ED77541B304DCEB83CF4D50E392618868;
 // Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater
 struct WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C;
-// Microsoft.Windows.Graphics.Holographic.HolographicCamera
-struct HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74;
-// Microsoft.Windows.Graphics.Holographic.HolographicCameraPose
-struct HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938;
-// Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters
-struct HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB;
-// Microsoft.Windows.Graphics.Holographic.HolographicFrame
-struct HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17;
-// Microsoft.Windows.Graphics.Holographic.HolographicFramePrediction
-struct HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81;
-// Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration
-struct HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6;
-// Microsoft.Windows.Graphics.Holographic.IHolographicCamera
-struct IHolographicCamera_t0283235A83FA610352F0FA2EC7939AD2B1E13725;
-// Microsoft.Windows.Graphics.Holographic.IHolographicCameraPose
-struct IHolographicCameraPose_tC5CC2CA0E22B4DD7D61CD2556E0BCAC0E5975BF7;
-// Microsoft.Windows.Graphics.Holographic.IHolographicCameraRenderingParameters
-struct IHolographicCameraRenderingParameters_t37A538447F308B1BA06FC7F88A3E71D841552342;
-// Microsoft.Windows.Graphics.Holographic.IHolographicFrame
-struct IHolographicFrame_t126906FBFFEA1F58297A01439B7D39B150D47DFC;
-// Microsoft.Windows.Graphics.Holographic.IHolographicFramePrediction
-struct IHolographicFramePrediction_t57B5FC08DB56F0C00332AD811D968F64DAAE2A89;
-// Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration
-struct IHolographicViewConfiguration_tFF0F76A437AF06BBC01BA66E163AFD26A70FE5DD;
 // System.Action
 struct Action_t591D2A86165F896B4B800BB5C25CE18672A55579;
 // System.Action`1<System.Int64>
@@ -175,24 +151,10 @@ struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4;
 struct ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821;
 // System.Char[]
 struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
-// System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Boolean>[]
-struct EntryU5BU5D_t511C7DC57AC208468C9F46AEF2BE499BDDD717D2;
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.UInt32,System.Boolean>
-struct KeyCollection_t3A349A3585CAC70E07F72F5F3DA33AAF999ADDD4;
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt32,System.Boolean>
-struct ValueCollection_tDFDB1A0D1867BB95DA555DFAD1490226AC11090F;
 // System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose/GestureId,Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose>
 struct Dictionary_2_t0F9A9396259D09CFAA8130D2B1A43DE5434AD5D0;
 // System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
 struct Dictionary_2_tC314057363AB78F99AD807B804C5676B14530F86;
-// System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>
-struct Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062;
-// System.Collections.Generic.IEqualityComparer`1<System.UInt32>
-struct IEqualityComparer_1_t8D13638D3E8C85B2BF37618A54F8C19DD8DF2523;
-// System.Collections.Generic.IReadOnlyList`1<Microsoft.Windows.Graphics.Holographic.HolographicCameraPose>
-struct IReadOnlyList_1_t568109B886B83217E642DD9E05CD068A9D5461F9;
-// System.Collections.Generic.IReadOnlyList`1<Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>
-struct IReadOnlyList_1_t78C2A06094D918F17540628B926350CDEF4EF6CD;
 // System.Collections.Generic.List`1<System.Globalization.CultureInfo>
 struct List_1_t74F59DD36FAE0CFB087612565C42CAD359647832;
 // System.Collections.IDictionary
@@ -217,12 +179,6 @@ struct StreamWriter_t989B894EF3BFCDF6FF5F5F068402A4F835FC8E8E;
 struct Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83;
 // System.IntPtr[]
 struct IntPtrU5BU5D_t4DC01DCB9A6DF6C9792A6513595D7A11E637DCDD;
-// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicCamera6>
-struct Lazy_1_tFDEF0C2B78203E5067F4716737F16B9118FB0956;
-// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicCameraRenderingParameters4>
-struct Lazy_1_t0C9B4A0E460B824A303CCD3ABD886A05A24B0953;
-// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2>
-struct Lazy_1_t8CE5D7FA7E3ED30A9A6543B9FBE08B1DD9D28918;
 // System.Reflection.Binder
 struct Binder_t4D5CB06963501D32847C057B57157D6DC49CA759;
 // System.Reflection.MemberFilter
@@ -279,6 +235,8 @@ struct IAsyncOperation_1_t090608560EB14F610D573A01BF8C02A874135D4E;
 struct IAsyncOperation_1_t50CAC585FCBC96C8EFE13ED36C9868ED70BC00F4;
 // Windows.Graphics.Holographic.HolographicDisplay
 struct HolographicDisplay_t30C54F0F28925FABF9E9C0DC2E84AA075423D17C;
+// Windows.Graphics.Holographic.HolographicFrame
+struct HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543;
 // Windows.Graphics.Holographic.HolographicViewConfiguration
 struct HolographicViewConfiguration_t21C511C29262ED636D7832385563FFC5FD117B90;
 // Windows.Graphics.Holographic.IHolographicDisplayStatics
@@ -305,17 +263,12 @@ IL2CPP_EXTERN_C RuntimeClass* BaseWindowsMixedRealityCameraSettings_tC1759AF985F
 IL2CPP_EXTERN_C RuntimeClass* CoreServices_t3A685C81FB6AC96F74F9279B54CD03754F1FF544_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HandMeshInfo_tBD24ECEB001F89B5887DBC3D091F1D08C3393A5F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t6C4C42AD44767C4805FF7D4BB35AB3183161C728_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t7B1DB470FDC7A4E434E343557666A9CCB3C3DD7E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t5276CF175021864B913B70676954469A4E132BB1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t8728388AB8956738B1BDE14476B97DE25CE81855_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IMixedRealityController_tA6E280BFC4D9FE24AADF2C8FC2150A7872D3E671_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IMixedRealityInputSystem_t5CCAA5BAD9D45403FCE5D1B3FEEB2E45BA65B22B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IWindowsMixedRealityUtilitiesProvider_t6129B71DD7BCF107F18D91CFC0991B1845A8A6D4_il2cpp_TypeInfo_var;
@@ -341,7 +294,6 @@ IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityArticulatedHandDefinition_tD0A1
 IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityCameraSettingsProfile_t1C5FF60781F234CA2D18C4E40A92B6C7A45D7A4D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityHandMeshProvider_t4F2F715EE0F84DF068C0E0AE9037022D834B7BC6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityHandRecorder_tEB63EBE9BBBAEAAB380F1E16D63AE4B867CF2737_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WindowsMixedRealityUtilities_tFF328AA3ADB6B81F0FC788A963C3E4B5B80DF34F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral115DA163D47AF900A552D60440D697D80BE9EAA6;
 IL2CPP_EXTERN_C String_t* _stringLiteral19A62EFA935D2025B377B7ACDC2E030A1DBBAB91;
@@ -351,17 +303,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteral71356565B0BDA2511BAAC64A6780DC965ABD1A8A
 IL2CPP_EXTERN_C String_t* _stringLiteral75CFB32F644507536A264B176892612FF5F518CD;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA683544036E9391092847670BF68C892E6D1F4A;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3F575CC4B274140D1ED6BA5DE03C34BEA6E0D9A;
-IL2CPP_EXTERN_C String_t* _stringLiteralC62AE618208245A19C3ED5DA45C0849A837F3968;
-IL2CPP_EXTERN_C String_t* _stringLiteralE54C5D56F2100F8CDC5708147E8855998AB2FEEC;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mE6AF66ADADA490132D58643FF76985B2FEA30581_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t096813A32910697159944CCF69A0579741EAA6D3_TisU3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208_mD42E45E1918A9CA6E7879C2F84D82869E6337A37_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t096813A32910697159944CCF69A0579741EAA6D3_TisU3CSetHandMeshObserverU3Ed__9_tE4C9D8419E0E1F4AEEAEDD68341877DB0507270D_m9572670D275C9B34F21645058C6CED88B244B372_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208_m19CE680D8124D75A2885B364B2999AD87661C1CC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CSetHandMeshObserverU3Ed__9_tE4C9D8419E0E1F4AEEAEDD68341877DB0507270D_m8DA86F3B421E23996503C1A7B04727B9F891B8FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ComponentExtensions_EnsureComponent_TisWindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_m89A3CFABECD165A0FE05FAB1FEA63C2F2B37C1E4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mA79CF586094D58C9CE6FAA71FE098110025842B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m2FF1A8A834E0AE0F139395B39F0FE1F934140C57_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m1E3E76BF58A28E2FDB9415F981E2EF400575A230_RuntimeMethod_var;
@@ -398,12 +345,8 @@ IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityHandRecorder_RecordHandStop_mB
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityHandRecorder_StoreRecordedHandPose_mE7067F0870E8D2B0ABA64EE8E96B2124BE3D751C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityHandRecorder__cctor_mA834923FAC3933A8125435868C73F5652F9639F2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityHandRecorder__ctor_mF7ECBF4A6DF2D4DF4FB0E769E562D2B803AA3F04_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityReprojectionUpdater_CameraSupportsAutoPlanar_m6168B0CF69ED34DD755B15F4122D8737D57F5DB7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityReprojectionUpdater_OnPostRender_m6B4C3DDA5381553292E85738688C5DD79A68BAB7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityReprojectionUpdater__cctor_m2182ABE6F86C9E840E4153742E2CB3FCF2CB5CC6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityReprojectionUpdater__ctor_m0C37000962352FFBA2AD785038ACDEB439C6CA24_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities__cctor_m120DBD4466D55C441DD86F21288E154D879E25AD_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m8CFC454403B8CF87AF201F1FD37B82AD7F63AA91_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m00938E33494885350271051B605EAE5858191B1C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_m4C7AF6AE2376B97443FCA7C06EF469D10F7E6244_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities_get_UtilitiesProvider_m2606C2B29B60B98BD3F5A64E7A7A51A5260BB86CMicrosoft_MixedReality_Toolkit_Providers_WindowsMixedReality_Shared_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WindowsMixedRealityUtilities_get_UtilitiesProvider_m2606C2B29B60B98BD3F5A64E7A7A51A5260BB86C_MetadataUsageId;
@@ -417,6 +360,7 @@ struct IHandMeshObserver_t02A87312E60FF1CFB426A8287E4C41BB51545EDB;
 struct IHandMeshVertexState_t23A593DBC3225D490E3367909E596D2524D29B3E;
 struct IHandPose_tED14057CBEC7A43491741B9D1C8247FA1CEBEEE9;
 struct IHolographicDisplay_tF0874CC665466ADA20A761507B203B4C3227CAED;
+struct IHolographicFrame_tB1B952F92A1453CFB04C4266BD14609A400648EF;
 struct IHolographicViewConfiguration_t4CCDD7342488700CFE3C015D7DA58569FBDACB0D;
 struct ISpatialCoordinateSystem_t8F4DC599755946B5BB8F082B564C34A94EF14F57;
 struct ISpatialInteractionSourceState_t7819CBCDBD13F7DB715D2EFC13F79467B2D07C99;
@@ -629,270 +573,9 @@ public:
 	}
 };
 
-
-// Microsoft.Windows.Graphics.Holographic.HolographicCamera
-struct  HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicCamera Microsoft.Windows.Graphics.Holographic.HolographicCamera::_interface
-	IHolographicCamera_t0283235A83FA610352F0FA2EC7939AD2B1E13725 * ____interface_0;
-	// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicCamera6> Microsoft.Windows.Graphics.Holographic.HolographicCamera::_interface6
-	Lazy_1_tFDEF0C2B78203E5067F4716737F16B9118FB0956 * ____interface6_1;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74, ____interface_0)); }
-	inline IHolographicCamera_t0283235A83FA610352F0FA2EC7939AD2B1E13725 * get__interface_0() const { return ____interface_0; }
-	inline IHolographicCamera_t0283235A83FA610352F0FA2EC7939AD2B1E13725 ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicCamera_t0283235A83FA610352F0FA2EC7939AD2B1E13725 * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__interface6_1() { return static_cast<int32_t>(offsetof(HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74, ____interface6_1)); }
-	inline Lazy_1_tFDEF0C2B78203E5067F4716737F16B9118FB0956 * get__interface6_1() const { return ____interface6_1; }
-	inline Lazy_1_tFDEF0C2B78203E5067F4716737F16B9118FB0956 ** get_address_of__interface6_1() { return &____interface6_1; }
-	inline void set__interface6_1(Lazy_1_tFDEF0C2B78203E5067F4716737F16B9118FB0956 * value)
-	{
-		____interface6_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface6_1), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicCameraPose
-struct  HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicCameraPose Microsoft.Windows.Graphics.Holographic.HolographicCameraPose::_interface
-	IHolographicCameraPose_tC5CC2CA0E22B4DD7D61CD2556E0BCAC0E5975BF7 * ____interface_0;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938, ____interface_0)); }
-	inline IHolographicCameraPose_tC5CC2CA0E22B4DD7D61CD2556E0BCAC0E5975BF7 * get__interface_0() const { return ____interface_0; }
-	inline IHolographicCameraPose_tC5CC2CA0E22B4DD7D61CD2556E0BCAC0E5975BF7 ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicCameraPose_tC5CC2CA0E22B4DD7D61CD2556E0BCAC0E5975BF7 * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters
-struct  HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicCameraRenderingParameters Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters::_interface
-	IHolographicCameraRenderingParameters_t37A538447F308B1BA06FC7F88A3E71D841552342 * ____interface_0;
-	// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicCameraRenderingParameters4> Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters::_interface4
-	Lazy_1_t0C9B4A0E460B824A303CCD3ABD886A05A24B0953 * ____interface4_1;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB, ____interface_0)); }
-	inline IHolographicCameraRenderingParameters_t37A538447F308B1BA06FC7F88A3E71D841552342 * get__interface_0() const { return ____interface_0; }
-	inline IHolographicCameraRenderingParameters_t37A538447F308B1BA06FC7F88A3E71D841552342 ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicCameraRenderingParameters_t37A538447F308B1BA06FC7F88A3E71D841552342 * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__interface4_1() { return static_cast<int32_t>(offsetof(HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB, ____interface4_1)); }
-	inline Lazy_1_t0C9B4A0E460B824A303CCD3ABD886A05A24B0953 * get__interface4_1() const { return ____interface4_1; }
-	inline Lazy_1_t0C9B4A0E460B824A303CCD3ABD886A05A24B0953 ** get_address_of__interface4_1() { return &____interface4_1; }
-	inline void set__interface4_1(Lazy_1_t0C9B4A0E460B824A303CCD3ABD886A05A24B0953 * value)
-	{
-		____interface4_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface4_1), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicFrame
-struct  HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicFrame Microsoft.Windows.Graphics.Holographic.HolographicFrame::_interface
-	IHolographicFrame_t126906FBFFEA1F58297A01439B7D39B150D47DFC * ____interface_0;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17, ____interface_0)); }
-	inline IHolographicFrame_t126906FBFFEA1F58297A01439B7D39B150D47DFC * get__interface_0() const { return ____interface_0; }
-	inline IHolographicFrame_t126906FBFFEA1F58297A01439B7D39B150D47DFC ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicFrame_t126906FBFFEA1F58297A01439B7D39B150D47DFC * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicFramePrediction
-struct  HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicFramePrediction Microsoft.Windows.Graphics.Holographic.HolographicFramePrediction::_interface
-	IHolographicFramePrediction_t57B5FC08DB56F0C00332AD811D968F64DAAE2A89 * ____interface_0;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81, ____interface_0)); }
-	inline IHolographicFramePrediction_t57B5FC08DB56F0C00332AD811D968F64DAAE2A89 * get__interface_0() const { return ____interface_0; }
-	inline IHolographicFramePrediction_t57B5FC08DB56F0C00332AD811D968F64DAAE2A89 ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicFramePrediction_t57B5FC08DB56F0C00332AD811D968F64DAAE2A89 * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration
-struct  HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6  : public RuntimeObject
-{
-public:
-	// Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration::_interface
-	IHolographicViewConfiguration_tFF0F76A437AF06BBC01BA66E163AFD26A70FE5DD * ____interface_0;
-	// System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2> Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration::_interface2
-	Lazy_1_t8CE5D7FA7E3ED30A9A6543B9FBE08B1DD9D28918 * ____interface2_1;
-
-public:
-	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6, ____interface_0)); }
-	inline IHolographicViewConfiguration_tFF0F76A437AF06BBC01BA66E163AFD26A70FE5DD * get__interface_0() const { return ____interface_0; }
-	inline IHolographicViewConfiguration_tFF0F76A437AF06BBC01BA66E163AFD26A70FE5DD ** get_address_of__interface_0() { return &____interface_0; }
-	inline void set__interface_0(IHolographicViewConfiguration_tFF0F76A437AF06BBC01BA66E163AFD26A70FE5DD * value)
-	{
-		____interface_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__interface2_1() { return static_cast<int32_t>(offsetof(HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6, ____interface2_1)); }
-	inline Lazy_1_t8CE5D7FA7E3ED30A9A6543B9FBE08B1DD9D28918 * get__interface2_1() const { return ____interface2_1; }
-	inline Lazy_1_t8CE5D7FA7E3ED30A9A6543B9FBE08B1DD9D28918 ** get_address_of__interface2_1() { return &____interface2_1; }
-	inline void set__interface2_1(Lazy_1_t8CE5D7FA7E3ED30A9A6543B9FBE08B1DD9D28918 * value)
-	{
-		____interface2_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____interface2_1), (void*)value);
-	}
-};
-
 struct Il2CppArrayBounds;
 
 // System.Array
-
-
-// System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>
-struct  Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062  : public RuntimeObject
-{
-public:
-	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
-	Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* ___buckets_0;
-	// System.Collections.Generic.Dictionary`2_Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::entries
-	EntryU5BU5D_t511C7DC57AC208468C9F46AEF2BE499BDDD717D2* ___entries_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2::count
-	int32_t ___count_2;
-	// System.Int32 System.Collections.Generic.Dictionary`2::version
-	int32_t ___version_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2::freeList
-	int32_t ___freeList_4;
-	// System.Int32 System.Collections.Generic.Dictionary`2::freeCount
-	int32_t ___freeCount_5;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::comparer
-	RuntimeObject* ___comparer_6;
-	// System.Collections.Generic.Dictionary`2_KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::keys
-	KeyCollection_t3A349A3585CAC70E07F72F5F3DA33AAF999ADDD4 * ___keys_7;
-	// System.Collections.Generic.Dictionary`2_ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
-	ValueCollection_tDFDB1A0D1867BB95DA555DFAD1490226AC11090F * ___values_8;
-	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject * ____syncRoot_9;
-
-public:
-	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___buckets_0)); }
-	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* get_buckets_0() const { return ___buckets_0; }
-	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83** get_address_of_buckets_0() { return &___buckets_0; }
-	inline void set_buckets_0(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* value)
-	{
-		___buckets_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___buckets_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_entries_1() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___entries_1)); }
-	inline EntryU5BU5D_t511C7DC57AC208468C9F46AEF2BE499BDDD717D2* get_entries_1() const { return ___entries_1; }
-	inline EntryU5BU5D_t511C7DC57AC208468C9F46AEF2BE499BDDD717D2** get_address_of_entries_1() { return &___entries_1; }
-	inline void set_entries_1(EntryU5BU5D_t511C7DC57AC208468C9F46AEF2BE499BDDD717D2* value)
-	{
-		___entries_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___entries_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_count_2() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___count_2)); }
-	inline int32_t get_count_2() const { return ___count_2; }
-	inline int32_t* get_address_of_count_2() { return &___count_2; }
-	inline void set_count_2(int32_t value)
-	{
-		___count_2 = value;
-	}
-
-	inline static int32_t get_offset_of_version_3() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___version_3)); }
-	inline int32_t get_version_3() const { return ___version_3; }
-	inline int32_t* get_address_of_version_3() { return &___version_3; }
-	inline void set_version_3(int32_t value)
-	{
-		___version_3 = value;
-	}
-
-	inline static int32_t get_offset_of_freeList_4() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___freeList_4)); }
-	inline int32_t get_freeList_4() const { return ___freeList_4; }
-	inline int32_t* get_address_of_freeList_4() { return &___freeList_4; }
-	inline void set_freeList_4(int32_t value)
-	{
-		___freeList_4 = value;
-	}
-
-	inline static int32_t get_offset_of_freeCount_5() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___freeCount_5)); }
-	inline int32_t get_freeCount_5() const { return ___freeCount_5; }
-	inline int32_t* get_address_of_freeCount_5() { return &___freeCount_5; }
-	inline void set_freeCount_5(int32_t value)
-	{
-		___freeCount_5 = value;
-	}
-
-	inline static int32_t get_offset_of_comparer_6() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___comparer_6)); }
-	inline RuntimeObject* get_comparer_6() const { return ___comparer_6; }
-	inline RuntimeObject** get_address_of_comparer_6() { return &___comparer_6; }
-	inline void set_comparer_6(RuntimeObject* value)
-	{
-		___comparer_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___comparer_6), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_keys_7() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___keys_7)); }
-	inline KeyCollection_t3A349A3585CAC70E07F72F5F3DA33AAF999ADDD4 * get_keys_7() const { return ___keys_7; }
-	inline KeyCollection_t3A349A3585CAC70E07F72F5F3DA33AAF999ADDD4 ** get_address_of_keys_7() { return &___keys_7; }
-	inline void set_keys_7(KeyCollection_t3A349A3585CAC70E07F72F5F3DA33AAF999ADDD4 * value)
-	{
-		___keys_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___keys_7), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_values_8() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ___values_8)); }
-	inline ValueCollection_tDFDB1A0D1867BB95DA555DFAD1490226AC11090F * get_values_8() const { return ___values_8; }
-	inline ValueCollection_tDFDB1A0D1867BB95DA555DFAD1490226AC11090F ** get_address_of_values_8() { return &___values_8; }
-	inline void set_values_8(ValueCollection_tDFDB1A0D1867BB95DA555DFAD1490226AC11090F * value)
-	{
-		___values_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___values_8), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__syncRoot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062, ____syncRoot_9)); }
-	inline RuntimeObject * get__syncRoot_9() const { return ____syncRoot_9; }
-	inline RuntimeObject ** get_address_of__syncRoot_9() { return &____syncRoot_9; }
-	inline void set__syncRoot_9(RuntimeObject * value)
-	{
-		____syncRoot_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_9), (void*)value);
-	}
-};
 
 
 // System.MarshalByRefObject
@@ -2191,6 +1874,15 @@ public:
 };
 
 
+// Windows.Graphics.Holographic.HolographicFrame
+struct  HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543  : public Il2CppComObject
+{
+public:
+
+public:
+};
+
+
 // Windows.Graphics.Holographic.HolographicViewConfiguration
 struct  HolographicViewConfiguration_t21C511C29262ED636D7832385563FFC5FD117B90  : public Il2CppComObject
 {
@@ -2503,24 +2195,6 @@ public:
 	{
 		___spatialCoordinateSystem_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___spatialCoordinateSystem_2), (void*)value);
-	}
-};
-
-
-// Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod
-struct  HolographicDepthReprojectionMethod_t1ECB394E594E8B7E8904FCC945D6919B095E55F2 
-{
-public:
-	// System.Int32 Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(HolographicDepthReprojectionMethod_t1ECB394E594E8B7E8904FCC945D6919B095E55F2, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
 	}
 };
 
@@ -4515,8 +4189,6 @@ struct  WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3
 public:
 	// Microsoft.MixedReality.Toolkit.WindowsMixedReality.HolographicDepthReprojectionMethod Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::<ReprojectionMethod>k__BackingField
 	int32_t ___U3CReprojectionMethodU3Ek__BackingField_4;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean> Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::cameraIdToSupportsAutoPlanar
-	Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * ___cameraIdToSupportsAutoPlanar_5;
 
 public:
 	inline static int32_t get_offset_of_U3CReprojectionMethodU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C, ___U3CReprojectionMethodU3Ek__BackingField_4)); }
@@ -4525,31 +4197,6 @@ public:
 	inline void set_U3CReprojectionMethodU3Ek__BackingField_4(int32_t value)
 	{
 		___U3CReprojectionMethodU3Ek__BackingField_4 = value;
-	}
-
-	inline static int32_t get_offset_of_cameraIdToSupportsAutoPlanar_5() { return static_cast<int32_t>(offsetof(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C, ___cameraIdToSupportsAutoPlanar_5)); }
-	inline Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * get_cameraIdToSupportsAutoPlanar_5() const { return ___cameraIdToSupportsAutoPlanar_5; }
-	inline Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 ** get_address_of_cameraIdToSupportsAutoPlanar_5() { return &___cameraIdToSupportsAutoPlanar_5; }
-	inline void set_cameraIdToSupportsAutoPlanar_5(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * value)
-	{
-		___cameraIdToSupportsAutoPlanar_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___cameraIdToSupportsAutoPlanar_5), (void*)value);
-	}
-};
-
-struct WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_StaticFields
-{
-public:
-	// System.Boolean Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::isDepthReprojectionModeSupported
-	bool ___isDepthReprojectionModeSupported_6;
-
-public:
-	inline static int32_t get_offset_of_isDepthReprojectionModeSupported_6() { return static_cast<int32_t>(offsetof(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_StaticFields, ___isDepthReprojectionModeSupported_6)); }
-	inline bool get_isDepthReprojectionModeSupported_6() const { return ___isDepthReprojectionModeSupported_6; }
-	inline bool* get_address_of_isDepthReprojectionModeSupported_6() { return &___isDepthReprojectionModeSupported_6; }
-	inline void set_isDepthReprojectionModeSupported_6(bool value)
-	{
-		___isDepthReprojectionModeSupported_6 = value;
 	}
 };
 
@@ -4827,12 +4474,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * TaskAwaiter_1_GetResult_m9E14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208_m19CE680D8124D75A2885B364B2999AD87661C1CC_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208 * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityHandMeshProvider/<SetHandMeshObserver>d__14>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208_m126386EADDE69979ECB10BC5F5E4BFC2ADAA2BD7_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977 * ___awaiter0, U3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208 * ___stateMachine1, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::TryGetValue(!0,!1&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99_gshared (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, uint32_t ___key0, bool* ___value1, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::Add(!0,!1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300_gshared (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, uint32_t ___key0, bool ___value1, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3_gshared (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, const RuntimeMethod* method);
 
 // System.Void Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityHandRecorder::RecordHandStart(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityHandRecorder_RecordHandStart_m50CA90E21D8398DAE18B33FB96BD8A74EB5B0A8D (WindowsMixedRealityHandRecorder_tEB63EBE9BBBAEAAB380F1E16D63AE4B867CF2737 * __this, uint8_t ___handedness0, const RuntimeMethod* method);
@@ -5063,45 +4704,6 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetHandMeshObserverU3Ed__14_MoveNext_m68CCF23499D878FE2CA5C076CEC131B956D8B55E (U3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityHandMeshProvider/<SetHandMeshObserver>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetHandMeshObserverU3Ed__14_SetStateMachine_m5148CFE722A9C370F3EEAE65013A41D96A1094B2 (U3CSetHandMeshObserverU3Ed__14_tA0DA69F2A854C54F9B569B1E1C000930F90C8208 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
-// Microsoft.MixedReality.Toolkit.WindowsMixedReality.HolographicDepthReprojectionMethod Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::get_ReprojectionMethod()
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t WindowsMixedRealityReprojectionUpdater_get_ReprojectionMethod_m60DDD2B22FEDA2CF4D476E93F3522A90510CCF7F_inline (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, const RuntimeMethod* method);
-// Microsoft.Windows.Graphics.Holographic.HolographicFrame Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::get_CurrentHolographicFrame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m8CFC454403B8CF87AF201F1FD37B82AD7F63AA91 (const RuntimeMethod* method);
-// Microsoft.Windows.Graphics.Holographic.HolographicFramePrediction Microsoft.Windows.Graphics.Holographic.HolographicFrame::get_CurrentPrediction()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81 * HolographicFrame_get_CurrentPrediction_m619909CE24E3F619BDF65D4957269524520BCDB6 (HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * __this, const RuntimeMethod* method);
-// System.Collections.Generic.IReadOnlyList`1<Microsoft.Windows.Graphics.Holographic.HolographicCameraPose> Microsoft.Windows.Graphics.Holographic.HolographicFramePrediction::get_CameraPoses()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HolographicFramePrediction_get_CameraPoses_m04AADF0ECAA32CA5703C03E6E3DEFB6429CD51F6 (HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81 * __this, const RuntimeMethod* method);
-// Microsoft.Windows.Graphics.Holographic.HolographicCamera Microsoft.Windows.Graphics.Holographic.HolographicCameraPose::get_HolographicCamera()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * HolographicCameraPose_get_HolographicCamera_m8E744C5D426841DAF09C4B8086DD80AC0E5CB07C (HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * __this, const RuntimeMethod* method);
-// System.Boolean Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::CameraSupportsAutoPlanar(Microsoft.Windows.Graphics.Holographic.HolographicCamera)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsMixedRealityReprojectionUpdater_CameraSupportsAutoPlanar_m6168B0CF69ED34DD755B15F4122D8737D57F5DB7 (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * ___camera0, const RuntimeMethod* method);
-// Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters Microsoft.Windows.Graphics.Holographic.HolographicFrame::GetRenderingParameters(Microsoft.Windows.Graphics.Holographic.HolographicCameraPose)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * HolographicFrame_GetRenderingParameters_mD559704CBCC03AE33B946B7CC2F21BA3B84AA36B (HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * __this, HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * ___cameraPose0, const RuntimeMethod* method);
-// System.Void Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters::set_DepthReprojectionMethod(Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolographicCameraRenderingParameters_set_DepthReprojectionMethod_m46184E71FF37BBEE56DA58BF292E89FEC8132032 (HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * __this, int32_t ___value0, const RuntimeMethod* method);
-// System.UInt32 Microsoft.Windows.Graphics.Holographic.HolographicCamera::get_Id()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042 (HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * __this, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::TryGetValue(!0,!1&)
-inline bool Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99 (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, uint32_t ___key0, bool* ___value1, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 *, uint32_t, bool*, const RuntimeMethod*))Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99_gshared)(__this, ___key0, ___value1, method);
-}
-// Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration Microsoft.Windows.Graphics.Holographic.HolographicCamera::get_ViewConfiguration()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6 * HolographicCamera_get_ViewConfiguration_mF8B3E1AE75AE8DB716DDE3BEA3399D0E295F37CD (HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * __this, const RuntimeMethod* method);
-// System.Collections.Generic.IReadOnlyList`1<Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod> Microsoft.Windows.Graphics.Holographic.HolographicViewConfiguration::get_SupportedDepthReprojectionMethods()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HolographicViewConfiguration_get_SupportedDepthReprojectionMethods_mD33BD7BE21EC496335DC1BCD75E3EF0441DE7071 (HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6 * __this, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::Add(!0,!1)
-inline void Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300 (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, uint32_t ___key0, bool ___value1, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 *, uint32_t, bool, const RuntimeMethod*))Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300_gshared)(__this, ___key0, ___value1, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::.ctor()
-inline void Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3 (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 *, const RuntimeMethod*))Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3_gshared)(__this, method);
-}
-// System.Boolean Microsoft.MixedReality.Toolkit.Windows.Utilities.WindowsApiChecker::IsPropertyAvailable(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsApiChecker_IsPropertyAvailable_mD57AB6F292DD506C85DC5E9AEC9BBFE3EDEA460A (String_t* ___namespaceName0, String_t* ___className1, String_t* ___propertyName2, const RuntimeMethod* method);
 // Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::get_UtilitiesProvider()
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR RuntimeObject* WindowsMixedRealityUtilities_get_UtilitiesProvider_m2606C2B29B60B98BD3F5A64E7A7A51A5260BB86C_inline (const RuntimeMethod* method);
 // System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
@@ -5110,8 +4712,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_mB4886A806009EA825E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Marshal_GetObjectForIUnknown_m4ABB91E8D7A1F5B5F9341FCBCD7100A4DC5E1DE2 (intptr_t ___pUnk0, const RuntimeMethod* method);
 // System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mEE8D9FD2DFE312BBAA8B4ED3BF7976B3142A5934 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
-// Microsoft.Windows.Graphics.Holographic.HolographicFrame Microsoft.Windows.Graphics.Holographic.HolographicFrame::FromNativePtr(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * HolographicFrame_FromNativePtr_mB573AA6B93FF731E10F29165BCA6B5DD1C63884A (intptr_t ___thisPtr0, const RuntimeMethod* method);
 // System.Void Unity.Profiling.ProfilerMarker/AutoScope::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void AutoScope__ctor_mDB99051F3C5C2BFFF71574AC515AB523F04E3320_inline (AutoScope_tFCF9F27FF85DCD3A3880FAADCB520F29B1543A7F * __this, intptr_t ___markerPtr0, const RuntimeMethod* method);
 // System.Void Unity.Profiling.ProfilerMarker::Internal_End(System.IntPtr)
@@ -7815,348 +7415,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityReprojectionUpdater_s
 		return;
 	}
 }
-// System.Void Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::OnPostRender()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityReprojectionUpdater_OnPostRender_m6B4C3DDA5381553292E85738688C5DD79A68BAB7 (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WindowsMixedRealityReprojectionUpdater_OnPostRender_m6B4C3DDA5381553292E85738688C5DD79A68BAB7_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * V_2 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-	RuntimeObject* G_B5_0 = NULL;
-	{
-		// if (isDepthReprojectionModeSupported &&
-		//     (ReprojectionMethod == HolographicDepthReprojectionMethod.AutoPlanar))
-		IL2CPP_RUNTIME_CLASS_INIT(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_il2cpp_TypeInfo_var);
-		bool L_0 = ((WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_StaticFields*)il2cpp_codegen_static_fields_for(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_il2cpp_TypeInfo_var))->get_isDepthReprojectionModeSupported_6();
-		if (!L_0)
-		{
-			goto IL_0065;
-		}
-	}
-	{
-		int32_t L_1 = WindowsMixedRealityReprojectionUpdater_get_ReprojectionMethod_m60DDD2B22FEDA2CF4D476E93F3522A90510CCF7F_inline(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
-		{
-			goto IL_0065;
-		}
-	}
-	{
-		// Microsoft.Windows.Graphics.Holographic.HolographicFrame frame = WindowsMixedRealityUtilities.CurrentHolographicFrame;
-		IL2CPP_RUNTIME_CLASS_INIT(WindowsMixedRealityUtilities_tFF328AA3ADB6B81F0FC788A963C3E4B5B80DF34F_il2cpp_TypeInfo_var);
-		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_2 = WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m8CFC454403B8CF87AF201F1FD37B82AD7F63AA91(/*hidden argument*/NULL);
-		V_0 = L_2;
-		// foreach (var cameraPose in frame?.CurrentPrediction.CameraPoses)
-		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_3 = V_0;
-		if (L_3)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		G_B5_0 = ((RuntimeObject*)(NULL));
-		goto IL_0027;
-	}
-
-IL_001c:
-	{
-		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_4 = V_0;
-		NullCheck(L_4);
-		HolographicFramePrediction_t7038F2EF46EE71DFC80019DD7BD9C262C1E2FE81 * L_5 = HolographicFrame_get_CurrentPrediction_m619909CE24E3F619BDF65D4957269524520BCDB6(L_4, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		RuntimeObject* L_6 = HolographicFramePrediction_get_CameraPoses_m04AADF0ECAA32CA5703C03E6E3DEFB6429CD51F6(L_5, /*hidden argument*/NULL);
-		G_B5_0 = L_6;
-	}
-
-IL_0027:
-	{
-		NullCheck(G_B5_0);
-		RuntimeObject* L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Microsoft.Windows.Graphics.Holographic.HolographicCameraPose>::GetEnumerator() */, IEnumerable_1_t7B1DB470FDC7A4E434E343557666A9CCB3C3DD7E_il2cpp_TypeInfo_var, G_B5_0);
-		V_1 = L_7;
-	}
-
-IL_002d:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_0051;
-		}
-
-IL_002f:
-		{
-			// foreach (var cameraPose in frame?.CurrentPrediction.CameraPoses)
-			RuntimeObject* L_8 = V_1;
-			NullCheck(L_8);
-			HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * L_9 = InterfaceFuncInvoker0< HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Microsoft.Windows.Graphics.Holographic.HolographicCameraPose>::get_Current() */, IEnumerator_1_t5276CF175021864B913B70676954469A4E132BB1_il2cpp_TypeInfo_var, L_8);
-			V_2 = L_9;
-			// if (CameraSupportsAutoPlanar(cameraPose.HolographicCamera))
-			HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * L_10 = V_2;
-			NullCheck(L_10);
-			HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_11 = HolographicCameraPose_get_HolographicCamera_m8E744C5D426841DAF09C4B8086DD80AC0E5CB07C(L_10, /*hidden argument*/NULL);
-			bool L_12 = WindowsMixedRealityReprojectionUpdater_CameraSupportsAutoPlanar_m6168B0CF69ED34DD755B15F4122D8737D57F5DB7(__this, L_11, /*hidden argument*/NULL);
-			if (!L_12)
-			{
-				goto IL_0051;
-			}
-		}
-
-IL_0044:
-		{
-			// Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters renderingParams = frame.GetRenderingParameters(cameraPose);
-			HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_13 = V_0;
-			HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * L_14 = V_2;
-			NullCheck(L_13);
-			HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * L_15 = HolographicFrame_GetRenderingParameters_mD559704CBCC03AE33B946B7CC2F21BA3B84AA36B(L_13, L_14, /*hidden argument*/NULL);
-			// renderingParams.DepthReprojectionMethod = Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod.AutoPlanar;
-			NullCheck(L_15);
-			HolographicCameraRenderingParameters_set_DepthReprojectionMethod_m46184E71FF37BBEE56DA58BF292E89FEC8132032(L_15, 1, /*hidden argument*/NULL);
-		}
-
-IL_0051:
-		{
-			// foreach (var cameraPose in frame?.CurrentPrediction.CameraPoses)
-			RuntimeObject* L_16 = V_1;
-			NullCheck(L_16);
-			bool L_17 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var, L_16);
-			if (L_17)
-			{
-				goto IL_002f;
-			}
-		}
-
-IL_0059:
-		{
-			IL2CPP_LEAVE(0x65, FINALLY_005b);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_005b;
-	}
-
-FINALLY_005b:
-	{ // begin finally (depth: 1)
-		{
-			RuntimeObject* L_18 = V_1;
-			if (!L_18)
-			{
-				goto IL_0064;
-			}
-		}
-
-IL_005e:
-		{
-			RuntimeObject* L_19 = V_1;
-			NullCheck(L_19);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var, L_19);
-		}
-
-IL_0064:
-		{
-			IL2CPP_END_FINALLY(91)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(91)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x65, IL_0065)
-	}
-
-IL_0065:
-	{
-		// }
-		return;
-	}
-}
-// System.Boolean Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::CameraSupportsAutoPlanar(Microsoft.Windows.Graphics.Holographic.HolographicCamera)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsMixedRealityReprojectionUpdater_CameraSupportsAutoPlanar_m6168B0CF69ED34DD755B15F4122D8737D57F5DB7 (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * ___camera0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WindowsMixedRealityReprojectionUpdater_CameraSupportsAutoPlanar_m6168B0CF69ED34DD755B15F4122D8737D57F5DB7_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	RuntimeObject* V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-	{
-		// bool supportsAutoPlanar = false;
-		V_0 = (bool)0;
-		// if (!cameraIdToSupportsAutoPlanar.TryGetValue(camera.Id, out supportsAutoPlanar))
-		Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * L_0 = __this->get_cameraIdToSupportsAutoPlanar_5();
-		HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_1 = ___camera0;
-		NullCheck(L_1);
-		uint32_t L_2 = HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042(L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		bool L_3 = Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99(L_0, L_2, (bool*)(&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99_RuntimeMethod_var);
-		if (L_3)
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		// foreach (var method in camera.ViewConfiguration.SupportedDepthReprojectionMethods)
-		HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_4 = ___camera0;
-		NullCheck(L_4);
-		HolographicViewConfiguration_tD96CE00020067B073EB1E053C3D1706F4B15D1B6 * L_5 = HolographicCamera_get_ViewConfiguration_mF8B3E1AE75AE8DB716DDE3BEA3399D0E295F37CD(L_4, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		RuntimeObject* L_6 = HolographicViewConfiguration_get_SupportedDepthReprojectionMethods_mD33BD7BE21EC496335DC1BCD75E3EF0441DE7071(L_5, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		RuntimeObject* L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>::GetEnumerator() */, IEnumerable_1_t6C4C42AD44767C4805FF7D4BB35AB3183161C728_il2cpp_TypeInfo_var, L_6);
-		V_1 = L_7;
-	}
-
-IL_0028:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_0037;
-		}
-
-IL_002a:
-		{
-			// foreach (var method in camera.ViewConfiguration.SupportedDepthReprojectionMethods)
-			RuntimeObject* L_8 = V_1;
-			NullCheck(L_8);
-			int32_t L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>::get_Current() */, IEnumerator_1_t8728388AB8956738B1BDE14476B97DE25CE81855_il2cpp_TypeInfo_var, L_8);
-			// if (method == Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod.AutoPlanar)
-			if ((!(((uint32_t)L_9) == ((uint32_t)1))))
-			{
-				goto IL_0037;
-			}
-		}
-
-IL_0033:
-		{
-			// supportsAutoPlanar = true;
-			V_0 = (bool)1;
-			// break;
-			IL2CPP_LEAVE(0x4B, FINALLY_0041);
-		}
-
-IL_0037:
-		{
-			// foreach (var method in camera.ViewConfiguration.SupportedDepthReprojectionMethods)
-			RuntimeObject* L_10 = V_1;
-			NullCheck(L_10);
-			bool L_11 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var, L_10);
-			if (L_11)
-			{
-				goto IL_002a;
-			}
-		}
-
-IL_003f:
-		{
-			IL2CPP_LEAVE(0x4B, FINALLY_0041);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0041;
-	}
-
-FINALLY_0041:
-	{ // begin finally (depth: 1)
-		{
-			RuntimeObject* L_12 = V_1;
-			if (!L_12)
-			{
-				goto IL_004a;
-			}
-		}
-
-IL_0044:
-		{
-			RuntimeObject* L_13 = V_1;
-			NullCheck(L_13);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var, L_13);
-		}
-
-IL_004a:
-		{
-			IL2CPP_END_FINALLY(65)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(65)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x4B, IL_004b)
-	}
-
-IL_004b:
-	{
-		// cameraIdToSupportsAutoPlanar.Add(camera.Id, supportsAutoPlanar);
-		Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * L_14 = __this->get_cameraIdToSupportsAutoPlanar_5();
-		HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_15 = ___camera0;
-		NullCheck(L_15);
-		uint32_t L_16 = HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042(L_15, /*hidden argument*/NULL);
-		bool L_17 = V_0;
-		NullCheck(L_14);
-		Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300(L_14, L_16, L_17, /*hidden argument*/Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300_RuntimeMethod_var);
-	}
-
-IL_005d:
-	{
-		// return supportsAutoPlanar;
-		bool L_18 = V_0;
-		return L_18;
-	}
-}
 // System.Void Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityReprojectionUpdater__ctor_m0C37000962352FFBA2AD785038ACDEB439C6CA24 (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (WindowsMixedRealityReprojectionUpdater__ctor_m0C37000962352FFBA2AD785038ACDEB439C6CA24_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private readonly Dictionary<uint, bool> cameraIdToSupportsAutoPlanar = new Dictionary<uint, bool>();
-		Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * L_0 = (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 *)il2cpp_codegen_object_new(Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3(L_0, /*hidden argument*/Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3_RuntimeMethod_var);
-		__this->set_cameraIdToSupportsAutoPlanar_5(L_0);
 		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityReprojectionUpdater::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityReprojectionUpdater__cctor_m2182ABE6F86C9E840E4153742E2CB3FCF2CB5CC6 (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WindowsMixedRealityReprojectionUpdater__cctor_m2182ABE6F86C9E840E4153742E2CB3FCF2CB5CC6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private static readonly bool isDepthReprojectionModeSupported = WindowsApiChecker.IsPropertyAvailable(
-		//     "Windows.Graphics.Holographic",
-		//     "HolographicCameraRenderingParameters",
-		//     "DepthReprojectionMethod");
-		bool L_0 = WindowsApiChecker_IsPropertyAvailable_mD57AB6F292DD506C85DC5E9AEC9BBFE3EDEA460A(_stringLiteral115DA163D47AF900A552D60440D697D80BE9EAA6, _stringLiteralC62AE618208245A19C3ED5DA45C0849A837F3968, _stringLiteralE54C5D56F2100F8CDC5708147E8855998AB2FEEC, /*hidden argument*/NULL);
-		((WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_StaticFields*)il2cpp_codegen_static_fields_for(WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C_il2cpp_TypeInfo_var))->set_isDepthReprojectionModeSupported_6(L_0);
 		return;
 	}
 }
@@ -8265,13 +7528,13 @@ IL_0042:
 		return L_11;
 	}
 }
-// Microsoft.Windows.Graphics.Holographic.HolographicFrame Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::get_CurrentHolographicFrame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m8CFC454403B8CF87AF201F1FD37B82AD7F63AA91 (const RuntimeMethod* method)
+// Windows.Graphics.Holographic.HolographicFrame Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::get_CurrentHolographicFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543 * WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m00938E33494885350271051B605EAE5858191B1C (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m8CFC454403B8CF87AF201F1FD37B82AD7F63AA91_MetadataUsageId);
+		il2cpp_codegen_initialize_method (WindowsMixedRealityUtilities_get_CurrentHolographicFrame_m00938E33494885350271051B605EAE5858191B1C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -8298,18 +7561,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD
 IL_001d:
 	{
 		// return null;
-		return (HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 *)NULL;
+		return (HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543 *)NULL;
 	}
 
 IL_001f:
 	{
-		// return HolographicFrame.FromNativePtr(UtilitiesProvider.IHolographicFramePtr);
+		// return Marshal.GetObjectForIUnknown(UtilitiesProvider.IHolographicFramePtr) as HolographicFrame;
 		IL2CPP_RUNTIME_CLASS_INIT(WindowsMixedRealityUtilities_tFF328AA3ADB6B81F0FC788A963C3E4B5B80DF34F_il2cpp_TypeInfo_var);
 		RuntimeObject* L_4 = WindowsMixedRealityUtilities_get_UtilitiesProvider_m2606C2B29B60B98BD3F5A64E7A7A51A5260BB86C_inline(/*hidden argument*/NULL);
 		NullCheck(L_4);
 		intptr_t L_5 = InterfaceFuncInvoker0< intptr_t >::Invoke(1 /* System.IntPtr Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider::get_IHolographicFramePtr() */, IWindowsMixedRealityUtilitiesProvider_t6129B71DD7BCF107F18D91CFC0991B1845A8A6D4_il2cpp_TypeInfo_var, L_4);
-		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_6 = HolographicFrame_FromNativePtr_mB573AA6B93FF731E10F29165BCA6B5DD1C63884A((intptr_t)L_5, /*hidden argument*/NULL);
-		return L_6;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
+		RuntimeObject * L_6 = Marshal_GetObjectForIUnknown_m4ABB91E8D7A1F5B5F9341FCBCD7100A4DC5E1DE2((intptr_t)L_5, /*hidden argument*/NULL);
+		return ((HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543 *)IsInstSealed((RuntimeObject*)L_6, HolographicFrame_t79D5E1E3B66F6DBB2CC7BA49F7CEFA7C3F3CE543_il2cpp_TypeInfo_var));
 	}
 }
 // UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::SystemVector3ToUnity(System.Numerics.Vector3)
@@ -8445,14 +7709,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mF9F9BDCB1E
 		intptr_t L_1 = ProfilerMarker_Internal_Create_m92F2A7651D4BF3F3D0CB62078DD79B71839FA370(L_0, (uint16_t)0, /*hidden argument*/NULL);
 		__this->set_m_Ptr_0((intptr_t)L_1);
 		return;
-	}
-}
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t WindowsMixedRealityReprojectionUpdater_get_ReprojectionMethod_m60DDD2B22FEDA2CF4D476E93F3522A90510CCF7F_inline (WindowsMixedRealityReprojectionUpdater_t6C6ECD42F875B5C31E73DC54177467F3D3F0F49C * __this, const RuntimeMethod* method)
-{
-	{
-		// public HolographicDepthReprojectionMethod ReprojectionMethod { get; set; }
-		int32_t L_0 = __this->get_U3CReprojectionMethodU3Ek__BackingField_4();
-		return L_0;
 	}
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR RuntimeObject* WindowsMixedRealityUtilities_get_UtilitiesProvider_m2606C2B29B60B98BD3F5A64E7A7A51A5260BB86C_inline (const RuntimeMethod* method)

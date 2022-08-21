@@ -269,7 +269,7 @@ struct Exception_t;
 // System.Func`1<System.Boolean>
 struct Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1;
 // System.Func`2<System.Exception,System.Boolean>
-struct Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8;
+struct Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879;
 // System.Func`3<System.Int32,System.IntPtr,System.Boolean>
@@ -752,7 +752,7 @@ IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ExitGUIException_t6AD1987AE1D23E0E774F9BEA41F30AE4CE378F07_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FocusChangeDirection_t7EF0C6728E2A3E7A4FCDA59A3AB9F98C120165D2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Focusable_tE75872B8E11B244036F83AB8FFBB20F782F19C6B_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_3_tBD99633D8A18C43CC528ECE3F77E2F69900048A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GC_tC1D7BD74E8F44ECCEF5CD2B5D84BFF9AAE02D01D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GUIContent_t2A00F8961C69C0A382168840CFB2111FB00B5EA0_il2cpp_TypeInfo_var;
@@ -3443,7 +3443,7 @@ public:
 	// System.Action UnityEngine.GUIUtility::cleanupRoots
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___cleanupRoots_5;
 	// System.Func`2<System.Exception,System.Boolean> UnityEngine.GUIUtility::endContainerGUIFromException
-	Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * ___endContainerGUIFromException_6;
+	Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * ___endContainerGUIFromException_6;
 	// System.Action UnityEngine.GUIUtility::guiChanged
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___guiChanged_7;
 	// System.Boolean UnityEngine.GUIUtility::<guiIsExiting>k__BackingField
@@ -3505,9 +3505,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_endContainerGUIFromException_6() { return static_cast<int32_t>(offsetof(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields, ___endContainerGUIFromException_6)); }
-	inline Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * get_endContainerGUIFromException_6() const { return ___endContainerGUIFromException_6; }
-	inline Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 ** get_address_of_endContainerGUIFromException_6() { return &___endContainerGUIFromException_6; }
-	inline void set_endContainerGUIFromException_6(Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * value)
+	inline Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * get_endContainerGUIFromException_6() const { return ___endContainerGUIFromException_6; }
+	inline Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F ** get_address_of_endContainerGUIFromException_6() { return &___endContainerGUIFromException_6; }
+	inline void set_endContainerGUIFromException_6(Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * value)
 	{
 		___endContainerGUIFromException_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___endContainerGUIFromException_6), (void*)value);
@@ -9647,7 +9647,7 @@ public:
 
 
 // System.Func`2<System.Exception,System.Boolean>
-struct  Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8  : public MulticastDelegate_t
+struct  Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F  : public MulticastDelegate_t
 {
 public:
 
@@ -19026,9 +19026,9 @@ inline void Func_3__ctor_m7B0DD9FF287060EB73F840512ECA165C8D22A079 (Func_3_tBD99
 	((  void (*) (Func_3_tBD99633D8A18C43CC528ECE3F77E2F69900048A7 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_3__ctor_m7B0DD9FF287060EB73F840512ECA165C8D22A079_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void System.Func`2<System.Exception,System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Func_2__ctor_m7698120044ED2F6B34CA8B85E465C5C7141C568D (Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_2__ctor_m7698120044ED2F6B34CA8B85E465C5C7141C568D (Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Int32 System.Collections.Generic.Stack`1<UnityEngine.UIElements.IMGUIContainer>::get_Count()
 inline int32_t Stack_1_get_Count_mB7B8C417C6CB540E63B0F539A224D2A29C7D0805_inline (Stack_1_tD51021A3BF4A98F5C8D8CA95B716CA5849F68D85 * __this, const RuntimeMethod* method)
@@ -40128,11 +40128,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsUtility__cctor_m3CF0DBF97A6D37
 		Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760(L_18, NULL, (intptr_t)((intptr_t)UIElementsUtility_CleanupRoots_m25DDA026D1BFCE0DAB6B76DCEA9D5D6E69B4DCC4_RuntimeMethod_var), /*hidden argument*/NULL);
 		Delegate_t * L_19 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_17, L_18, /*hidden argument*/NULL);
 		((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->set_cleanupRoots_5(((Action_t591D2A86165F896B4B800BB5C25CE18672A55579 *)CastclassSealed((RuntimeObject*)L_19, Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var)));
-		Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * L_20 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
-		Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 * L_21 = (Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 *)il2cpp_codegen_object_new(Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8_il2cpp_TypeInfo_var);
+		Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * L_20 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_endContainerGUIFromException_6();
+		Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F * L_21 = (Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F *)il2cpp_codegen_object_new(Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F_il2cpp_TypeInfo_var);
 		Func_2__ctor_m7698120044ED2F6B34CA8B85E465C5C7141C568D(L_21, NULL, (intptr_t)((intptr_t)UIElementsUtility_EndContainerGUIFromException_m24BC93E400A63C40B240954B1083E28FF7DA313B_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m7698120044ED2F6B34CA8B85E465C5C7141C568D_RuntimeMethod_var);
 		Delegate_t * L_22 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_20, L_21, /*hidden argument*/NULL);
-		((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->set_endContainerGUIFromException_6(((Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8 *)CastclassSealed((RuntimeObject*)L_22, Func_2_tC816C5FDED4A7372C449E7660CAB9F94E2AC12F8_il2cpp_TypeInfo_var)));
+		((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->set_endContainerGUIFromException_6(((Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F *)CastclassSealed((RuntimeObject*)L_22, Func_2_tF54AD909488BAD35A205C2C30B21017C9C04717F_il2cpp_TypeInfo_var)));
 		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_23 = ((GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_StaticFields*)il2cpp_codegen_static_fields_for(GUIUtility_t943494CC50E876A4A08ECD471C06E23D52E5E5BA_il2cpp_TypeInfo_var))->get_guiChanged_7();
 		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_24 = (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 *)il2cpp_codegen_object_new(Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var);
 		Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760(L_24, NULL, (intptr_t)((intptr_t)UIElementsUtility_MakeCurrentIMGUIContainerDirty_m699D2FD8BC017BE54E009400146540CA74432B51_RuntimeMethod_var), /*hidden argument*/NULL);

@@ -12843,7 +12843,7 @@ public:
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mE2AF7615AD18E9CD92B1909285F5EC5DA8D180C8_gshared (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared (RuntimeObject* ___source0, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector1, const RuntimeMethod* method);
 // System.Void Newtonsoft.Json.Utilities.DynamicProxy`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicProxy_1__ctor_m7075FB6C9D47485D6EB8DDFD4216ABEB4B50520E_gshared (DynamicProxy_1_t45F7222AF218A8313493AD5DE43951411A330BDB * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<Newtonsoft.Json.Linq.JProperty/<WriteToAsync>d__1>(!!0&)
@@ -13051,7 +13051,7 @@ inline void Func_2__ctor_m3AF0AE04B0455BA50B8BB9636309AF3DFEC18F3C (Func_2_tB849
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Newtonsoft.Json.Linq.JProperty,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisJProperty_t2D8059433BBDC734F269A400FF311B29500558B8_TisString_t_m8BD7DDC327319C858A63645A9D377F1A85404C0A (RuntimeObject* ___source0, Func_2_tB8490EDE021DB3FC8FD2366D7C5E03D1B9F26327 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tB8490EDE021DB3FC8FD2366D7C5E03D1B9F26327 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tB8490EDE021DB3FC8FD2366D7C5E03D1B9F26327 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.Void Newtonsoft.Json.Utilities.DynamicProxy`1<Newtonsoft.Json.Linq.JObject>::.ctor()
 inline void DynamicProxy_1__ctor_mAE6784576E847EA2888EFECACC6373DAE89B1C85 (DynamicProxy_1_t5ABD0F2DB31CD177DDC4A3E55DFD4910E6A7EDDB * __this, const RuntimeMethod* method)
@@ -14503,7 +14503,7 @@ inline void Func_2__ctor_mE752CBA6BFA4559301B6A2FED5E1A34B3E391A20 (Func_2_tA838
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.String,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 inline RuntimeObject* Enumerable_Select_TisString_t_TisString_t_m5F2A552C43F7BFED004BB831D7D511BAC560A8DD (RuntimeObject* ___source0, Func_2_tA838F61747C9836A9B70383AD1F1DF31FB16DE79 * ___selector1, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tA838F61747C9836A9B70383AD1F1DF31FB16DE79 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m00CAB569EB3526FBDA8C9DDE99651424C794D513_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tA838F61747C9836A9B70383AD1F1DF31FB16DE79 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m43E9EC9C6855C69FB846EF65F4538C5834095A6E_gshared)(___source0, ___selector1, method);
 }
 // System.String System.String::Join(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Join_m0BBDD1CE798ED3A25EC32BF491C9B46CB81548B9 (String_t* ___separator0, RuntimeObject* ___values1, const RuntimeMethod* method);

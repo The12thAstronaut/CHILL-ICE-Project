@@ -742,7 +742,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* JsonTextReader_Read_m81C162212CABD8CD79D9D3
 IL2CPP_EXTERN_C const RuntimeMethod* JsonTextReader__ctor_m2258DA33C881D9262A24018A32D74045EC0A583F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonTextReader_set_ArrayPool_mFA19EB8EF01D62BE3465C9E7BD0E83F2512DA126_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m4D528E92C833C186769C086995DFFB642C1D2C7E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDD32DF5B916B76644D54DEEF0E8DBC8F1F4C0AB5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m0BF3E7546F0FB1827F658F076FA2927E56CB7610_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m0D426248BB018724162F6A086A89FF6FCF94EBBB_RuntimeMethod_var;
@@ -12784,7 +12784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,Newtonsoft.Json.JsonReader/<ReadAndMoveToContentAsync>d__12>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065_TisU3CReadAndMoveToContentAsyncU3Ed__12_tD05937E6037067BBCE67F09C9F301ABBB72B5280_m89E15C6F0D9CD812E72837B9BF3E844448AC87B7_gshared (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, ConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065 * ___awaiter0, U3CReadAndMoveToContentAsyncU3Ed__12_tD05937E6037067BBCE67F09C9F301ABBB72B5280 * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Byte>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B_gshared (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079_gshared (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,Newtonsoft.Json.JsonReader/<ReadArrayIntoByteArrayAsync>d__5>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065_TisU3CReadArrayIntoByteArrayAsyncU3Ed__5_t92166614320EAE4E9FE45A4B36F9782849898B65_m88DD8B44985A5CE1CA09517074EF3291BF0F31DC_gshared (AsyncTaskMethodBuilder_1_t2A9513A084F4B19851B91EF1F22BB57776D35663 * __this, ConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065 * ___awaiter0, U3CReadArrayIntoByteArrayAsyncU3Ed__5_t92166614320EAE4E9FE45A4B36F9782849898B65 * ___stateMachine1, const RuntimeMethod* method);
 // !0[] System.Collections.Generic.List`1<System.Byte>::ToArray()
@@ -13130,9 +13130,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAndMoveToContentAsyncU3Ed__12_Mov
 // System.Void Newtonsoft.Json.JsonReader/<ReadAndMoveToContentAsync>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadAndMoveToContentAsyncU3Ed__12_SetStateMachine_mCE1382450D33866F83377357F541900492F78997 (U3CReadAndMoveToContentAsyncU3Ed__12_tD05937E6037067BBCE67F09C9F301ABBB72B5280 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Byte>::.ctor()
-inline void List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 * __this, const RuntimeMethod* method)
+inline void List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079 (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 *, const RuntimeMethod*))List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B_gshared)(__this, method);
+	((  void (*) (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 *, const RuntimeMethod*))List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,Newtonsoft.Json.JsonReader/<ReadArrayIntoByteArrayAsync>d__5>(!!0&,!!1&)
 inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065_TisU3CReadArrayIntoByteArrayAsyncU3Ed__5_t92166614320EAE4E9FE45A4B36F9782849898B65_mE87FED9CD72F8D0154083C578A74E81F4DA1C87F (AsyncTaskMethodBuilder_1_tB321F558F1BEE4D87704C83715510C4FC5AC78E6 * __this, ConfiguredTaskAwaiter_t785B9A8BC038067B15BF7BC1343F623CB02FD065 * ___awaiter0, U3CReadArrayIntoByteArrayAsyncU3Ed__5_t92166614320EAE4E9FE45A4B36F9782849898B65 * ___stateMachine1, const RuntimeMethod* method)
@@ -15328,7 +15328,7 @@ IL_000e:
 IL_0011:
 		{
 			List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 * L_3 = (List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32 *)il2cpp_codegen_object_new(List_1_t2E429D48492C9F1ED16C7D74224A8AAB590A7B32_il2cpp_TypeInfo_var);
-			List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B(L_3, /*hidden argument*/List_1__ctor_mB7CC05350E7C04DC2B2D86B5C96A8F7DF7AC0E6B_RuntimeMethod_var);
+			List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079(L_3, /*hidden argument*/List_1__ctor_m0803F2E7FC8625414C6C1F0A7C2F2754D710C079_RuntimeMethod_var);
 			__this->set_U3CbufferU3E5__1_4(L_3);
 		}
 

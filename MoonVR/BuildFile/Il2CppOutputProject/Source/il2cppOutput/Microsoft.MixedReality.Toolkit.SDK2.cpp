@@ -1163,7 +1163,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mA6B77B2407AA21B94F8
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDD1283E8EC09991193DDD3AA7BC521D4BDBAAD9D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDEC78B54C39E60B6BE6854152C4867772B046E4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ExecuteEvents_Execute_TisISubmitHandler_tCFAD2814817B87B883DB9E7F84EE0196C9E531C5_m2D100BF7609D3CBEC507D47F53EEA38886C65327_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisBoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA_m94D5E6D9493DE6A574C28A9517C792D607653FE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMinMaxScaleConstraint_t16720E0CF63AD7E9A22659AB2AF2F98DA4D11C5F_m924EC6543ED1EED2E2511F1EFD20B58A1E0F1CC1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPointerHandler_t6FC1A1FC699315B0756A9B4CBC471A5177B51E1C_m80E189103DE5864614034FD787210273CB188482_RuntimeMethod_var;
@@ -24805,7 +24805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<Microsoft.MixedReality.Toolkit.Teleport.TeleportPointer/<Start>d__37>(!!0&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__37_t1BE4AC3A1ABB64557E7A6843EB70E197DB4D7199_m4BE56106283525D2C422698A506A4E514B190633_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CStartU3Ed__37_t1BE4AC3A1ABB64557E7A6843EB70E197DB4D7199 * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_gshared (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_gshared (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitOnCompleted<System.Object,Microsoft.MixedReality.Toolkit.Teleport.TeleportPointer/<Start>d__37>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitOnCompleted_TisRuntimeObject_TisU3CStartU3Ed__37_t1BE4AC3A1ABB64557E7A6843EB70E197DB4D7199_mB1056F346EBCB3A5F2A938856AE7CE6D6661AA3E_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject ** ___awaiter0, U3CStartU3Ed__37_t1BE4AC3A1ABB64557E7A6843EB70E197DB4D7199 * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Clear()
@@ -25970,9 +25970,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA001406133B6E576D7D772E77
 // System.Void Microsoft.MixedReality.Toolkit.Teleport.TeleportPointer::<>n__0()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportPointer_U3CU3En__0_m30C1E5B1A30FF918E77952F89E79D9762B9A0234 (TeleportPointer_tEA84B5B05503541532E9AF9BA6262B9DEBCF4ABC * __this, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552 (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void UnityEngine.WaitUntil::.ctor(System.Func`1<System.Boolean>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitUntil__ctor_mC1A43A512B185C55FBE858F741BEA6D4417105C1 (WaitUntil_t012561515C0E1D3DEA19DB3A05444B020C68E13F * __this, Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * ___predicate0, const RuntimeMethod* method);
@@ -45383,7 +45383,7 @@ IL_0034:
 			IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018_il2cpp_TypeInfo_var);
 			U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018 * L_9 = ((U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_10 = (Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 *)il2cpp_codegen_object_new(Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1_il2cpp_TypeInfo_var);
-			Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552(L_10, L_9, (intptr_t)((intptr_t)U3CU3Ec_U3CStartU3Eb__37_0_mD5DA084E59503B9DE54B8F774E4B3D9F364D6BD0_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var);
+			Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E(L_10, L_9, (intptr_t)((intptr_t)U3CU3Ec_U3CStartU3Eb__37_0_mD5DA084E59503B9DE54B8F774E4B3D9F364D6BD0_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_mAECA381FC0AA61139100EF468EE819A98431DE5E_RuntimeMethod_var);
 			Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1 * L_11 = L_10;
 			((U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t2DF95A0FDAB44DAACCE462182F366DE7B2D68018_il2cpp_TypeInfo_var))->set_U3CU3E9__37_0_1(L_11);
 			G_B6_0 = L_11;
