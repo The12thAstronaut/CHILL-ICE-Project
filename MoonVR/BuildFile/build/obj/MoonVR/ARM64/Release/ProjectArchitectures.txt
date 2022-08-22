@@ -1,1 +1,0 @@
-C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\MoonVR.vcxproj;arm64

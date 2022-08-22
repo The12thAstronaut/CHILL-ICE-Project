@@ -2,46 +2,46 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{73fb0dfc-3938-44ce-868c-60ab85089920}</UniqueIdentifier>
+      <UniqueIdentifier>{51c61ed2-c871-436f-922c-3b2072f2e750}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{35e797e0-ae24-4fbc-807f-bb48dcd29ab9}</UniqueIdentifier>
+      <UniqueIdentifier>{7ca672aa-f2a3-46b6-8308-b93ec3e78618}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{096bf5cf-9528-4c2a-a383-0443e4efa9af}</UniqueIdentifier>
+      <UniqueIdentifier>{0abe84e4-ffdd-4195-a69d-423a6bdf4499}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{f6aeb24c-6989-452e-be36-e99aea504085}</UniqueIdentifier>
+      <UniqueIdentifier>{09065cfb-d8ca-436c-83ab-8058e9377ea4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{f0951224-8374-42ea-84b0-d5dfc7224c6b}</UniqueIdentifier>
+      <UniqueIdentifier>{255ce803-693e-4e08-9632-2637333e0246}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{67e3f551-08d1-462e-9937-9b7d9d7fb1ac}</UniqueIdentifier>
+      <UniqueIdentifier>{fdc6fe8d-5173-4754-a852-4dde79513621}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{167e3b97-ca14-4cd0-b6a0-63ad82d43fb2}</UniqueIdentifier>
+      <UniqueIdentifier>{0b40c4df-d37b-402c-9690-6d502362472a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{ee296952-d3e7-4db6-ae93-9c91deb78cf0}</UniqueIdentifier>
+      <UniqueIdentifier>{afe25a6b-2b27-479d-9709-37aa6f58a74f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{df66330f-6461-4df3-acf4-b4e6d09aa59e}</UniqueIdentifier>
+      <UniqueIdentifier>{60a39120-9500-4882-b7d8-439c7d5774dd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{4b3ebf1b-c8b1-4ed7-8f0b-e3eb20bf8398}</UniqueIdentifier>
+      <UniqueIdentifier>{3dc4c9d3-f6de-44eb-89b2-5da83ae839a7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{61fd1b13-1ea2-4b2e-a800-ea17ac99aee3}</UniqueIdentifier>
+      <UniqueIdentifier>{04569275-696e-406e-9872-6b8d59837bcf}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{8d2b479b-58df-4aa0-89ec-16a913481356}</UniqueIdentifier>
+      <UniqueIdentifier>{817946aa-26d6-478e-85c0-fa396356f659}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{1dfce7d8-6d06-437f-8709-60ad45539027}</UniqueIdentifier>
+      <UniqueIdentifier>{fe2a2bce-6ecd-460f-a8eb-6878233f5deb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{f5fdc770-ea3e-4d9c-ac4e-17d15fd71c8d}</UniqueIdentifier>
+      <UniqueIdentifier>{10595564-c464-401e-a772-5851f1624b6a}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -152,12 +152,15 @@
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
       <Filter>Data\Resources</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.dll" />
+    <None Include="$(MSBuildThisFileDirectory)opus_egpv.dll" />
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
     <None Include="$(MSBuildThisFileDirectory)mrwebrtc.dll" />
     <None Include="$(MSBuildThisFileDirectory)AzureSpatialAnchors.dll" />
     <None Include="$(MSBuildThisFileDirectory)CoarseRelocUW.dll" />
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.dll" />
+    <None Include="$(MSBuildThisFileDirectory)webrtc-audio.dll" />
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.core.dll" />
   </ItemGroup>

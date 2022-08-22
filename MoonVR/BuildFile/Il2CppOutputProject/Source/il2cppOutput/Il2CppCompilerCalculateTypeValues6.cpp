@@ -24041,8 +24041,16 @@ struct  PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B  : public M
 public:
 	// UnityEngine.GameObject PersonalRadialView::wristMenu
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___wristMenu_4;
-	// System.Single PersonalRadialView::delta
-	float ___delta_5;
+	// TMPro.TMP_Text PersonalRadialView::Height_DeltaText
+	TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * ___Height_DeltaText_5;
+	// TMPro.TMP_Text PersonalRadialView::Distance_DeltaText
+	TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * ___Distance_DeltaText_6;
+	// System.Single PersonalRadialView::wristMaxDist
+	float ___wristMaxDist_7;
+	// System.Single PersonalRadialView::wristMinDist
+	float ___wristMinDist_8;
+	// System.Single PersonalRadialView::wristMenuHeight
+	float ___wristMenuHeight_9;
 
 public:
 	inline static int32_t get_offset_of_wristMenu_4() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMenu_4)); }
@@ -24054,12 +24062,46 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___wristMenu_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_delta_5() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___delta_5)); }
-	inline float get_delta_5() const { return ___delta_5; }
-	inline float* get_address_of_delta_5() { return &___delta_5; }
-	inline void set_delta_5(float value)
+	inline static int32_t get_offset_of_Height_DeltaText_5() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___Height_DeltaText_5)); }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * get_Height_DeltaText_5() const { return ___Height_DeltaText_5; }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 ** get_address_of_Height_DeltaText_5() { return &___Height_DeltaText_5; }
+	inline void set_Height_DeltaText_5(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * value)
 	{
-		___delta_5 = value;
+		___Height_DeltaText_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Height_DeltaText_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Distance_DeltaText_6() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___Distance_DeltaText_6)); }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * get_Distance_DeltaText_6() const { return ___Distance_DeltaText_6; }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 ** get_address_of_Distance_DeltaText_6() { return &___Distance_DeltaText_6; }
+	inline void set_Distance_DeltaText_6(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * value)
+	{
+		___Distance_DeltaText_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Distance_DeltaText_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_wristMaxDist_7() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMaxDist_7)); }
+	inline float get_wristMaxDist_7() const { return ___wristMaxDist_7; }
+	inline float* get_address_of_wristMaxDist_7() { return &___wristMaxDist_7; }
+	inline void set_wristMaxDist_7(float value)
+	{
+		___wristMaxDist_7 = value;
+	}
+
+	inline static int32_t get_offset_of_wristMinDist_8() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMinDist_8)); }
+	inline float get_wristMinDist_8() const { return ___wristMinDist_8; }
+	inline float* get_address_of_wristMinDist_8() { return &___wristMinDist_8; }
+	inline void set_wristMinDist_8(float value)
+	{
+		___wristMinDist_8 = value;
+	}
+
+	inline static int32_t get_offset_of_wristMenuHeight_9() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMenuHeight_9)); }
+	inline float get_wristMenuHeight_9() const { return ___wristMenuHeight_9; }
+	inline float* get_address_of_wristMenuHeight_9() { return &___wristMenuHeight_9; }
+	inline void set_wristMenuHeight_9(float value)
+	{
+		___wristMenuHeight_9 = value;
 	}
 };
 
@@ -30995,10 +31037,14 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10662[7] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize10663;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10663 = { sizeof (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B), -1, 0, 0 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10663[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10663[6] = 
 {
 	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_wristMenu_4(),
-	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_delta_5(),
+	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_Height_DeltaText_5(),
+	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_Distance_DeltaText_6(),
+	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_wristMaxDist_7(),
+	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_wristMinDist_8(),
+	PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B::get_offset_of_wristMenuHeight_9(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize10664;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10664 = { sizeof (ProgressIndicatorCopy_tBDCD6CE096D82C30C7CB12353616CDCEF10F220E), -1, 0, 0 };

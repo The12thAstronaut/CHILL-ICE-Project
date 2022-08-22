@@ -263,6 +263,8 @@ struct ClippingBox_t067699A8B63E187E4B8701C0DA8384218E5C508B;
 struct GridObjectCollection_tAA32F8B1DA3ECCBFF6807495E876FCD36FE6DFC4;
 // Microsoft.MixedReality.Toolkit.Utilities.Solvers.Orbital
 struct Orbital_tD614902EB47022013E650D5A78562570BD6FDB9B;
+// Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
+struct RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0;
 // Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver
 struct Solver_t79AE87802ED7C51B02E35D03DF67E057377E1011;
 // Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
@@ -980,6 +982,7 @@ IL2CPP_EXTERN_C RuntimeClass* Path_t0B99A4B924A6FDF08814FFA8DD4CD121ED1A0752_il2
 IL2CPP_EXTERN_C RuntimeClass* PhotonNetwork_tDB10770C2795BD94850C3BE2AA04AE3ED559EB5A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PrimaryPointerChangedHandler_tD2AB82F9D769405CDA9F07AC01D1411028C5A8C0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneFragmentU5BU5D_t3C785F60A7D42CC6AA9E16F7F961C808F4AF1D40_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_t68A7070D2AD3860C3EE327C94F38270E49AFB489_il2cpp_TypeInfo_var;
@@ -1141,6 +1144,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC441186DEC0E99B065D2BFAF66E6FEECC397F290
 IL2CPP_EXTERN_C String_t* _stringLiteralC4633C096745CFF1CD1CF948344963FBFFF4356C;
 IL2CPP_EXTERN_C String_t* _stringLiteralC510EA100EEE1C261FE63B56E1F3390BFB85F481;
 IL2CPP_EXTERN_C String_t* _stringLiteralC716C280C5A5DB4DCDA0100D9F532C22E11C94DF;
+IL2CPP_EXTERN_C String_t* _stringLiteralCA1EF0E18499B0EC08EF06771257EB603C954B6E;
 IL2CPP_EXTERN_C String_t* _stringLiteralCC1498B65B36B2309AF1914D99D451768447BA9B;
 IL2CPP_EXTERN_C String_t* _stringLiteralCDCAC9713262BF34C873C171D0DD41FC3E9B7AA7;
 IL2CPP_EXTERN_C String_t* _stringLiteralCECA32E904728D1645727CB2B9CDEAA153807D77;
@@ -1485,6 +1489,8 @@ IL2CPP_EXTERN_C const uint32_t Outline_SmoothNormals_mD07AFC12F29A33B70ED5C30BBD
 IL2CPP_EXTERN_C const uint32_t Outline_UpdateMaterialProperties_m8C6EC627E30B8EE964A3B2FFB3AE8061C9E8C973_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Outline__cctor_m295677C2AAAE3F6FE294C317A8283ABB8D75DBA4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Outline__ctor_m8CF00D19CF2C1DF0E0770D78151C9FD8F18B662E_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t PersonalRadialView_distanceMenu_m1DB388057C8F0C1DF49E25811DBD7CB3CC0D12F8_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t PersonalRadialView_verticalMenu_m0FE2FD714BB4F6E001613B76428DDD6B9583E157_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PrimaryPointerHandlerExample_OnDisable_mBDD7D90958097A40FFC3450ADBBCC54B905CC036_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PrimaryPointerHandlerExample_OnEnable_m3F898A28BF437DAC64140B89CB07C21F9E47B939_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PrimaryPointerHandlerExample_OnPrimaryPointerChanged_m7760673B4751455D9737E0682F4CE8EF8ABE82F9_MetadataUsageId;
@@ -8954,6 +8960,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(OrientationType_tB6FB0E1746B10E1C14DCCEF33535D2EF537D1BEC, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Microsoft.MixedReality.Toolkit.Utilities.RadialViewReferenceDirection
+struct  RadialViewReferenceDirection_t224AD8E054E80BDDCF50FD830729AD80B561F006 
+{
+public:
+	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.RadialViewReferenceDirection::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(RadialViewReferenceDirection_t224AD8E054E80BDDCF50FD830729AD80B561F006, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -20362,8 +20386,16 @@ struct  PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B  : public M
 public:
 	// UnityEngine.GameObject PersonalRadialView::wristMenu
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___wristMenu_4;
-	// System.Single PersonalRadialView::delta
-	float ___delta_5;
+	// TMPro.TMP_Text PersonalRadialView::Height_DeltaText
+	TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * ___Height_DeltaText_5;
+	// TMPro.TMP_Text PersonalRadialView::Distance_DeltaText
+	TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * ___Distance_DeltaText_6;
+	// System.Single PersonalRadialView::wristMaxDist
+	float ___wristMaxDist_7;
+	// System.Single PersonalRadialView::wristMinDist
+	float ___wristMinDist_8;
+	// System.Single PersonalRadialView::wristMenuHeight
+	float ___wristMenuHeight_9;
 
 public:
 	inline static int32_t get_offset_of_wristMenu_4() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMenu_4)); }
@@ -20375,12 +20407,46 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___wristMenu_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_delta_5() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___delta_5)); }
-	inline float get_delta_5() const { return ___delta_5; }
-	inline float* get_address_of_delta_5() { return &___delta_5; }
-	inline void set_delta_5(float value)
+	inline static int32_t get_offset_of_Height_DeltaText_5() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___Height_DeltaText_5)); }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * get_Height_DeltaText_5() const { return ___Height_DeltaText_5; }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 ** get_address_of_Height_DeltaText_5() { return &___Height_DeltaText_5; }
+	inline void set_Height_DeltaText_5(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * value)
 	{
-		___delta_5 = value;
+		___Height_DeltaText_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Height_DeltaText_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Distance_DeltaText_6() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___Distance_DeltaText_6)); }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * get_Distance_DeltaText_6() const { return ___Distance_DeltaText_6; }
+	inline TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 ** get_address_of_Distance_DeltaText_6() { return &___Distance_DeltaText_6; }
+	inline void set_Distance_DeltaText_6(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * value)
+	{
+		___Distance_DeltaText_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Distance_DeltaText_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_wristMaxDist_7() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMaxDist_7)); }
+	inline float get_wristMaxDist_7() const { return ___wristMaxDist_7; }
+	inline float* get_address_of_wristMaxDist_7() { return &___wristMaxDist_7; }
+	inline void set_wristMaxDist_7(float value)
+	{
+		___wristMaxDist_7 = value;
+	}
+
+	inline static int32_t get_offset_of_wristMinDist_8() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMinDist_8)); }
+	inline float get_wristMinDist_8() const { return ___wristMinDist_8; }
+	inline float* get_address_of_wristMinDist_8() { return &___wristMinDist_8; }
+	inline void set_wristMinDist_8(float value)
+	{
+		___wristMinDist_8 = value;
+	}
+
+	inline static int32_t get_offset_of_wristMenuHeight_9() { return static_cast<int32_t>(offsetof(PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B, ___wristMenuHeight_9)); }
+	inline float get_wristMenuHeight_9() const { return ___wristMenuHeight_9; }
+	inline float* get_address_of_wristMenuHeight_9() { return &___wristMenuHeight_9; }
+	inline void set_wristMenuHeight_9(float value)
+	{
+		___wristMenuHeight_9 = value;
 	}
 };
 
@@ -21350,6 +21416,124 @@ public:
 	inline void set_tetherAngleSteps_17(int32_t value)
 	{
 		___tetherAngleSteps_17 = value;
+	}
+};
+
+
+// Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
+struct  RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0  : public Solver_t79AE87802ED7C51B02E35D03DF67E057377E1011
+{
+public:
+	// Microsoft.MixedReality.Toolkit.Utilities.RadialViewReferenceDirection Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::referenceDirection
+	int32_t ___referenceDirection_13;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::minDistance
+	float ___minDistance_14;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::maxDistance
+	float ___maxDistance_15;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::minViewDegrees
+	float ___minViewDegrees_16;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::maxViewDegrees
+	float ___maxViewDegrees_17;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::aspectV
+	float ___aspectV_18;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::ignoreAngleClamp
+	bool ___ignoreAngleClamp_19;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::ignoreDistanceClamp
+	bool ___ignoreDistanceClamp_20;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::useFixedVerticalPosition
+	bool ___useFixedVerticalPosition_21;
+	// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::fixedVerticalPosition
+	float ___fixedVerticalPosition_22;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::orientToReferenceDirection
+	bool ___orientToReferenceDirection_23;
+
+public:
+	inline static int32_t get_offset_of_referenceDirection_13() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___referenceDirection_13)); }
+	inline int32_t get_referenceDirection_13() const { return ___referenceDirection_13; }
+	inline int32_t* get_address_of_referenceDirection_13() { return &___referenceDirection_13; }
+	inline void set_referenceDirection_13(int32_t value)
+	{
+		___referenceDirection_13 = value;
+	}
+
+	inline static int32_t get_offset_of_minDistance_14() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___minDistance_14)); }
+	inline float get_minDistance_14() const { return ___minDistance_14; }
+	inline float* get_address_of_minDistance_14() { return &___minDistance_14; }
+	inline void set_minDistance_14(float value)
+	{
+		___minDistance_14 = value;
+	}
+
+	inline static int32_t get_offset_of_maxDistance_15() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___maxDistance_15)); }
+	inline float get_maxDistance_15() const { return ___maxDistance_15; }
+	inline float* get_address_of_maxDistance_15() { return &___maxDistance_15; }
+	inline void set_maxDistance_15(float value)
+	{
+		___maxDistance_15 = value;
+	}
+
+	inline static int32_t get_offset_of_minViewDegrees_16() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___minViewDegrees_16)); }
+	inline float get_minViewDegrees_16() const { return ___minViewDegrees_16; }
+	inline float* get_address_of_minViewDegrees_16() { return &___minViewDegrees_16; }
+	inline void set_minViewDegrees_16(float value)
+	{
+		___minViewDegrees_16 = value;
+	}
+
+	inline static int32_t get_offset_of_maxViewDegrees_17() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___maxViewDegrees_17)); }
+	inline float get_maxViewDegrees_17() const { return ___maxViewDegrees_17; }
+	inline float* get_address_of_maxViewDegrees_17() { return &___maxViewDegrees_17; }
+	inline void set_maxViewDegrees_17(float value)
+	{
+		___maxViewDegrees_17 = value;
+	}
+
+	inline static int32_t get_offset_of_aspectV_18() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___aspectV_18)); }
+	inline float get_aspectV_18() const { return ___aspectV_18; }
+	inline float* get_address_of_aspectV_18() { return &___aspectV_18; }
+	inline void set_aspectV_18(float value)
+	{
+		___aspectV_18 = value;
+	}
+
+	inline static int32_t get_offset_of_ignoreAngleClamp_19() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___ignoreAngleClamp_19)); }
+	inline bool get_ignoreAngleClamp_19() const { return ___ignoreAngleClamp_19; }
+	inline bool* get_address_of_ignoreAngleClamp_19() { return &___ignoreAngleClamp_19; }
+	inline void set_ignoreAngleClamp_19(bool value)
+	{
+		___ignoreAngleClamp_19 = value;
+	}
+
+	inline static int32_t get_offset_of_ignoreDistanceClamp_20() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___ignoreDistanceClamp_20)); }
+	inline bool get_ignoreDistanceClamp_20() const { return ___ignoreDistanceClamp_20; }
+	inline bool* get_address_of_ignoreDistanceClamp_20() { return &___ignoreDistanceClamp_20; }
+	inline void set_ignoreDistanceClamp_20(bool value)
+	{
+		___ignoreDistanceClamp_20 = value;
+	}
+
+	inline static int32_t get_offset_of_useFixedVerticalPosition_21() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___useFixedVerticalPosition_21)); }
+	inline bool get_useFixedVerticalPosition_21() const { return ___useFixedVerticalPosition_21; }
+	inline bool* get_address_of_useFixedVerticalPosition_21() { return &___useFixedVerticalPosition_21; }
+	inline void set_useFixedVerticalPosition_21(bool value)
+	{
+		___useFixedVerticalPosition_21 = value;
+	}
+
+	inline static int32_t get_offset_of_fixedVerticalPosition_22() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___fixedVerticalPosition_22)); }
+	inline float get_fixedVerticalPosition_22() const { return ___fixedVerticalPosition_22; }
+	inline float* get_address_of_fixedVerticalPosition_22() { return &___fixedVerticalPosition_22; }
+	inline void set_fixedVerticalPosition_22(float value)
+	{
+		___fixedVerticalPosition_22 = value;
+	}
+
+	inline static int32_t get_offset_of_orientToReferenceDirection_23() { return static_cast<int32_t>(offsetof(RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0, ___orientToReferenceDirection_23)); }
+	inline bool get_orientToReferenceDirection_23() const { return ___orientToReferenceDirection_23; }
+	inline bool* get_address_of_orientToReferenceDirection_23() { return &___orientToReferenceDirection_23; }
+	inline void set_orientToReferenceDirection_23(bool value)
+	{
+		___orientToReferenceDirection_23 = value;
 	}
 };
 
@@ -29148,10 +29332,24 @@ inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  KeyValuePair_2_get_Key
 }
 // UnityEngine.Vector3 UnityEngine.Transform::get_localScale()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Transform_get_localScale_mD8F631021C2D62B7C341B1A17FA75491F64E13DA (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, const RuntimeMethod* method);
-// System.Single PersonalRadialView::get_MaxDistance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PersonalRadialView_get_MaxDistance_m41300771E8E375E6F4D80A61A60BCCAADDD168AD (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, const RuntimeMethod* method);
-// System.Void PersonalRadialView::set_MaxDistance(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalRadialView_set_MaxDistance_mCC2B261F5E18288EBE8AA192BA806CB94CABA114 (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, float ___value0, const RuntimeMethod* method);
+// UnityEngine.Component UnityEngine.GameObject::GetComponent(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * GameObject_GetComponent_m92533B63C1C0C72597C246C2E7A8BBA662BDD1DF (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, String_t* ___type0, const RuntimeMethod* method);
+// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::get_MaxDistance()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_MaxDistance_m2313316D4EE3D2A3CC5B0290613CB3FA29F67CF3_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method);
+// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::get_MinDistance()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_MinDistance_m064238315FC0AE79FC35A9A66D1E55EB24DBBCD4_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::set_MaxDistance(System.Single)
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_MaxDistance_m9A14F0D788C0610CBC33C532005D0B4693E6BAB9_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::set_MinDistance(System.Single)
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_MinDistance_m5ACBF00C3F7FA69B029720C66A26204AD1AA9798_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method);
+// System.String System.Single::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m2B1556CFBBD088D285A0B0EA280F82D3A4344DC3 (float* __this, const RuntimeMethod* method);
+// System.Void TMPro.TMP_Text::SetText(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_SetText_m81695E980F258FE71614F039212E0E13735E71CA (TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * __this, String_t* ___text0, bool ___syncTextInputBox1, const RuntimeMethod* method);
+// System.Single Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::get_FixedVerticalPosition()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_FixedVerticalPosition_m9869206E6E8AB11F1CA945182FBA785951138011_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView::set_FixedVerticalPosition(System.Single)
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_FixedVerticalPosition_m79FF37AEF76DC6F63719659D61C56DEA194489D9_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method);
 // System.Void Photon.Chat.ChatAppSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatAppSettings__ctor_m524407BB5F53BC2E2C229E8BEAE1C29A326671C4 (ChatAppSettings_t91ED8743610F64B1EA3DA1E861D4BBD99D8C3356 * __this, const RuntimeMethod* method);
 // System.Boolean Photon.Realtime.AppSettings::get_IsBestRegion()
@@ -48569,22 +48767,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalRadialView_changeScale_m157F8F1C
 		return;
 	}
 }
-// System.Single PersonalRadialView::get_MaxDistance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PersonalRadialView_get_MaxDistance_m41300771E8E375E6F4D80A61A60BCCAADDD168AD (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, const RuntimeMethod* method)
+// System.Void PersonalRadialView::distanceMenu(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalRadialView_distanceMenu_m1DB388057C8F0C1DF49E25811DBD7CB3CC0D12F8 (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, float ___delta0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// get => MaxDistance;
-		float L_0 = PersonalRadialView_get_MaxDistance_m41300771E8E375E6F4D80A61A60BCCAADDD168AD(__this, /*hidden argument*/NULL);
-		return L_0;
+		il2cpp_codegen_initialize_method (PersonalRadialView_distanceMenu_m1DB388057C8F0C1DF49E25811DBD7CB3CC0D12F8_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// RadialView radialViewRef = wristMenu.GetComponent("RadialView") as RadialView;
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = __this->get_wristMenu_4();
+		NullCheck(L_0);
+		Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * L_1 = GameObject_GetComponent_m92533B63C1C0C72597C246C2E7A8BBA662BDD1DF(L_0, _stringLiteralCA1EF0E18499B0EC08EF06771257EB603C954B6E, /*hidden argument*/NULL);
+		// float currentMaxVal = radialViewRef.MaxDistance;
+		RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * L_2 = ((RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 *)IsInstClass((RuntimeObject*)L_1, RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0_il2cpp_TypeInfo_var));
+		NullCheck(L_2);
+		float L_3 = RadialView_get_MaxDistance_m2313316D4EE3D2A3CC5B0290613CB3FA29F67CF3_inline(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// float currentMinVal = radialViewRef.MinDistance;
+		RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * L_4 = L_2;
+		NullCheck(L_4);
+		float L_5 = RadialView_get_MinDistance_m064238315FC0AE79FC35A9A66D1E55EB24DBBCD4_inline(L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		// wristMaxDist = currentMaxVal + delta;
+		float L_6 = V_0;
+		float L_7 = ___delta0;
+		__this->set_wristMaxDist_7(((float)il2cpp_codegen_add((float)L_6, (float)L_7)));
+		// wristMinDist = currentMinVal + delta;
+		float L_8 = V_1;
+		float L_9 = ___delta0;
+		__this->set_wristMinDist_8(((float)il2cpp_codegen_add((float)L_8, (float)L_9)));
+		// radialViewRef.MaxDistance = wristMaxDist;
+		RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * L_10 = L_4;
+		float L_11 = __this->get_wristMaxDist_7();
+		NullCheck(L_10);
+		RadialView_set_MaxDistance_m9A14F0D788C0610CBC33C532005D0B4693E6BAB9_inline(L_10, L_11, /*hidden argument*/NULL);
+		// radialViewRef.MinDistance = wristMinDist;
+		float L_12 = __this->get_wristMinDist_8();
+		NullCheck(L_10);
+		RadialView_set_MinDistance_m5ACBF00C3F7FA69B029720C66A26204AD1AA9798_inline(L_10, L_12, /*hidden argument*/NULL);
+		// Distance_DeltaText.SetText(wristMaxDist.ToString());
+		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_13 = __this->get_Distance_DeltaText_6();
+		float* L_14 = __this->get_address_of_wristMaxDist_7();
+		String_t* L_15 = Single_ToString_m2B1556CFBBD088D285A0B0EA280F82D3A4344DC3((float*)L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		TMP_Text_SetText_m81695E980F258FE71614F039212E0E13735E71CA(L_13, L_15, (bool)1, /*hidden argument*/NULL);
+		// }
+		return;
 	}
 }
-// System.Void PersonalRadialView::set_MaxDistance(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalRadialView_set_MaxDistance_mCC2B261F5E18288EBE8AA192BA806CB94CABA114 (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, float ___value0, const RuntimeMethod* method)
+// System.Void PersonalRadialView::verticalMenu(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalRadialView_verticalMenu_m0FE2FD714BB4F6E001613B76428DDD6B9583E157 (PersonalRadialView_t45B11DB3069884663742CA3F81F40E2D36E4442B * __this, float ___delta0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// set => MaxDistance = delta;
-		float L_0 = __this->get_delta_5();
-		PersonalRadialView_set_MaxDistance_mCC2B261F5E18288EBE8AA192BA806CB94CABA114(__this, L_0, /*hidden argument*/NULL);
+		il2cpp_codegen_initialize_method (PersonalRadialView_verticalMenu_m0FE2FD714BB4F6E001613B76428DDD6B9583E157_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// RadialView radialViewRef = wristMenu.GetComponent("RadialView") as RadialView;
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = __this->get_wristMenu_4();
+		NullCheck(L_0);
+		Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * L_1 = GameObject_GetComponent_m92533B63C1C0C72597C246C2E7A8BBA662BDD1DF(L_0, _stringLiteralCA1EF0E18499B0EC08EF06771257EB603C954B6E, /*hidden argument*/NULL);
+		// float currentVerticalPos = radialViewRef.FixedVerticalPosition;
+		RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * L_2 = ((RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 *)IsInstClass((RuntimeObject*)L_1, RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0_il2cpp_TypeInfo_var));
+		NullCheck(L_2);
+		float L_3 = RadialView_get_FixedVerticalPosition_m9869206E6E8AB11F1CA945182FBA785951138011_inline(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// wristMenuHeight = currentVerticalPos - delta;
+		float L_4 = V_0;
+		float L_5 = ___delta0;
+		__this->set_wristMenuHeight_9(((float)il2cpp_codegen_subtract((float)L_4, (float)L_5)));
+		// radialViewRef.FixedVerticalPosition = wristMenuHeight;
+		float L_6 = __this->get_wristMenuHeight_9();
+		NullCheck(L_2);
+		RadialView_set_FixedVerticalPosition_m79FF37AEF76DC6F63719659D61C56DEA194489D9_inline(L_2, L_6, /*hidden argument*/NULL);
+		// Height_DeltaText.SetText(wristMenuHeight.ToString());
+		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_7 = __this->get_Height_DeltaText_5();
+		float* L_8 = __this->get_address_of_wristMenuHeight_9();
+		String_t* L_9 = Single_ToString_m2B1556CFBBD088D285A0B0EA280F82D3A4344DC3((float*)L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		TMP_Text_SetText_m81695E980F258FE71614F039212E0E13735E71CA(L_7, L_9, (bool)1, /*hidden argument*/NULL);
+		// }
 		return;
 	}
 }
@@ -51852,6 +52122,57 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t String_get_Length_mD48C8A16A5
 	{
 		int32_t L_0 = __this->get_m_stringLength_0();
 		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_MaxDistance_m2313316D4EE3D2A3CC5B0290613CB3FA29F67CF3_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method)
+{
+	{
+		// get => maxDistance;
+		float L_0 = __this->get_maxDistance_15();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_MinDistance_m064238315FC0AE79FC35A9A66D1E55EB24DBBCD4_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method)
+{
+	{
+		// get => minDistance;
+		float L_0 = __this->get_minDistance_14();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_MaxDistance_m9A14F0D788C0610CBC33C532005D0B4693E6BAB9_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method)
+{
+	{
+		// set => maxDistance = value;
+		float L_0 = ___value0;
+		__this->set_maxDistance_15(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_MinDistance_m5ACBF00C3F7FA69B029720C66A26204AD1AA9798_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method)
+{
+	{
+		// set => minDistance = value;
+		float L_0 = ___value0;
+		__this->set_minDistance_14(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR float RadialView_get_FixedVerticalPosition_m9869206E6E8AB11F1CA945182FBA785951138011_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, const RuntimeMethod* method)
+{
+	{
+		// get => fixedVerticalPosition;
+		float L_0 = __this->get_fixedVerticalPosition_22();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void RadialView_set_FixedVerticalPosition_m79FF37AEF76DC6F63719659D61C56DEA194489D9_inline (RadialView_t8F595AE184F6959905B0DEE7DE93C37ADA83B2F0 * __this, float ___value0, const RuntimeMethod* method)
+{
+	{
+		// set => fixedVerticalPosition = value;
+		float L_0 = ___value0;
+		__this->set_fixedVerticalPosition_22(L_0);
+		return;
 	}
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* ChatGui_get_UserName_mFD6E4328D41A5E959A5C9AFEDF85462B30105514_inline (ChatGui_t59DF475F375D1751691E42E46E0F4983EDC77AC4 * __this, const RuntimeMethod* method)

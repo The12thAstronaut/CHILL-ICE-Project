@@ -10,7 +10,7 @@
     <PackageArchitecture>arm64</PackageArchitecture>
     <PackageIdentityName>962c78dd-0671-4d3d-ba7c-c8dd921d30a5</PackageIdentityName>
     <PackageIdentityPublisher>CN=12thAstronaut</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\obj\MoonVR\ARM64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\obj\CHILL-ICE\ARM64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,10 +18,10 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F408CDF58642CB454483427553D8A342B2FE47CD7A9A2787691870515DF7F88B</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>MoonVR_1.0.0.0_arm64__f1bnq3768jb1y</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>MoonVR_f1bnq3768jb1y!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>MoonVR</RegisteredPackageID>
+    <RegisteredManifestChecksum>1C3E04BF5472912ED14664DB3B464681D44473CE696D7299E2CB3583BBE15636</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>CHILL-ICE_1.0.0.0_arm64__f1bnq3768jb1y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>CHILL-ICE_f1bnq3768jb1y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>CHILL-ICE</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=12thAstronaut</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-08-20T20:33:01.392</Modified>
+      <Modified>2022-08-21T22:52:56.382</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\MoonVR.exe">
-      <PackagePath>MoonVR.exe</PackagePath>
-      <Modified>2022-08-20T20:33:00.751</Modified>
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\CHILL-ICE.exe">
+      <PackagePath>CHILL-ICE.exe</PackagePath>
+      <Modified>2022-08-21T22:52:55.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.18f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -45,212 +45,212 @@
       <PackagePath>UnityPlayer.dll</PackagePath>
       <Modified>2021-01-12T16:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\MoonVR.winmd">
-      <PackagePath>MoonVR.winmd</PackagePath>
-      <Modified>2022-08-20T20:04:00.803</Modified>
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\CHILL_ICE.winmd">
+      <PackagePath>CHILL_ICE.winmd</PackagePath>
+      <Modified>2022-08-21T22:31:17.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T15:20:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\StoreManifest.xml">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2022-08-20T20:21:03.214</Modified>
+      <Modified>2022-08-21T22:39:57.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\boot.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2022-08-20T20:21:00.210</Modified>
+      <Modified>2022-08-21T22:39:54.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\2.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\2.0\web.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\2.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.0\web.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.5\machine.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.5\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.5\web.config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.5\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2022-08-20T20:20:52.226</Modified>
+      <Modified>2022-08-21T22:39:48.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\level0">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2022-08-20T20:20:42.818</Modified>
+      <Modified>2022-08-21T22:39:40.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\config">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
       <Modified>2021-01-12T15:20:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2022-08-20T20:21:00.205</Modified>
+      <Modified>2022-08-21T22:39:54.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2022-08-20T20:20:54.052</Modified>
+      <Modified>2022-08-21T22:39:50.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\resources.assets">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2022-08-20T20:20:55.388</Modified>
+      <Modified>2022-08-21T22:39:50.906</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2022-08-20T20:20:59.659</Modified>
+      <Modified>2022-08-21T22:39:53.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\globalgamemanagers.assets.resS">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2022-08-20T20:20:54.045</Modified>
+      <Modified>2022-08-21T22:39:50.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\level0.resS">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2022-08-20T20:20:42.811</Modified>
+      <Modified>2022-08-21T22:39:40.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\resources.assets.resS">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2022-08-20T20:20:55.378</Modified>
+      <Modified>2022-08-21T22:39:50.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2022-08-20T20:20:59.650</Modified>
+      <Modified>2022-08-21T22:39:53.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2022-08-20T20:23:47.442</Modified>
+      <Modified>2022-08-21T22:42:22.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2022-08-20T20:20:59.486</Modified>
+      <Modified>2022-08-21T22:39:53.599</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\browscap.ini">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\2.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\2.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.5\settings.map">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.5\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
       <Modified>2021-01-12T15:17:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\Metadata\global-metadata.dat">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2022-08-20T20:23:41.813</Modified>
+      <Modified>2022-08-21T22:42:17.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2022-08-20T20:21:46.099</Modified>
+      <Modified>2022-08-21T22:40:34.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2022-08-20T20:21:46.098</Modified>
+      <Modified>2022-08-21T22:40:34.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\Microsoft.MixedReality.SceneUnderstanding.dll">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\Microsoft.MixedReality.SceneUnderstanding.dll">
       <PackagePath>Microsoft.MixedReality.SceneUnderstanding.dll</PackagePath>
       <Modified>2022-08-19T13:09:42.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\AzureSpatialAnchors.dll">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\AzureSpatialAnchors.dll">
       <PackagePath>AzureSpatialAnchors.dll</PackagePath>
       <Modified>2022-08-19T13:09:42.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\CoarseRelocUW.dll">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\CoarseRelocUW.dll">
       <PackagePath>CoarseRelocUW.dll</PackagePath>
       <Modified>2022-08-19T13:09:42.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\MoonVR\AudioPluginMsHRTF.dll">
+    <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
       <Modified>2020-06-02T13:37:15.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2022-08-20T20:32:39.923</Modified>
+      <Modified>2022-08-21T22:31:02.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-08-20T20:33:01.301</Modified>
+      <Modified>2022-08-21T22:52:55.995</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

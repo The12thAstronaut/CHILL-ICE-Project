@@ -1,9 +1,3 @@
-﻿  pch.cpp
-  App.cpp
-  Main.cpp
-  UnityGenerated.cpp
-C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
-C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\CHILL-ICE\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
-  Generating code
-  Finished generating code
-  CHILL-ICE.vcxproj -> C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\CHILL-ICE.exe
+﻿  CHILL-ICE.vcxproj -> C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\bin\ARM64\Release\CHILL-ICE.exe
+  CHILL-ICE -> C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\AppPackages\CHILL-ICE\CHILL-ICE_1.0.0.0_ARM64_Test\CHILL-ICE_1.0.0.0_ARM64.appx
+  CHILL-ICE -> C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\obj\CHILL-ICE\ARM64\Release\Symbols\CHILL-ICE_1.0.0.0_ARM64.appxsym

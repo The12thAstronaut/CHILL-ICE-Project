@@ -24,6 +24,7 @@
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.FlareLayer" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
@@ -47,6 +48,7 @@
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
+		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
@@ -64,11 +66,17 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AnchorModuleScript" preserve="nothing"/>
+		<type fullname="ChangeColor" preserve="nothing"/>
+		<type fullname="ChangeName" preserve="nothing"/>
 		<type fullname="ClientAPI" preserve="nothing"/>
 		<type fullname="ConnectionLightController" preserve="nothing"/>
 		<type fullname="DestinationElement" preserve="nothing"/>
 		<type fullname="DestinationPanelController" preserve="nothing"/>
 		<type fullname="DestroyPanelSolver" preserve="nothing"/>
+		<type fullname="ExitGames.Demos.DemoPunVoice.FirstPersonController" preserve="nothing"/>
+		<type fullname="ExitGames.Demos.DemoPunVoice.Highlighter" preserve="nothing"/>
+		<type fullname="ExitGames.Demos.DemoPunVoice.OrthographicController" preserve="nothing"/>
+		<type fullname="ExitGames.Demos.DemoPunVoice.ThirdPersonController" preserve="nothing"/>
 		<type fullname="HologramSpawner" preserve="nothing"/>
 		<type fullname="LaurenCustomVision" preserve="nothing"/>
 		<type fullname="LaurenDistance" preserve="nothing"/>
@@ -105,7 +113,10 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.MenuScript" preserve="nothing"/>
 		<type fullname="NoDebug" preserve="nothing"/>
 		<type fullname="Outline" preserve="nothing"/>
+		<type fullname="PersonalRadialView" preserve="nothing"/>
+		<type fullname="PointersController" preserve="nothing"/>
 		<type fullname="ProgressIndicatorCopy" preserve="nothing"/>
+		<type fullname="ProximityVoiceTrigger" preserve="nothing"/>
 		<type fullname="Spinning" preserve="nothing"/>
 		<type fullname="SwitchHologram" preserve="nothing"/>
 		<type fullname="TaskManager" preserve="nothing"/>
@@ -114,6 +125,7 @@
 		<type fullname="UIATaskProcedure" preserve="nothing"/>
 		<type fullname="UpdateText" preserve="nothing"/>
 		<type fullname="drawToolPhoton" preserve="nothing"/>
+		<type fullname="muteVoice" preserve="nothing"/>
 		<type fullname="objectID" preserve="nothing"/>
 		<type fullname="setBoxMaterials" preserve="nothing"/>
 		<type fullname="settingScript" preserve="nothing"/>
@@ -252,12 +264,24 @@
 		<type fullname="Photon.Pun.Demo.SlotRacer.PlayerControl" preserve="nothing"/>
 		<type fullname="Photon.Pun.Demo.SlotRacer.Utils.SplineWalker" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="PhotonUnityNetworking.Utilities">
+		<type fullname="Photon.Pun.UtilityScripts.MoveByKeys" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="PhotonUnityNetworking">
 		<type fullname="Photon.Pun.PhotonAnimatorView" preserve="nothing"/>
 		<type fullname="Photon.Pun.PhotonRigidbodyView" preserve="nothing"/>
 		<type fullname="Photon.Pun.PhotonTransformView" preserve="nothing"/>
 		<type fullname="Photon.Pun.PhotonView" preserve="nothing"/>
 		<type fullname="Photon.Pun.ServerSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="PhotonVoice.PUN">
+		<type fullname="Photon.Voice.PUN.PhotonVoiceView" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="PhotonVoice">
+		<type fullname="Photon.Voice.Unity.Recorder" preserve="nothing"/>
+		<type fullname="Photon.Voice.Unity.Speaker" preserve="nothing"/>
+		<type fullname="Photon.Voice.Unity.UtilityScripts.ConnectAndJoin" preserve="nothing"/>
+		<type fullname="Photon.Voice.Unity.VoiceConnection" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerBitField" preserve="nothing"/>

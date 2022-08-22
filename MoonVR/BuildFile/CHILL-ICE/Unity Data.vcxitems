@@ -169,6 +169,22 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)opus_egpv.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)opus_egpv.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -225,6 +241,14 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)webrtc-audio.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)webrtc-audio.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.kws.dll')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -262,6 +286,12 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <Target Name="BeforeResolveReferences" Condition="'$(BuildingProject)' == 'true'">
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.dll" DestinationFiles="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.pdb" DestinationFiles="$(MSBuildThisFileDirectory)Photon.Voice.UWP.MediaExtensions.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Photon.Voice.UWP.MediaExtensions.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.dll" DestinationFiles="$(MSBuildThisFileDirectory)opus_egpv.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)opus_egpv.pdb" Condition="Exists('$(MSBuildThisFileDirectory)opus_egpv.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.pdb" DestinationFiles="$(MSBuildThisFileDirectory)opus_egpv.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\opus_egpv.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.silk_codec.pdb" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.silk_codec.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.silk_codec.pdb')" />
@@ -283,6 +313,9 @@
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.dll" DestinationFiles="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.pdb" Condition="Exists('$(MSBuildThisFileDirectory)AudioPluginMsHRTF.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.pdb" DestinationFiles="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.dll" DestinationFiles="$(MSBuildThisFileDirectory)webrtc-audio.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)webrtc-audio.pdb" Condition="Exists('$(MSBuildThisFileDirectory)webrtc-audio.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.pdb" DestinationFiles="$(MSBuildThisFileDirectory)webrtc-audio.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\webrtc-audio.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.kws.dll" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.kws.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.kws.pdb" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.CognitiveServices.Speech.extension.kws.pdb')" />

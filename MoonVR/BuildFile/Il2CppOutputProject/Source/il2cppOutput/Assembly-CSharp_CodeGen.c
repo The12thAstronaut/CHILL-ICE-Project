@@ -1115,10 +1115,10 @@ extern void PersonalRadialView_Start_mB82205D9F48B1D380C979E0C3F8C9606B0363ABF (
 extern void PersonalRadialView_Update_mC07C6CDF13DD2E5E9942B8F789BECF65B4B6F7AB (void);
 // 0x00000225 System.Void PersonalRadialView::changeScale(System.Single)
 extern void PersonalRadialView_changeScale_m157F8F1CF6CF41DA90923216A506DB6BC0AAAF90 (void);
-// 0x00000226 System.Single PersonalRadialView::get_MaxDistance()
-extern void PersonalRadialView_get_MaxDistance_m41300771E8E375E6F4D80A61A60BCCAADDD168AD (void);
-// 0x00000227 System.Void PersonalRadialView::set_MaxDistance(System.Single)
-extern void PersonalRadialView_set_MaxDistance_mCC2B261F5E18288EBE8AA192BA806CB94CABA114 (void);
+// 0x00000226 System.Void PersonalRadialView::distanceMenu(System.Single)
+extern void PersonalRadialView_distanceMenu_m1DB388057C8F0C1DF49E25811DBD7CB3CC0D12F8 (void);
+// 0x00000227 System.Void PersonalRadialView::verticalMenu(System.Single)
+extern void PersonalRadialView_verticalMenu_m0FE2FD714BB4F6E001613B76428DDD6B9583E157 (void);
 // 0x00000228 System.Void PersonalRadialView::.ctor()
 extern void PersonalRadialView__ctor_m85C844DE18F1FFBF13C9CB4CD6EB086EBA30FFA5 (void);
 // 0x00000229 System.Void ProgressIndicatorCopy::OnClickOrbs()
@@ -5648,8 +5648,8 @@ static Il2CppMethodPointer s_methodPointers[2548] =
 	PersonalRadialView_Start_mB82205D9F48B1D380C979E0C3F8C9606B0363ABF,
 	PersonalRadialView_Update_mC07C6CDF13DD2E5E9942B8F789BECF65B4B6F7AB,
 	PersonalRadialView_changeScale_m157F8F1CF6CF41DA90923216A506DB6BC0AAAF90,
-	PersonalRadialView_get_MaxDistance_m41300771E8E375E6F4D80A61A60BCCAADDD168AD,
-	PersonalRadialView_set_MaxDistance_mCC2B261F5E18288EBE8AA192BA806CB94CABA114,
+	PersonalRadialView_distanceMenu_m1DB388057C8F0C1DF49E25811DBD7CB3CC0D12F8,
+	PersonalRadialView_verticalMenu_m0FE2FD714BB4F6E001613B76428DDD6B9583E157,
 	PersonalRadialView__ctor_m85C844DE18F1FFBF13C9CB4CD6EB086EBA30FFA5,
 	ProgressIndicatorCopy_OnClickOrbs_m3D01F1F3799F10CB998D2752D78DE75C20E439EE,
 	ProgressIndicatorCopy_HandleButtonClick_m443ADEDF6CF45CE811117164E106CBF79CF0C37B,
@@ -8199,7 +8199,7 @@ static const int32_t s_InvokerIndices[2548] =
 	23,
 	23,
 	366,
-	766,
+	366,
 	366,
 	23,
 	23,

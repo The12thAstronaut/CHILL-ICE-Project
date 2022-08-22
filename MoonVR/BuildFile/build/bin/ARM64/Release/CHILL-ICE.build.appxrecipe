@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|ARM64</SolutionConfiguration>
     <PackageArchitecture>arm64</PackageArchitecture>
-    <PackageIdentityName>a79f78e7-055c-49c4-8fd6-be1416237477</PackageIdentityName>
+    <PackageIdentityName>962c78dd-0671-4d3d-ba7c-c8dd921d30a5</PackageIdentityName>
     <PackageIdentityPublisher>CN=12thAstronaut</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Skullkrasher\Documents\GitHub\CHILL-ICE-Project\MoonVR\BuildFile\build\obj\CHILL-ICE\ARM64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
