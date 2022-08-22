@@ -20294,6 +20294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hologram: {fileID: 489320760}
+  hologramPrefab: {fileID: 7521298006738634517, guid: c7b3f1881f9188546bca586b25af41e9,
+    type: 3}
   panel: {fileID: 783253270}
 --- !u!114 &489320763
 MonoBehaviour:
@@ -20565,7 +20567,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents: []
-  sceneViewId: 1
+  sceneViewId: 701
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1 &492573397
@@ -25576,6 +25578,7 @@ GameObject:
   - component: {fileID: 648436362}
   - component: {fileID: 648436361}
   - component: {fileID: 648436370}
+  - component: {fileID: 648436371}
   m_Layer: 0
   m_Name: HologramArrow
   m_TagString: Untagged
@@ -25862,7 +25865,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hologram: {fileID: 648436359}
+  hologramPrefab: {fileID: 6264592475854188950, guid: 38affbcc6c343ff4cbe99e25afa2af5b,
+    type: 3}
   panel: {fileID: 783253270}
+--- !u!114 &648436371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648436359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 702
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &653279747
 GameObject:
   m_ObjectHideFlags: 0
@@ -43345,6 +43372,7 @@ GameObject:
   - component: {fileID: 1053873532}
   - component: {fileID: 1053873531}
   - component: {fileID: 1053873540}
+  - component: {fileID: 1053873541}
   m_Layer: 0
   m_Name: HologramArrow (1)
   m_TagString: Untagged
@@ -43620,7 +43648,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hologram: {fileID: 1053873529}
+  hologramPrefab: {fileID: 6961984333512443346, guid: 8d85a94fb7ceba2459e65ad5e4ee5f92,
+    type: 3}
   panel: {fileID: 783253270}
+--- !u!114 &1053873541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053873529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 704
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1055528054
 GameObject:
   m_ObjectHideFlags: 0
@@ -62945,7 +62997,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1035902790}
+  m_renderer: {fileID: 1559005951}
   m_maskType: 0
   _SortingLayerID: 0
   _SortingOrder: 0
@@ -64968,7 +65020,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1035902790}
+  m_renderer: {fileID: 1602151591}
   m_maskType: 0
   _SortingLayerID: 0
   _SortingOrder: 0
@@ -71182,6 +71234,7 @@ GameObject:
   - component: {fileID: 1757017325}
   - component: {fileID: 1757017324}
   - component: {fileID: 1757017333}
+  - component: {fileID: 1757017334}
   m_Layer: 0
   m_Name: HologramCube (1)
   m_TagString: Untagged
@@ -71457,7 +71510,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hologram: {fileID: 1757017322}
+  hologramPrefab: {fileID: 3881608268817291406, guid: fd89bb829ff896e408594f1ad3c2ac8f,
+    type: 3}
   panel: {fileID: 783253270}
+--- !u!114 &1757017334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757017322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 703
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1757234366
 GameObject:
   m_ObjectHideFlags: 0
