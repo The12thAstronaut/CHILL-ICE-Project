@@ -7,6 +7,8 @@ public class HologramSpawner : MonoBehaviour
 {
 
     public GameObject hologram;
+    public GameObject hologramPrefab;
+
     public GameObject panel;
     private PhotonView PV;
 
@@ -42,7 +44,9 @@ public class HologramSpawner : MonoBehaviour
     {
         if (count == 0)
         {
-            GameObject hologramCopy = Instantiate(hologram, panel.transform);
+            GameObject hologramCopy = Instantiate(hologramPrefab, hologram.transform);
+                    // currentSpline = Instantiate(splinePrefab, position, rotation, whiteboardObjectParent.transform);
+
             //Increment photon view ID by 20
             int currentID = PV.ViewID;
             currentID = currentID + 20;
