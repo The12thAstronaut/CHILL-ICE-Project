@@ -103,7 +103,7 @@ MonoBehaviour:
   splineToHide: {fileID: 0}
   whiteboardObjectParent: {fileID: 0}
   lastSplineID: 0
-  drawingMode: 1
+  drawingMode: 0
 --- !u!1 &4705609294271918704
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,13 +23,19 @@ public class drawToolPhoton : MonoBehaviour
     {
         PV = GetComponent<PhotonView>();
         whiteboardObjectParent = GameObject.Find("WhiteboardObjectParent");
-        drawingMode = true;
+        //Set drawing mode to false by default
+        drawingMode = false;
         lastSplineID = 0;       //Initialize SplineID at 0
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Toggle drawing mode on and off with the P button (for paint)
+        if(Input.GetKeyDown("p")){
+            toggleDrawingMode();
+        }
+
         //Spawn Transparent Sphere on Left Click only if drawingMode is true
         if(Input.GetMouseButton(0) && drawingMode == true){
             updateSplinePen();
