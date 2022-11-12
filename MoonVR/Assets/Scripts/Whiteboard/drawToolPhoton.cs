@@ -32,8 +32,10 @@ public class drawToolPhoton : MonoBehaviour
     void Update()
     {
         // Toggle drawing mode on and off with the P button (for paint)
-        if(Input.GetKeyDown("p")){
+        // Check to see if the photon view is mine
+        if(Input.GetKeyDown("p") && PV.isMine){
             toggleDrawingMode();
+
         }
 
         //Spawn Transparent Sphere on Left Click only if drawingMode is true
