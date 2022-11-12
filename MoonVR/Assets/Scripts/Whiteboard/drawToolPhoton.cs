@@ -33,7 +33,7 @@ public class drawToolPhoton : MonoBehaviour
     {
         // Toggle drawing mode on and off with the P button (for paint)
         // Check to see if the photon view is mine
-        if(Input.GetKeyDown("p") && PV.isMine()){
+        if(Input.GetKeyDown("p") && PV.IsMine){
             toggleDrawingMode();
 
         }
